@@ -1,0 +1,45 @@
+[1.323s] Invoking command in '/home/dima/ros2_ws/build/ulstu_turtlesim': PYTHONPATH=/home/dima/ros2_ws/build/ulstu_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dima/ros2_ws/install/ulstu_turtlesim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/dima/ros2_ws/build/ulstu_turtlesim/build
+[1.675s] running develop
+[1.901s] Removing /home/dima/ros2_ws/install/ulstu_turtlesim/lib/python3.12/site-packages/ulstu-turtlesim.egg-link (link to .)
+[1.964s] Invoked command in '/home/dima/ros2_ws/build/ulstu_turtlesim' returned '0': PYTHONPATH=/home/dima/ros2_ws/build/ulstu_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dima/ros2_ws/install/ulstu_turtlesim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/dima/ros2_ws/build/ulstu_turtlesim/build
+[1.965s] Invoking command in '/home/dima/ros2_ws/src/ulstu_turtlesim': PYTHONPATH=/home/dima/ros2_ws/build/ulstu_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dima/ros2_ws/install/ulstu_turtlesim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ulstu_turtlesim build --build-base /home/dima/ros2_ws/build/ulstu_turtlesim/build install --record /home/dima/ros2_ws/build/ulstu_turtlesim/install.log --single-version-externally-managed install_data --force
+[2.282s] running egg_info
+[2.305s] writing ../../build/ulstu_turtlesim/ulstu_turtlesim.egg-info/PKG-INFO
+[2.306s] writing dependency_links to ../../build/ulstu_turtlesim/ulstu_turtlesim.egg-info/dependency_links.txt
+[2.307s] writing entry points to ../../build/ulstu_turtlesim/ulstu_turtlesim.egg-info/entry_points.txt
+[2.307s] writing requirements to ../../build/ulstu_turtlesim/ulstu_turtlesim.egg-info/requires.txt
+[2.307s] writing top-level names to ../../build/ulstu_turtlesim/ulstu_turtlesim.egg-info/top_level.txt
+[2.362s] reading manifest file '../../build/ulstu_turtlesim/ulstu_turtlesim.egg-info/SOURCES.txt'
+[2.365s] writing manifest file '../../build/ulstu_turtlesim/ulstu_turtlesim.egg-info/SOURCES.txt'
+[2.365s] running build
+[2.365s] running build_py
+[2.365s] creating /home/dima/ros2_ws/build/ulstu_turtlesim/build
+[2.366s] creating /home/dima/ros2_ws/build/ulstu_turtlesim/build/lib
+[2.367s] creating /home/dima/ros2_ws/build/ulstu_turtlesim/build/lib/ulstu_turtlesim
+[2.368s] copying ulstu_turtlesim/teleop_node.py -> /home/dima/ros2_ws/build/ulstu_turtlesim/build/lib/ulstu_turtlesim
+[2.369s] copying ulstu_turtlesim/sim_node.py -> /home/dima/ros2_ws/build/ulstu_turtlesim/build/lib/ulstu_turtlesim
+[2.369s] copying ulstu_turtlesim/__init__.py -> /home/dima/ros2_ws/build/ulstu_turtlesim/build/lib/ulstu_turtlesim
+[2.369s] copying ulstu_turtlesim/trajectory_node.py -> /home/dima/ros2_ws/build/ulstu_turtlesim/build/lib/ulstu_turtlesim
+[2.370s] running install
+[2.378s] running install_lib
+[2.401s] creating /home/dima/ros2_ws/install/ulstu_turtlesim/lib/python3.12/site-packages/ulstu_turtlesim
+[2.402s] copying /home/dima/ros2_ws/build/ulstu_turtlesim/build/lib/ulstu_turtlesim/teleop_node.py -> /home/dima/ros2_ws/install/ulstu_turtlesim/lib/python3.12/site-packages/ulstu_turtlesim
+[2.402s] copying /home/dima/ros2_ws/build/ulstu_turtlesim/build/lib/ulstu_turtlesim/sim_node.py -> /home/dima/ros2_ws/install/ulstu_turtlesim/lib/python3.12/site-packages/ulstu_turtlesim
+[2.402s] copying /home/dima/ros2_ws/build/ulstu_turtlesim/build/lib/ulstu_turtlesim/__init__.py -> /home/dima/ros2_ws/install/ulstu_turtlesim/lib/python3.12/site-packages/ulstu_turtlesim
+[2.402s] copying /home/dima/ros2_ws/build/ulstu_turtlesim/build/lib/ulstu_turtlesim/trajectory_node.py -> /home/dima/ros2_ws/install/ulstu_turtlesim/lib/python3.12/site-packages/ulstu_turtlesim
+[2.403s] byte-compiling /home/dima/ros2_ws/install/ulstu_turtlesim/lib/python3.12/site-packages/ulstu_turtlesim/teleop_node.py to teleop_node.cpython-312.pyc
+[2.405s] byte-compiling /home/dima/ros2_ws/install/ulstu_turtlesim/lib/python3.12/site-packages/ulstu_turtlesim/sim_node.py to sim_node.cpython-312.pyc
+[2.406s] byte-compiling /home/dima/ros2_ws/install/ulstu_turtlesim/lib/python3.12/site-packages/ulstu_turtlesim/__init__.py to __init__.cpython-312.pyc
+[2.406s] byte-compiling /home/dima/ros2_ws/install/ulstu_turtlesim/lib/python3.12/site-packages/ulstu_turtlesim/trajectory_node.py to trajectory_node.cpython-312.pyc
+[2.407s] running install_data
+[2.408s] copying resource/ulstu_turtlesim -> /home/dima/ros2_ws/install/ulstu_turtlesim/share/ament_index/resource_index/packages
+[2.410s] copying package.xml -> /home/dima/ros2_ws/install/ulstu_turtlesim/share/ulstu_turtlesim
+[2.410s] copying launch/robot_launch.py -> /home/dima/ros2_ws/install/ulstu_turtlesim/share/ulstu_turtlesim/launch/
+[2.412s] running install_egg_info
+[2.436s] Copying ../../build/ulstu_turtlesim/ulstu_turtlesim.egg-info to /home/dima/ros2_ws/install/ulstu_turtlesim/lib/python3.12/site-packages/ulstu_turtlesim-0.0.0-py3.12.egg-info
+[2.439s] running install_scripts
+[2.588s] Installing sim_node script to /home/dima/ros2_ws/install/ulstu_turtlesim/lib/ulstu_turtlesim
+[2.588s] Installing teleop_node script to /home/dima/ros2_ws/install/ulstu_turtlesim/lib/ulstu_turtlesim
+[2.589s] Installing trajectory_node script to /home/dima/ros2_ws/install/ulstu_turtlesim/lib/ulstu_turtlesim
+[2.589s] writing list of installed files to '/home/dima/ros2_ws/build/ulstu_turtlesim/install.log'
+[2.655s] Invoked command in '/home/dima/ros2_ws/src/ulstu_turtlesim' returned '0': PYTHONPATH=/home/dima/ros2_ws/build/ulstu_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dima/ros2_ws/install/ulstu_turtlesim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ulstu_turtlesim build --build-base /home/dima/ros2_ws/build/ulstu_turtlesim/build install --record /home/dima/ros2_ws/build/ulstu_turtlesim/install.log --single-version-externally-managed install_data --force

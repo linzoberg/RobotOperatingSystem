@@ -1,0 +1,42 @@
+[0.028s] Invoking command in '/home/dima/ros2_ws/build/lab2_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dima/ros2_ws/install/ulstu_turtlesim:/opt/ros/jazzy /usr/bin/cmake /home/dima/ros2_ws/src/lab2_world -DCMAKE_INSTALL_PREFIX=/home/dima/ros2_ws/install/lab2_world
+[0.377s] -- The C compiler identification is GNU 13.3.0
+[0.968s] -- The CXX compiler identification is GNU 13.3.0
+[1.389s] -- Detecting C compiler ABI info
+[1.681s] -- Detecting C compiler ABI info - done
+[1.692s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.692s] -- Detecting C compile features
+[1.693s] -- Detecting C compile features - done
+[1.774s] -- Detecting CXX compiler ABI info
+[2.070s] -- Detecting CXX compiler ABI info - done
+[2.080s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.081s] -- Detecting CXX compile features
+[2.081s] -- Detecting CXX compile features - done
+[2.092s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.334s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.545s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.717s] -- Added test 'lint_cmake' to check CMake code style
+[2.721s] -- Added test 'xmllint' to check XML markup files
+[2.726s] -- Configuring done (2.6s)
+[2.736s] -- Generating done (0.0s)
+[2.740s] -- Build files have been written to: /home/dima/ros2_ws/build/lab2_world
+[2.747s] Invoked command in '/home/dima/ros2_ws/build/lab2_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dima/ros2_ws/install/ulstu_turtlesim:/opt/ros/jazzy /usr/bin/cmake /home/dima/ros2_ws/src/lab2_world -DCMAKE_INSTALL_PREFIX=/home/dima/ros2_ws/install/lab2_world
+[2.750s] Invoking command in '/home/dima/ros2_ws/build/lab2_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dima/ros2_ws/install/ulstu_turtlesim:/opt/ros/jazzy /usr/bin/cmake --build /home/dima/ros2_ws/build/lab2_world -- -j12 -l12
+[2.813s] Invoked command in '/home/dima/ros2_ws/build/lab2_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dima/ros2_ws/install/ulstu_turtlesim:/opt/ros/jazzy /usr/bin/cmake --build /home/dima/ros2_ws/build/lab2_world -- -j12 -l12
+[2.831s] Invoking command in '/home/dima/ros2_ws/build/lab2_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dima/ros2_ws/install/ulstu_turtlesim:/opt/ros/jazzy /usr/bin/cmake --install /home/dima/ros2_ws/build/lab2_world
+[2.843s] -- Install configuration: ""
+[2.846s] -- Installing: /home/dima/ros2_ws/install/lab2_world/share/ament_index/resource_index/package_run_dependencies/lab2_world
+[2.847s] -- Installing: /home/dima/ros2_ws/install/lab2_world/share/ament_index/resource_index/parent_prefix_path/lab2_world
+[2.849s] -- Installing: /home/dima/ros2_ws/install/lab2_world/share/lab2_world/environment/ament_prefix_path.sh
+[2.849s] -- Installing: /home/dima/ros2_ws/install/lab2_world/share/lab2_world/environment/ament_prefix_path.dsv
+[2.850s] -- Installing: /home/dima/ros2_ws/install/lab2_world/share/lab2_world/environment/path.sh
+[2.850s] -- Installing: /home/dima/ros2_ws/install/lab2_world/share/lab2_world/environment/path.dsv
+[2.851s] -- Installing: /home/dima/ros2_ws/install/lab2_world/share/lab2_world/local_setup.bash
+[2.851s] -- Installing: /home/dima/ros2_ws/install/lab2_world/share/lab2_world/local_setup.sh
+[2.851s] -- Installing: /home/dima/ros2_ws/install/lab2_world/share/lab2_world/local_setup.zsh
+[2.851s] -- Installing: /home/dima/ros2_ws/install/lab2_world/share/lab2_world/local_setup.dsv
+[2.851s] -- Installing: /home/dima/ros2_ws/install/lab2_world/share/lab2_world/package.dsv
+[2.852s] -- Installing: /home/dima/ros2_ws/install/lab2_world/share/ament_index/resource_index/packages/lab2_world
+[2.853s] -- Installing: /home/dima/ros2_ws/install/lab2_world/share/lab2_world/cmake/lab2_worldConfig.cmake
+[2.853s] -- Installing: /home/dima/ros2_ws/install/lab2_world/share/lab2_world/cmake/lab2_worldConfig-version.cmake
+[2.853s] -- Installing: /home/dima/ros2_ws/install/lab2_world/share/lab2_world/package.xml
+[2.858s] Invoked command in '/home/dima/ros2_ws/build/lab2_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dima/ros2_ws/install/ulstu_turtlesim:/opt/ros/jazzy /usr/bin/cmake --install /home/dima/ros2_ws/build/lab2_world
