@@ -1,0 +1,37 @@
+[1.557s] Invoking command in '/home/dima/ros2_ws/src/lab2_navigator': PYTHONPATH=/home/dima/ros2_ws/build/lab2_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dima/ros2_ws/install/lab2_navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab2_navigator build --build-base /home/dima/ros2_ws/build/lab2_navigator/build install --record /home/dima/ros2_ws/build/lab2_navigator/install.log --single-version-externally-managed install_data
+[1.870s] running egg_info
+[1.871s] creating ../../build/lab2_navigator/lab2_navigator.egg-info
+[1.899s] writing ../../build/lab2_navigator/lab2_navigator.egg-info/PKG-INFO
+[1.899s] writing dependency_links to ../../build/lab2_navigator/lab2_navigator.egg-info/dependency_links.txt
+[1.899s] writing entry points to ../../build/lab2_navigator/lab2_navigator.egg-info/entry_points.txt
+[1.899s] writing requirements to ../../build/lab2_navigator/lab2_navigator.egg-info/requires.txt
+[1.899s] writing top-level names to ../../build/lab2_navigator/lab2_navigator.egg-info/top_level.txt
+[1.900s] writing manifest file '../../build/lab2_navigator/lab2_navigator.egg-info/SOURCES.txt'
+[1.943s] reading manifest file '../../build/lab2_navigator/lab2_navigator.egg-info/SOURCES.txt'
+[1.944s] writing manifest file '../../build/lab2_navigator/lab2_navigator.egg-info/SOURCES.txt'
+[1.944s] running build
+[1.944s] running build_py
+[1.944s] creating /home/dima/ros2_ws/build/lab2_navigator/build
+[1.945s] creating /home/dima/ros2_ws/build/lab2_navigator/build/lib
+[1.945s] creating /home/dima/ros2_ws/build/lab2_navigator/build/lib/lab2_navigator
+[1.945s] copying lab2_navigator/__init__.py -> /home/dima/ros2_ws/build/lab2_navigator/build/lib/lab2_navigator
+[1.945s] copying lab2_navigator/go_to_point.py -> /home/dima/ros2_ws/build/lab2_navigator/build/lib/lab2_navigator
+[1.945s] running install
+[1.954s] running install_lib
+[1.983s] creating /home/dima/ros2_ws/install/lab2_navigator/lib/python3.12/site-packages/lab2_navigator
+[1.984s] copying /home/dima/ros2_ws/build/lab2_navigator/build/lib/lab2_navigator/__init__.py -> /home/dima/ros2_ws/install/lab2_navigator/lib/python3.12/site-packages/lab2_navigator
+[1.984s] copying /home/dima/ros2_ws/build/lab2_navigator/build/lib/lab2_navigator/go_to_point.py -> /home/dima/ros2_ws/install/lab2_navigator/lib/python3.12/site-packages/lab2_navigator
+[1.984s] byte-compiling /home/dima/ros2_ws/install/lab2_navigator/lib/python3.12/site-packages/lab2_navigator/__init__.py to __init__.cpython-312.pyc
+[1.984s] byte-compiling /home/dima/ros2_ws/install/lab2_navigator/lib/python3.12/site-packages/lab2_navigator/go_to_point.py to go_to_point.cpython-312.pyc
+[1.986s] running install_data
+[1.986s] creating /home/dima/ros2_ws/install/lab2_navigator/share/ament_index
+[1.986s] creating /home/dima/ros2_ws/install/lab2_navigator/share/ament_index/resource_index
+[1.987s] creating /home/dima/ros2_ws/install/lab2_navigator/share/ament_index/resource_index/packages
+[1.987s] copying resource/lab2_navigator -> /home/dima/ros2_ws/install/lab2_navigator/share/ament_index/resource_index/packages
+[1.987s] copying package.xml -> /home/dima/ros2_ws/install/lab2_navigator/share/lab2_navigator
+[1.987s] running install_egg_info
+[2.006s] Copying ../../build/lab2_navigator/lab2_navigator.egg-info to /home/dima/ros2_ws/install/lab2_navigator/lib/python3.12/site-packages/lab2_navigator-0.0.0-py3.12.egg-info
+[2.007s] running install_scripts
+[2.173s] Installing go_to_point script to /home/dima/ros2_ws/install/lab2_navigator/lib/lab2_navigator
+[2.174s] writing list of installed files to '/home/dima/ros2_ws/build/lab2_navigator/install.log'
+[2.224s] Invoked command in '/home/dima/ros2_ws/src/lab2_navigator' returned '0': PYTHONPATH=/home/dima/ros2_ws/build/lab2_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dima/ros2_ws/install/lab2_navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab2_navigator build --build-base /home/dima/ros2_ws/build/lab2_navigator/build install --record /home/dima/ros2_ws/build/lab2_navigator/install.log --single-version-externally-managed install_data
