@@ -1,0 +1,7 @@
+[INFO] [1776250194.612739876] [slam_toolbox]: Node using stack size 40000000
+[INFO] [1776250194.795706456] [slam_toolbox]: Configuring
+[INFO] [1776250194.811166084] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[INFO] [1776250194.811703398] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[INFO] [1776250194.834700464] [slam_toolbox]: Activating
+[INFO] [1776250195.110715400] [slam_toolbox]: Message Filter dropping message: frame 'base_scan' at time 3.000 for reason 'discarding message because the queue is full'
+[WARN] [1776250195.111036613] [slam_toolbox]: maximum laser range setting (20.0 m) exceeds the capabilities of the used Lidar (3.5 m)

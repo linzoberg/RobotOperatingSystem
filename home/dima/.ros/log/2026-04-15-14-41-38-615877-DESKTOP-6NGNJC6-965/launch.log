@@ -1,0 +1,4 @@
+1776249698.6175671 [INFO] [launch]: All log files can be found below /home/dima/.ros/log/2026-04-15-14-41-38-615877-DESKTOP-6NGNJC6-965
+1776249698.6177182 [INFO] [launch]: Default logging verbosity is set to INFO
+1776249698.9585140 [INFO] [async_slam_toolbox_node-1]: process started with pid [981]
+1776249699.2579627 [INFO] [launch.user]: [LifecycleLaunch] Slamtoolbox node is activating.

@@ -1,0 +1,137 @@
+[INFO] [1776251919.251303861] [basic_navigator]: Publishing Initial Pose
+[INFO] [1776251919.253396725] [basic_navigator]: Ожидание активации Nav2...
+[INFO] [1776251923.447782999] [basic_navigator]: Nav2 is ready for use!
+[INFO] [1776251923.448254783] [basic_navigator]: Nav2 активирован!
+[INFO] [1776251923.448625456] [basic_navigator]: [1/4] Еду в: Кабинет (x=3.0, y=-3.0)
+[INFO] [1776251923.449359465] [basic_navigator]: Navigating to goal: 3.0 -3.0...
+[INFO] [1776251923.552651815] [basic_navigator]:   Осталось: 4.31 м
+[INFO] [1776251924.654480658] [basic_navigator]:   Осталось: 4.27 м
+[INFO] [1776251925.755439619] [basic_navigator]:   Осталось: 4.22 м
+[INFO] [1776251926.858725392] [basic_navigator]:   Осталось: 4.18 м
+[INFO] [1776251927.963683369] [basic_navigator]:   Осталось: 4.00 м
+[INFO] [1776251929.065980688] [basic_navigator]:   Осталось: 3.87 м
+[INFO] [1776251930.167252691] [basic_navigator]:   Осталось: 3.77 м
+[INFO] [1776251931.268272776] [basic_navigator]:   Осталось: 3.60 м
+[INFO] [1776251932.370506743] [basic_navigator]:   Осталось: 3.47 м
+[INFO] [1776251933.472385033] [basic_navigator]:   Осталось: 3.32 м
+[INFO] [1776251934.579814728] [basic_navigator]:   Осталось: 3.17 м
+[INFO] [1776251935.681648478] [basic_navigator]:   Осталось: 3.07 м
+[INFO] [1776251936.782514588] [basic_navigator]:   Осталось: 2.97 м
+[INFO] [1776251937.883115454] [basic_navigator]:   Осталось: 2.81 м
+[INFO] [1776251938.984505757] [basic_navigator]:   Осталось: 2.70 м
+[INFO] [1776251940.087969112] [basic_navigator]:   Осталось: 2.55 м
+[INFO] [1776251941.189102543] [basic_navigator]:   Осталось: 2.37 м
+[INFO] [1776251942.297102689] [basic_navigator]:   Осталось: 2.22 м
+[INFO] [1776251943.399597861] [basic_navigator]:   Осталось: 2.10 м
+[INFO] [1776251944.502121895] [basic_navigator]:   Осталось: 1.97 м
+[INFO] [1776251945.604945149] [basic_navigator]:   Осталось: 1.87 м
+[INFO] [1776251946.706346069] [basic_navigator]:   Осталось: 1.75 м
+[INFO] [1776251947.808276765] [basic_navigator]:   Осталось: 1.65 м
+[INFO] [1776251948.912664486] [basic_navigator]:   Осталось: 1.52 м
+[INFO] [1776251950.013518575] [basic_navigator]:   Осталось: 1.40 м
+[INFO] [1776251951.117445159] [basic_navigator]:   Осталось: 1.28 м
+[INFO] [1776251952.218492319] [basic_navigator]:   Осталось: 1.17 м
+[INFO] [1776251953.322319867] [basic_navigator]:   Осталось: 1.03 м
+[INFO] [1776251954.423700330] [basic_navigator]:   Осталось: 0.92 м
+[INFO] [1776251955.526581913] [basic_navigator]:   Осталось: 0.77 м
+[INFO] [1776251956.629891621] [basic_navigator]:   Осталось: 0.65 м
+[INFO] [1776251957.730911762] [basic_navigator]:   Осталось: 0.50 м
+[INFO] [1776251958.832507192] [basic_navigator]:   Осталось: 0.42 м
+[INFO] [1776251959.933929437] [basic_navigator]:   Осталось: 0.32 м
+[INFO] [1776251961.035550013] [basic_navigator]:   Осталось: 0.22 м
+[INFO] [1776251962.136980245] [basic_navigator]:   Осталось: 0.15 м
+[INFO] [1776251963.237908662] [basic_navigator]:   Осталось: 0.13 м
+[INFO] [1776251964.339334010] [basic_navigator]:   Осталось: 0.13 м
+[INFO] [1776251965.340814950] [basic_navigator]: ✅ Точка "Кабинет" достигнута!
+[INFO] [1776251967.341834067] [basic_navigator]: [2/4] Еду в: Коридор (x=0.0, y=0.0)
+[INFO] [1776251967.343170917] [basic_navigator]: Navigating to goal: 0.0 0.0...
+[INFO] [1776251967.446686872] [basic_navigator]:   Осталось: 4.32 м
+[INFO] [1776251968.548211874] [basic_navigator]:   Осталось: 4.28 м
+[INFO] [1776251969.652056980] [basic_navigator]:   Осталось: 4.24 м
+[INFO] [1776251970.753932326] [basic_navigator]:   Осталось: 4.17 м
+[INFO] [1776251971.862712593] [basic_navigator]:   Осталось: 4.14 м
+[INFO] [1776251972.964278219] [basic_navigator]:   Осталось: 4.14 м
+[INFO] [1776251974.065223657] [basic_navigator]:   Осталось: 4.15 м
+[INFO] [1776251975.165866196] [basic_navigator]:   Осталось: 4.15 м
+[INFO] [1776251976.267440102] [basic_navigator]:   Осталось: 4.12 м
+[INFO] [1776251977.368506979] [basic_navigator]:   Осталось: 4.12 м
+[INFO] [1776251978.469535372] [basic_navigator]:   Осталось: 4.11 м
+[INFO] [1776251979.570658172] [basic_navigator]:   Осталось: 4.10 м
+[INFO] [1776251980.672543788] [basic_navigator]:   Осталось: 4.05 м
+[INFO] [1776251981.774234646] [basic_navigator]:   Осталось: 3.99 м
+[INFO] [1776251982.881205712] [basic_navigator]:   Осталось: 3.85 м
+[INFO] [1776251983.985691366] [basic_navigator]:   Осталось: 3.72 м
+[INFO] [1776251985.086668143] [basic_navigator]:   Осталось: 3.62 м
+[INFO] [1776251986.196411773] [basic_navigator]:   Осталось: 3.50 м
+[INFO] [1776251987.301232259] [basic_navigator]:   Осталось: 3.37 м
+[INFO] [1776251988.404731592] [basic_navigator]:   Осталось: 3.25 м
+[INFO] [1776251989.508892049] [basic_navigator]:   Осталось: 3.15 м
+[INFO] [1776251990.610286654] [basic_navigator]:   Осталось: 3.02 м
+[INFO] [1776251991.716462378] [basic_navigator]:   Осталось: 2.87 м
+[INFO] [1776251992.818273726] [basic_navigator]:   Осталось: 2.77 м
+[INFO] [1776251993.920164058] [basic_navigator]:   Осталось: 2.62 м
+[INFO] [1776251995.021110333] [basic_navigator]:   Осталось: 2.47 м
+[INFO] [1776251996.129519075] [basic_navigator]:   Осталось: 2.32 м
+[INFO] [1776251997.231825314] [basic_navigator]:   Осталось: 2.24 м
+[INFO] [1776251998.333081770] [basic_navigator]:   Осталось: 2.07 м
+[INFO] [1776251999.440559959] [basic_navigator]:   Осталось: 1.95 м
+[INFO] [1776252000.542349714] [basic_navigator]:   Осталось: 1.82 м
+[INFO] [1776252001.645607600] [basic_navigator]:   Осталось: 1.70 м
+[INFO] [1776252002.747042549] [basic_navigator]:   Осталось: 1.55 м
+[INFO] [1776252003.848367288] [basic_navigator]:   Осталось: 1.40 м
+[INFO] [1776252004.949200679] [basic_navigator]:   Осталось: 1.22 м
+[INFO] [1776252006.053485507] [basic_navigator]:   Осталось: 1.05 м
+[INFO] [1776252007.165464010] [basic_navigator]:   Осталось: 0.92 м
+[INFO] [1776252008.266607318] [basic_navigator]:   Осталось: 0.77 м
+[INFO] [1776252009.367895731] [basic_navigator]:   Осталось: 0.65 м
+[INFO] [1776252010.469842069] [basic_navigator]:   Осталось: 0.54 м
+[INFO] [1776252011.570898951] [basic_navigator]:   Осталось: 0.42 м
+[INFO] [1776252012.674703391] [basic_navigator]:   Осталось: 0.32 м
+[INFO] [1776252013.776671823] [basic_navigator]:   Осталось: 0.25 м
+[INFO] [1776252014.877584518] [basic_navigator]:   Осталось: 0.23 м
+[INFO] [1776252015.980280143] [basic_navigator]:   Осталось: 0.22 м
+[INFO] [1776252017.081597630] [basic_navigator]:   Осталось: 0.22 м
+[INFO] [1776252018.183393998] [basic_navigator]:   Осталось: 0.22 м
+[INFO] [1776252019.284880444] [basic_navigator]:   Осталось: 0.22 м
+[INFO] [1776252020.387429656] [basic_navigator]:   Осталось: 0.15 м
+[INFO] [1776252021.492619464] [basic_navigator]:   Осталось: 0.17 м
+[INFO] [1776252022.594149368] [basic_navigator]:   Осталось: 0.17 м
+[INFO] [1776252023.596396211] [basic_navigator]: ✅ Точка "Коридор" достигнута!
+[INFO] [1776252025.596829840] [basic_navigator]: [3/4] Еду в: Правый коридор (x=4.0, y=0.0)
+[INFO] [1776252025.597444390] [basic_navigator]: Navigating to goal: 4.0 0.0...
+[INFO] [1776252025.699705932] [basic_navigator]:   Осталось: 3.87 м
+[INFO] [1776252026.804879074] [basic_navigator]:   Осталось: 3.87 м
+[INFO] [1776252027.910257702] [basic_navigator]:   Осталось: 3.70 м
+[INFO] [1776252029.011022423] [basic_navigator]:   Осталось: 3.60 м
+[INFO] [1776252030.111833446] [basic_navigator]:   Осталось: 3.42 м
+[INFO] [1776252031.213826997] [basic_navigator]:   Осталось: 3.25 м
+[INFO] [1776252032.318931609] [basic_navigator]:   Осталось: 3.10 м
+[INFO] [1776252033.419977271] [basic_navigator]:   Осталось: 2.92 м
+[INFO] [1776252034.524205431] [basic_navigator]:   Осталось: 2.77 м
+[INFO] [1776252035.627087137] [basic_navigator]:   Осталось: 2.60 м
+[INFO] [1776252036.728210705] [basic_navigator]:   Осталось: 2.42 м
+[INFO] [1776252037.829401802] [basic_navigator]:   Осталось: 2.27 м
+[INFO] [1776252038.931261614] [basic_navigator]:   Осталось: 2.10 м
+[INFO] [1776252040.032519593] [basic_navigator]:   Осталось: 1.95 м
+[INFO] [1776252041.133943601] [basic_navigator]:   Осталось: 1.80 м
+[INFO] [1776252042.235424695] [basic_navigator]:   Осталось: 1.65 м
+[INFO] [1776252043.338791398] [basic_navigator]:   Осталось: 1.50 м
+[INFO] [1776252044.443311596] [basic_navigator]:   Осталось: 1.30 м
+[INFO] [1776252045.545355900] [basic_navigator]:   Осталось: 1.17 м
+[INFO] [1776252046.647053929] [basic_navigator]:   Осталось: 1.02 м
+[INFO] [1776252047.748737167] [basic_navigator]:   Осталось: 0.82 м
+[INFO] [1776252048.853411407] [basic_navigator]:   Осталось: 0.70 м
+[INFO] [1776252049.954618154] [basic_navigator]:   Осталось: 0.57 м
+[INFO] [1776252051.056004015] [basic_navigator]:   Осталось: 0.47 м
+[INFO] [1776252052.157074921] [basic_navigator]:   Осталось: 0.37 м
+[INFO] [1776252053.259622887] [basic_navigator]:   Осталось: 0.27 м
+[INFO] [1776252054.260967623] [basic_navigator]: ✅ Точка "Правый коридор" достигнута!
+[INFO] [1776252056.261543869] [basic_navigator]: [4/4] Еду в: Коридор (старт) (x=0.0, y=0.0)
+[INFO] [1776252056.262275097] [basic_navigator]: Navigating to goal: 0.0 0.0...
+[INFO] [1776252056.368404988] [basic_navigator]:   Осталось: 3.77 м
+[INFO] [1776252057.469545059] [basic_navigator]:   Осталось: 3.72 м
+[INFO] [1776252058.570686546] [basic_navigator]:   Осталось: 3.67 м
+[INFO] [1776252059.673639292] [basic_navigator]:   Осталось: 3.57 м
+[INFO] [1776252060.774972904] [basic_navigator]:   Осталось: 3.52 м
+[INFO] [1776252061.875750834] [basic_navigator]:   Осталось: 3.42 м
+[INFO] [1776252062.980881834] [basic_navigator]:   Осталось: 3.37 м

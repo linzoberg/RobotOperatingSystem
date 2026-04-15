@@ -1,0 +1,21 @@
+[INFO] [1776249712.933553039] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1776249712.933626385] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[INFO] [1776249712.995578046] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1776249719.283822331] [rviz2]: Trying to create a map of size 128 x 69 using 1 swatches
+[ERROR] [1776249719.309829544] [rviz2]: rviz/glsl120/indexed_8bit_image.vert
+rviz/glsl120/indexed_8bit_image.frag
+ GLSL link result : 
+active samplers with a different type refer to the same texture image unit
+[INFO] [1776249754.311993909] [rviz2]: Trying to create a map of size 146 x 132 using 1 swatches
+[INFO] [1776249774.292395318] [rviz2]: Trying to create a map of size 165 x 132 using 1 swatches
+[INFO] [1776249784.281389196] [rviz2]: Trying to create a map of size 183 x 132 using 1 swatches
+[INFO] [1776249839.283008109] [rviz2]: Trying to create a map of size 184 x 132 using 1 swatches
+[INFO] [1776249904.276240660] [rviz2]: Trying to create a map of size 184 x 144 using 1 swatches
+[INFO] [1776249919.291922313] [rviz2]: Trying to create a map of size 184 x 156 using 1 swatches
+[INFO] [1776249924.282035328] [rviz2]: Trying to create a map of size 184 x 165 using 1 swatches
+[INFO] [1776249934.290490477] [rviz2]: Trying to create a map of size 184 x 172 using 1 swatches
+[INFO] [1776249939.283138169] [rviz2]: Trying to create a map of size 184 x 175 using 1 swatches
+[INFO] [1776249979.284894744] [rviz2]: Trying to create a map of size 185 x 145 using 1 swatches
+[INFO] [1776250009.298119858] [rviz2]: Trying to create a map of size 185 x 146 using 1 swatches
+[INFO] [1776250024.281940871] [rviz2]: Trying to create a map of size 186 x 146 using 1 swatches
+[INFO] [1776250034.304109235] [rviz2]: Trying to create a map of size 187 x 146 using 1 swatches

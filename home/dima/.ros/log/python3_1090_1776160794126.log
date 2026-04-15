@@ -1,0 +1,35 @@
+[INFO] [1776160794.476880492] [basic_navigator]: Publishing Initial Pose
+[INFO] [1776160794.478022284] [basic_navigator]: Ожидание активации Nav2...
+[INFO] [1776160796.587610824] [basic_navigator]: Setting initial pose
+[INFO] [1776160796.587926249] [basic_navigator]: Publishing Initial Pose
+[INFO] [1776160796.588240172] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1776160796.588628595] [basic_navigator]: Setting initial pose
+[INFO] [1776160796.588881135] [basic_navigator]: Publishing Initial Pose
+[INFO] [1776160796.589170024] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1776160796.589559147] [basic_navigator]: Setting initial pose
+[INFO] [1776160796.589976610] [basic_navigator]: Publishing Initial Pose
+[INFO] [1776160796.590384058] [basic_navigator]: Waiting for amcl_pose to be received
+[INFO] [1776160802.604419799] [basic_navigator]: Nav2 is ready for use!
+[INFO] [1776160802.604874482] [basic_navigator]: Nav2 активирован!
+[INFO] [1776160802.605350206] [basic_navigator]: [1/4] Еду в: Кабинет (x=3.0, y=-3.0)
+[INFO] [1776160802.606782441] [basic_navigator]: Navigating to goal: 3.0 -3.0...
+[INFO] [1776160802.716159018] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776160803.817741358] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776160804.922353919] [basic_navigator]:   Осталось: 5.12 м
+[INFO] [1776160806.023510250] [basic_navigator]:   Осталось: 6.50 м
+[INFO] [1776160807.127256168] [basic_navigator]:   Осталось: 5.07 м
+[INFO] [1776160808.229719692] [basic_navigator]:   Осталось: 5.02 м
+[INFO] [1776160809.331598206] [basic_navigator]:   Осталось: 4.57 м
+[INFO] [1776160810.439138628] [basic_navigator]:   Осталось: 4.49 м
+[INFO] [1776160811.543607226] [basic_navigator]:   Осталось: 5.10 м
+[INFO] [1776160812.644950734] [basic_navigator]:   Осталось: 6.57 м
+[INFO] [1776160813.748906587] [basic_navigator]:   Осталось: 11.12 м
+[INFO] [1776160814.851079252] [basic_navigator]:   Осталось: 8.75 м
+[INFO] [1776160815.954176480] [basic_navigator]:   Осталось: 4.62 м
+[INFO] [1776160817.056113819] [basic_navigator]:   Осталось: 5.22 м
+[INFO] [1776160818.159060281] [basic_navigator]:   Осталось: 4.13 м
+[INFO] [1776160819.261883233] [basic_navigator]:   Осталось: 3.32 м
+[INFO] [1776160820.363703112] [basic_navigator]:   Осталось: 3.67 м
+[INFO] [1776160821.466938488] [basic_navigator]:   Осталось: 3.05 м
+[INFO] [1776160822.568404575] [basic_navigator]:   Осталось: 2.90 м
+[INFO] [1776160823.669984093] [basic_navigator]:   Осталось: 2.78 м

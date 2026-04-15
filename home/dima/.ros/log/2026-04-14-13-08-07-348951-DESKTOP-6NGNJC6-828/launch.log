@@ -1,0 +1,20 @@
+1776157687.3503680 [INFO] [launch]: All log files can be found below /home/dima/.ros/log/2026-04-14-13-08-07-348951-DESKTOP-6NGNJC6-828
+1776157687.3504992 [INFO] [launch]: Default logging verbosity is set to INFO
+1776157688.7005239 [INFO] [component_container_isolated-1]: process started with pid [847]
+1776157688.7008309 [INFO] [rviz2-2]: process started with pid [848]
+1776157689.3163083 [INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/amcl' in container '/nav2_container'
+1776157689.3714066 [INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/map_server' in container '/nav2_container'
+1776157689.4535441 [INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/controller_server' in container '/nav2_container'
+1776157689.4753671 [INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/lifecycle_manager_localization' in container '/nav2_container'
+1776157689.5048079 [INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/smoother_server' in container '/nav2_container'
+1776157689.5920274 [INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/planner_server' in container '/nav2_container'
+1776157689.6369984 [INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/route_server' in container '/nav2_container'
+1776157689.6990464 [INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/behavior_server' in container '/nav2_container'
+1776157689.7541745 [INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/bt_navigator' in container '/nav2_container'
+1776157689.8043745 [INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/waypoint_follower' in container '/nav2_container'
+1776157689.8404593 [INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/velocity_smoother' in container '/nav2_container'
+1776157689.8902149 [INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/collision_monitor' in container '/nav2_container'
+1776157689.9543915 [INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/docking_server' in container '/nav2_container'
+1776157689.9955463 [INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/lifecycle_manager_navigation' in container '/nav2_container'
+1776157909.0207715 [ERROR] [rviz2-2]: process has died [pid 848, exit code -6, cmd '/opt/ros/jazzy/lib/rviz2/rviz2 -d /opt/ros/jazzy/share/nav2_bringup/rviz/nav2_default_view.rviz --ros-args --params-file /tmp/launch_params_g2qqcecb'].
+1776157909.1828330 [INFO] [component_container_isolated-1]: sending signal 'SIGINT' to process[component_container_isolated-1]

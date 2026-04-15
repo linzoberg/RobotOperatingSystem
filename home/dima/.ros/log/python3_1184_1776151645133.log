@@ -1,0 +1,89 @@
+[INFO] [1776151645.447622554] [basic_navigator]: Publishing Initial Pose
+[INFO] [1776151645.448219062] [basic_navigator]: Ожидание активации Nav2...
+[INFO] [1776151649.465452640] [basic_navigator]: Nav2 is ready for use!
+[INFO] [1776151649.465844133] [basic_navigator]: Nav2 активирован!
+[INFO] [1776151649.466290926] [basic_navigator]: [1/5] Еду в: Кухня (x=3.0, y=4.0)
+[INFO] [1776151649.467725036] [basic_navigator]: Navigating to goal: 3.0 4.0...
+[INFO] [1776151649.570829997] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151650.674705708] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151651.775555872] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151652.876496591] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151653.980698433] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151655.082061134] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151656.183834596] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151657.285059237] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151658.386386907] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151659.497306537] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151660.598835993] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151661.701491200] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151662.803236030] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151663.903899164] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151665.005490934] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151666.106741107] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151667.207744180] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151668.312090023] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151669.417066084] [basic_navigator]:   Осталось: 0.00 м
+[ERROR] [1776151670.419285342] [basic_navigator]: ❌ Не удалось доехать до "Кухня"
+[INFO] [1776151672.422751826] [basic_navigator]: [2/5] Еду в: Спальня (x=-3.0, y=4.0)
+[INFO] [1776151672.424653630] [basic_navigator]: Navigating to goal: -3.0 4.0...
+[INFO] [1776151672.526832505] [basic_navigator]:   Осталось: 5.11 м
+[INFO] [1776151673.627572700] [basic_navigator]:   Осталось: 5.02 м
+[INFO] [1776151674.729825979] [basic_navigator]:   Осталось: 4.95 м
+[INFO] [1776151675.831113453] [basic_navigator]:   Осталось: 4.86 м
+[INFO] [1776151676.935947183] [basic_navigator]:   Осталось: 4.74 м
+[INFO] [1776151678.037423445] [basic_navigator]:   Осталось: 4.69 м
+[INFO] [1776151679.141096061] [basic_navigator]:   Осталось: 4.61 м
+[INFO] [1776151680.242288029] [basic_navigator]:   Осталось: 4.45 м
+[INFO] [1776151681.348276729] [basic_navigator]:   Осталось: 4.38 м
+[INFO] [1776151682.449739938] [basic_navigator]:   Осталось: 4.29 м
+[INFO] [1776151683.550883312] [basic_navigator]:   Осталось: 4.23 м
+[INFO] [1776151684.654000245] [basic_navigator]:   Осталось: 4.13 м
+[INFO] [1776151685.755516083] [basic_navigator]:   Осталось: 4.56 м
+[INFO] [1776151686.857024991] [basic_navigator]:   Осталось: 4.67 м
+[INFO] [1776151687.964009237] [basic_navigator]:   Осталось: 4.59 м
+[INFO] [1776151689.065256571] [basic_navigator]:   Осталось: 4.44 м
+[INFO] [1776151690.173092379] [basic_navigator]:   Осталось: 4.29 м
+[INFO] [1776151691.276178502] [basic_navigator]:   Осталось: 4.14 м
+[INFO] [1776151692.378000979] [basic_navigator]:   Осталось: 4.09 м
+[INFO] [1776151693.483230069] [basic_navigator]:   Осталось: 3.91 м
+[INFO] [1776151694.584252938] [basic_navigator]:   Осталось: 3.85 м
+[INFO] [1776151695.686065634] [basic_navigator]:   Осталось: 3.66 м
+[INFO] [1776151696.791303234] [basic_navigator]:   Осталось: 3.59 м
+[INFO] [1776151697.896684460] [basic_navigator]:   Осталось: 3.56 м
+[INFO] [1776151698.997927254] [basic_navigator]:   Осталось: 3.39 м
+[INFO] [1776151700.099222349] [basic_navigator]:   Осталось: 3.44 м
+[INFO] [1776151701.201553986] [basic_navigator]:   Осталось: 3.51 м
+[INFO] [1776151702.303432859] [basic_navigator]:   Осталось: 3.53 м
+[INFO] [1776151703.404359067] [basic_navigator]:   Осталось: 3.36 м
+[INFO] [1776151704.505321528] [basic_navigator]:   Осталось: 3.26 м
+[INFO] [1776151705.607247638] [basic_navigator]:   Осталось: 3.41 м
+[INFO] [1776151706.708657596] [basic_navigator]:   Осталось: 3.50 м
+[INFO] [1776151707.810422557] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151708.912088367] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151710.013763583] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151711.116262978] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151712.218493998] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151713.321234708] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151714.425200292] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151715.527135238] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151716.628431363] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151717.733777827] [basic_navigator]:   Осталось: 6.35 м
+[INFO] [1776151718.834879314] [basic_navigator]:   Осталось: 6.08 м
+[INFO] [1776151719.937056258] [basic_navigator]:   Осталось: 6.11 м
+[INFO] [1776151721.041067947] [basic_navigator]:   Осталось: 6.13 м
+[INFO] [1776151722.145239886] [basic_navigator]:   Осталось: 6.12 м
+[INFO] [1776151723.246805744] [basic_navigator]:   Осталось: 6.13 м
+[INFO] [1776151724.351766049] [basic_navigator]:   Осталось: 6.13 м
+[INFO] [1776151725.453683142] [basic_navigator]:   Осталось: 6.13 м
+[INFO] [1776151726.554664244] [basic_navigator]:   Осталось: 6.14 м
+[INFO] [1776151727.658088927] [basic_navigator]:   Осталось: 6.11 м
+[INFO] [1776151728.759156260] [basic_navigator]:   Осталось: 6.09 м
+[INFO] [1776151729.861145070] [basic_navigator]:   Осталось: 6.00 м
+[INFO] [1776151730.965540505] [basic_navigator]:   Осталось: 5.86 м
+[INFO] [1776151732.069829901] [basic_navigator]:   Осталось: 5.74 м
+[INFO] [1776151733.171714433] [basic_navigator]:   Осталось: 5.59 м
+[INFO] [1776151734.272524903] [basic_navigator]:   Осталось: 5.49 м
+[INFO] [1776151735.376857183] [basic_navigator]:   Осталось: 5.31 м
+[ERROR] [1776151736.378408143] [basic_navigator]: ❌ Не удалось доехать до "Спальня"
+[INFO] [1776151738.378918847] [basic_navigator]: [3/5] Еду в: Гостиная (x=-3.0, y=-3.0)
+[INFO] [1776151739.384997101] [basic_navigator]: 'NavigateToPose' action server not available, waiting...

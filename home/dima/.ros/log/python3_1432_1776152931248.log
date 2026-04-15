@@ -1,0 +1,109 @@
+[INFO] [1776152931.735467770] [basic_navigator]: Publishing Initial Pose
+[INFO] [1776152931.736532002] [basic_navigator]: Ожидание активации Nav2...
+[INFO] [1776152935.845193048] [basic_navigator]: Nav2 is ready for use!
+[INFO] [1776152935.845608582] [basic_navigator]: Nav2 активирован!
+[INFO] [1776152935.845957284] [basic_navigator]: [1/4] Еду в: Кухня (x=3.0, y=4.0)
+[INFO] [1776152935.848439432] [basic_navigator]: Navigating to goal: 3.0 4.0...
+[INFO] [1776152935.961547229] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152937.063909164] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152938.171999438] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152939.279139101] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152940.380315133] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152941.482858040] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152942.584143559] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152943.685518234] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152944.788229183] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152945.891820962] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152946.994947040] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152948.096483337] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152949.197680059] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152950.298992177] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152951.400763537] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152952.502602688] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152953.605802346] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152954.711062743] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152955.814573245] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152956.916240421] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152958.018287313] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152959.120583961] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152960.221602267] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152961.323750324] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152962.426833624] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152963.531905582] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152964.633385749] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152965.735203608] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152966.836734500] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152967.939291232] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152969.041121760] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152970.143087686] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152971.243866824] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152972.345031645] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152973.449707498] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152974.553967033] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152975.655445451] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152976.756526616] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152977.858272395] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152978.960070901] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152980.063589445] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152981.165861292] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152982.267858978] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152983.369496014] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776152984.471114330] [basic_navigator]:   Осталось: 0.00 м
+[ERROR] [1776152985.563093881] [basic_navigator]: ❌ Не удалось доехать до "Кухня"
+[INFO] [1776152987.563986175] [basic_navigator]: [2/4] Еду в: Коридор (x=0.0, y=0.0)
+[INFO] [1776152987.565210528] [basic_navigator]: Navigating to goal: 0.0 0.0...
+[INFO] [1776152987.671869900] [basic_navigator]:   Осталось: 0.38 м
+[INFO] [1776152988.775623192] [basic_navigator]:   Осталось: 0.36 м
+[INFO] [1776152989.876888118] [basic_navigator]:   Осталось: 0.38 м
+[INFO] [1776152990.981118051] [basic_navigator]:   Осталось: 0.33 м
+[INFO] [1776152992.082860822] [basic_navigator]:   Осталось: 0.28 м
+[INFO] [1776152993.193626260] [basic_navigator]:   Осталось: 0.25 м
+[INFO] [1776152994.295033206] [basic_navigator]:   Осталось: 0.20 м
+[INFO] [1776152995.399455220] [basic_navigator]:   Осталось: 0.15 м
+[INFO] [1776152996.500869587] [basic_navigator]:   Осталось: 0.12 м
+[INFO] [1776152997.602848645] [basic_navigator]:   Осталось: 0.08 м
+[INFO] [1776152998.705232280] [basic_navigator]:   Осталось: 0.05 м
+[INFO] [1776152999.807696054] [basic_navigator]:   Осталось: 0.05 м
+[INFO] [1776153000.909888921] [basic_navigator]:   Осталось: 0.05 м
+[INFO] [1776153002.010870861] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776153003.037541957] [basic_navigator]: ✅ Точка "Коридор" достигнута!
+[INFO] [1776153005.038177914] [basic_navigator]: [3/4] Еду в: Кабинет (x=3.0, y=-3.0)
+[INFO] [1776153005.039065525] [basic_navigator]: Navigating to goal: 3.0 -3.0...
+[INFO] [1776153005.141838581] [basic_navigator]:   Осталось: 5.13 м
+[INFO] [1776153006.243310582] [basic_navigator]:   Осталось: 5.13 м
+[INFO] [1776153007.345256666] [basic_navigator]:   Осталось: 5.09 м
+[INFO] [1776153008.446972632] [basic_navigator]:   Осталось: 8.20 м
+[INFO] [1776153009.548844703] [basic_navigator]:   Осталось: 6.75 м
+[INFO] [1776153010.651351521] [basic_navigator]:   Осталось: 4.89 м
+[INFO] [1776153011.752406331] [basic_navigator]:   Осталось: 5.16 м
+[INFO] [1776153012.854052882] [basic_navigator]:   Осталось: 5.79 м
+[INFO] [1776153013.955394692] [basic_navigator]:   Осталось: 6.41 м
+[INFO] [1776153015.056997033] [basic_navigator]:   Осталось: 7.88 м
+[INFO] [1776153016.159475615] [basic_navigator]:   Осталось: 4.93 м
+[INFO] [1776153017.260867131] [basic_navigator]:   Осталось: 7.48 м
+[INFO] [1776153018.363030970] [basic_navigator]:   Осталось: 4.29 м
+[INFO] [1776153019.464858997] [basic_navigator]:   Осталось: 6.70 м
+[INFO] [1776153020.566388749] [basic_navigator]:   Осталось: 4.77 м
+[INFO] [1776153021.669456973] [basic_navigator]:   Осталось: 4.08 м
+[INFO] [1776153022.770889647] [basic_navigator]:   Осталось: 4.04 м
+[INFO] [1776153023.873370766] [basic_navigator]:   Осталось: 4.15 м
+[INFO] [1776153024.974779195] [basic_navigator]:   Осталось: 4.19 м
+[INFO] [1776153026.075511001] [basic_navigator]:   Осталось: 7.67 м
+[INFO] [1776153027.177880712] [basic_navigator]:   Осталось: 3.24 м
+[INFO] [1776153028.279327898] [basic_navigator]:   Осталось: 3.09 м
+[INFO] [1776153029.385933232] [basic_navigator]:   Осталось: 2.94 м
+[INFO] [1776153030.487352080] [basic_navigator]:   Осталось: 2.82 м
+[INFO] [1776153031.589292847] [basic_navigator]:   Осталось: 2.72 м
+[INFO] [1776153032.691195413] [basic_navigator]:   Осталось: 2.59 м
+[INFO] [1776153033.795984137] [basic_navigator]:   Осталось: 2.37 м
+[INFO] [1776153034.897403251] [basic_navigator]:   Осталось: 2.27 м
+[INFO] [1776153036.001943263] [basic_navigator]:   Осталось: 2.16 м
+[INFO] [1776153037.103002627] [basic_navigator]:   Осталось: 2.02 м
+[INFO] [1776153038.204418807] [basic_navigator]:   Осталось: 1.92 м
+[INFO] [1776153039.306312144] [basic_navigator]:   Осталось: 1.82 м
+[INFO] [1776153040.411154091] [basic_navigator]:   Осталось: 1.72 м
+[INFO] [1776153041.515736866] [basic_navigator]:   Осталось: 1.62 м
+[INFO] [1776153042.621772894] [basic_navigator]:   Осталось: 1.52 м
+[INFO] [1776153043.723327156] [basic_navigator]:   Осталось: 1.37 м
+[INFO] [1776153044.825594721] [basic_navigator]:   Осталось: 1.27 м
+[INFO] [1776153045.927083727] [basic_navigator]:   Осталось: 1.14 м

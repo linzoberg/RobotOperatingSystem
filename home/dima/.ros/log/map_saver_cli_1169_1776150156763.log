@@ -1,0 +1,16 @@
+[INFO] [1776150156.790161864] [map_saver_node]: 
+	map_saver_node lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1776150156.790368019] [map_saver_node]: Creating
+[INFO] [1776150156.790451217] [map_saver_node]: Configuring
+[INFO] [1776150156.796715590] [map_saver_node]: Saving map from 'map' topic to '/home/dima/ros2_ws/src/lab2_world/maps/lab2_map' file
+[WARN] [1776150156.796785468] [map_saver_node]: Free threshold unspecified. Setting it to default value: 0.250000
+[WARN] [1776150156.796818071] [map_saver_node]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[WARN] [1776150157.992196182] [map_io]: Image format unspecified. Setting it to: pgm
+[INFO] [1776150157.992651002] [map_io]: Received a 236 X 266 map @ 0.05 m/pix
+[INFO] [1776150158.067307018] [map_io]: Writing map occupancy data to /home/dima/ros2_ws/src/lab2_world/maps/lab2_map.pgm
+[INFO] [1776150158.068196723] [map_io]: Writing map metadata to /home/dima/ros2_ws/src/lab2_world/maps/lab2_map.yaml
+[INFO] [1776150158.068642172] [map_io]: Map saved
+[INFO] [1776150158.068675764] [map_saver_node]: Map saved successfully
+[INFO] [1776150158.072690669] [map_saver_node]: Destroying

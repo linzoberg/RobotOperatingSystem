@@ -1,0 +1,12 @@
+[INFO] [1776151612.875151050] [basic_navigator]: Publishing Initial Pose
+[INFO] [1776151612.877132012] [basic_navigator]: Ожидание активации Nav2...
+[INFO] [1776151620.992485589] [basic_navigator]: Nav2 is ready for use!
+[INFO] [1776151620.992764576] [basic_navigator]: Nav2 активирован!
+[INFO] [1776151620.993157949] [basic_navigator]: [1/5] Еду в: Кухня (x=3.0, y=4.0)
+[INFO] [1776151620.996229968] [basic_navigator]: Navigating to goal: 3.0 4.0...
+[INFO] [1776151621.105423351] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151622.208861024] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151623.312265230] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151624.414566728] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151625.516588840] [basic_navigator]:   Осталось: 0.00 м
+[INFO] [1776151626.618446150] [basic_navigator]:   Осталось: 0.00 м

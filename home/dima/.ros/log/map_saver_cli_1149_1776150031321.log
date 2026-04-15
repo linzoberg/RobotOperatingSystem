@@ -1,0 +1,11 @@
+[INFO] [1776150031.345772409] [map_saver]: 
+	map_saver lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1776150031.346110867] [map_saver]: Creating
+[INFO] [1776150031.346272260] [map_saver]: Configuring
+[INFO] [1776150031.360364250] [map_saver]: Saving map from 'map' topic to '/home/dima/ros2_ws/src/lab2_world/maps/lab2_map' file
+[WARN] [1776150031.360488806] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[WARN] [1776150031.360520352] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[ERROR] [1776150033.363824757] [map_saver]: Failed to spin map subscription
+[INFO] [1776150033.368087617] [map_saver]: Destroying

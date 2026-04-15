@@ -1,0 +1,36 @@
+[INFO] [1776251868.343541788] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1776251868.343676178] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[INFO] [1776251868.411764961] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1776251868.603528444] [rviz]: Subscribing to: /mobile_base/sensors/bumper_pointcloud
+
+[INFO] [1776251868.604593819] [rviz]: Subscribing to: /mobile_base/sensors/bumper_pointcloud
+
+[INFO] [1776251868.642447527] [rviz]: Subscribing to: /global_costmap/voxel_marked_cloud
+
+[INFO] [1776251868.662137127] [rviz]: Subscribing to: /local_costmap/voxel_marked_cloud
+
+[INFO] [1776251868.685355914] [rviz]: Subscribing to: /mobile_base/sensors/bumper_pointcloud
+
+[INFO] [1776251868.688454913] [rviz]: Subscribing to: /global_costmap/voxel_marked_cloud
+
+[INFO] [1776251868.697468365] [rviz]: Subscribing to: /local_costmap/voxel_marked_cloud
+
+[INFO] [1776251868.784301501] [nav2_rviz_selector_node]: Trying to load plugins...
+[INFO] [1776251869.035672238] [rviz2]: Trying to create a map of size 280 x 280 using 1 swatches
+[ERROR] [1776251869.046105502] [rviz2]: rviz/glsl120/indexed_8bit_image.vert
+rviz/glsl120/indexed_8bit_image.frag
+ GLSL link result : 
+active samplers with a different type refer to the same texture image unit
+[INFO] [1776251870.078307233] [nav2_rviz_docking_panel_node]: Loading dock plugins
+[INFO] [1776251872.063185461] [rviz]: Message Filter dropping message: frame 'base_scan' at time 7.500 for reason 'discarding message because the queue is full'
+[INFO] [1776251872.350713097] [rviz]: Message Filter dropping message: frame 'odom' at time 7.980 for reason 'discarding message because the queue is full'
+[INFO] [1776251879.774841121] [rviz]: Message Filter dropping message: frame 'base_scan' at time 10.000 for reason 'discarding message because the queue is full'
+[INFO] [1776251880.158509832] [rviz]: Message Filter dropping message: frame 'odom' at time 10.500 for reason 'discarding message because the queue is full'
+[INFO] [1776251880.392125817] [rviz2]: Setting estimate pose: Frame:map, Position(0.0781083, -0.0163512, 0), Orientation(0, 0, 0, 1) = Angle: 0
+[INFO] [1776251883.049170471] [rviz2]: Setting estimate pose: Frame:map, Position(0.0542326, 0.0314946, 0), Orientation(0, 0, 0, 1) = Angle: 0
+[INFO] [1776251884.106811200] [rviz2]: Trying to create a map of size 280 x 280 using 1 swatches
+[INFO] [1776251885.164302012] [rviz2]: Trying to create a map of size 60 x 60 using 1 swatches
+[INFO] [1776251899.113884681] [rviz]: Message Filter dropping message: frame 'odom' at time 7.987 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1776251907.209703664] [rviz]: Message Filter dropping message: frame 'odom' at time 10.587 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1776251911.126583915] [rviz]: Message Filter dropping message: frame 'odom' at time 11.780 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1776251913.195188932] [rviz]: Message Filter dropping message: frame 'base_scan' at time 11.400 for reason 'the timestamp on the message is earlier than all the data in the transform cache'

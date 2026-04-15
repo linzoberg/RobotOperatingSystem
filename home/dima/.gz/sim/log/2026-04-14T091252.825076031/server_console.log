@@ -1,0 +1,68 @@
+(2026-04-14T09:12:52.930964732) (2026-04-14T09:12:52.930968905) [Msg] Gazebo Sim Server v8.11.0
+(2026-04-14T09:12:52.931863040) (2026-04-14T09:12:52.931866318) [Msg] Loading SDF world file[/opt/ros/jazzy/opt/gz_sim_vendor/share/gz/gz-sim8/worlds/shapes.sdf].
+(2026-04-14T09:12:53.100460619) (2026-04-14T09:12:53.100465586) [Msg] Serving entity system service on [/entity/system/add]
+(2026-04-14T09:12:53.102022366) (2026-04-14T09:12:53.102026240) [Dbg] [SdfEntityCreator.cc:531] Link has auto-inertial enabled: cone::cone_link
+(2026-04-14T09:12:53.102036471) (2026-04-14T09:12:53.102038359) [Dbg] [SdfEntityCreator.cc:533]   pose: 0 0 -0.25 0 0 0
+(2026-04-14T09:12:53.102057332) (2026-04-14T09:12:53.102059120) [Dbg] [SdfEntityCreator.cc:534]   mass: 0.261799
+(2026-04-14T09:12:53.102064682) (2026-04-14T09:12:53.102066470) [Dbg] [SdfEntityCreator.cc:535]   ixx iyy izz: 0.019635 0.019635 0.019635
+(2026-04-14T09:12:53.102075311) (2026-04-14T09:12:53.102077000) [Dbg] [SdfEntityCreator.cc:537]   ixy ixz iyz: 0 0 0
+(2026-04-14T09:12:53.102241896) (2026-04-14T09:12:53.102245075) [Msg] Loaded level [default]
+(2026-04-14T09:12:53.102255902) (2026-04-14T09:12:53.102257790) [Msg] No systems loaded from SDF, loading defaults
+(2026-04-14T09:12:53.102333682) (2026-04-14T09:12:53.102336066) [Msg] Copied installed config [/opt/ros/jazzy/opt/gz_sim_vendor/share/gz/gz-sim8/server.config] to default config [/home/dima/.gz/sim/8/server.config].
+(2026-04-14T09:12:53.102442354) (2026-04-14T09:12:53.102445434) [Dbg] [ServerConfig.cc:1034] Loaded (3) plugins from file [/home/dima/.gz/sim/8/server.config]
+(2026-04-14T09:12:53.321463563) (2026-04-14T09:12:53.321470022) [Dbg] [Physics.cc:906] Loaded [gz::physics::dartsim::Plugin] from library [/opt/ros/jazzy/opt/gz_physics_vendor/lib/gz-physics-7/engine-plugins/libgz-physics-dartsim-plugin.so]
+(2026-04-14T09:12:53.321498242) (2026-04-14T09:12:53.321500130) [Dbg] [SystemManager.cc:80] Loaded system [gz::sim::systems::Physics] for entity [1]
+(2026-04-14T09:12:53.323130641) (2026-04-14T09:12:53.323134715) [Msg] Create service on [/world/shapes/create_multiple] (async)
+(2026-04-14T09:12:53.323144254) (2026-04-14T09:12:53.323146142) [Msg] Create service on [/world/shapes/create_multiple/blocking] (blocking)
+(2026-04-14T09:12:53.323288535) (2026-04-14T09:12:53.323292311) [Msg] Remove service on [/world/shapes/remove] (async)
+(2026-04-14T09:12:53.323300161) (2026-04-14T09:12:53.323301950) [Msg] Remove service on [/world/shapes/remove/blocking] (blocking)
+(2026-04-14T09:12:53.323403006) (2026-04-14T09:12:53.323406583) [Msg] Pose service on [/world/shapes/set_pose] (async)
+(2026-04-14T09:12:53.323414731) (2026-04-14T09:12:53.323416718) [Msg] Pose service on [/world/shapes/set_pose/blocking] (blocking)
+(2026-04-14T09:12:53.323537350) (2026-04-14T09:12:53.323540629) [Msg] Pose service on [/world/shapes/set_pose_vector] (async)
+(2026-04-14T09:12:53.323548479) (2026-04-14T09:12:53.323550367) [Msg] Pose service on [/world/shapes/set_pose_vector/blocking] (blocking)
+(2026-04-14T09:12:53.323683419) (2026-04-14T09:12:53.323687096) [Msg] Light configuration service on [/world/shapes/light_config] (async)
+(2026-04-14T09:12:53.323695740) (2026-04-14T09:12:53.323697728) [Msg] Light configuration service on [/world/shapes/light_config/blocking] (blocking)
+(2026-04-14T09:12:53.323907988) (2026-04-14T09:12:53.323911267) [Msg] Physics service on [/world/shapes/set_physics] (async)
+(2026-04-14T09:12:53.323918720) (2026-04-14T09:12:53.323920508) [Msg] Physics service on [/world/shapes/set_physics/blocking] (blocking)
+(2026-04-14T09:12:53.324047400) (2026-04-14T09:12:53.324051076) [Msg] SphericalCoordinates service on [/world/shapes/set_spherical_coordinates] (async)
+(2026-04-14T09:12:53.324059523) (2026-04-14T09:12:53.324061510) [Msg] SphericalCoordinates service on [/world/shapes/set_spherical_coordinates/blocking] (blocking)
+(2026-04-14T09:12:53.324150741) (2026-04-14T09:12:53.324154219) [Msg] Enable collision service on [/world/shapes/enable_collision] (async)
+(2026-04-14T09:12:53.324169919) (2026-04-14T09:12:53.324173000) [Msg] Enable collision service on [/world/shapes/enable_collision/blocking] (blocking)
+(2026-04-14T09:12:53.324275347) (2026-04-14T09:12:53.324278825) [Msg] Disable collision service on [/world/shapes/disable_collision] (async)
+(2026-04-14T09:12:53.324287271) (2026-04-14T09:12:53.324289259) [Msg] Disable collision service on [/world/shapes/disable_collision/blocking] (blocking)
+(2026-04-14T09:12:53.324414064) (2026-04-14T09:12:53.324417541) [Msg] Material service on [/world/shapes/visual_config] (async)
+(2026-04-14T09:12:53.324425292) (2026-04-14T09:12:53.324427081) [Msg] Material service on [/world/shapes/visual_config/blocking] (blocking)
+(2026-04-14T09:12:53.324539564) (2026-04-14T09:12:53.324543141) [Msg] Material service on [/world/shapes/wheel_slip] (async)
+(2026-04-14T09:12:53.324551190) (2026-04-14T09:12:53.324553177) [Msg] Material service on [/world/shapes/wheel_slip/blocking] (blocking)
+(2026-04-14T09:12:53.324566592) (2026-04-14T09:12:53.324568380) [Dbg] [SystemManager.cc:80] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+(2026-04-14T09:12:53.325368284) (2026-04-14T09:12:53.325371960) [Dbg] [SystemManager.cc:80] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+(2026-04-14T09:12:53.325857168) (2026-04-14T09:12:53.325860448) [Msg] Serving world controls on [/world/shapes/control], [/world/shapes/control/state] and [/world/shapes/playback/control]
+(2026-04-14T09:12:53.325939047) (2026-04-14T09:12:53.325942525) [Msg] Serving GUI information on [/world/shapes/gui/info]
+(2026-04-14T09:12:53.325951070) (2026-04-14T09:12:53.325952958) [Msg] World [shapes] initialized with [default_physics] physics profile.
+(2026-04-14T09:12:53.326039308) (2026-04-14T09:12:53.326042885) [Msg] Serving world SDF generation service on [/world/shapes/generate_world_sdf]
+(2026-04-14T09:12:53.326777504) (2026-04-14T09:12:53.326782175) [Msg] Serving world names on [/gazebo/worlds]
+(2026-04-14T09:12:53.326865345) (2026-04-14T09:12:53.326869319) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2026-04-14T09:12:53.326927946) (2026-04-14T09:12:53.326931424) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2026-04-14T09:12:53.326982697) (2026-04-14T09:12:53.326986075) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2026-04-14T09:12:53.327049074) (2026-04-14T09:12:53.327052552) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2026-04-14T09:12:53.327131151) (2026-04-14T09:12:53.327134828) [Msg] Server control service on [/server_control].
+(2026-04-14T09:12:54.829696233) (2026-04-14T09:12:54.829702294) [Msg] Found no publishers on /stats, adding root stats topic
+(2026-04-14T09:12:54.829893652) (2026-04-14T09:12:54.829897626) [Msg] Found no publishers on /clock, adding root clock topic
+(2026-04-14T09:12:54.830042784) (2026-04-14T09:12:54.830047553) [Dbg] [SimulationRunner.cc:551] Creating PostUpdate worker threads: 2
+(2026-04-14T09:12:54.830060768) (2026-04-14T09:12:54.830062655) [Dbg] [SimulationRunner.cc:562] Creating postupdate worker thread (0)
+(2026-04-14T09:12:54.832304111) (2026-04-14T09:12:54.832308483) [Wrn] [SDFFeatures.cc:365] DART: Ellipsoid is not a supported collision geomerty primitive, using generated mesh of an ellipsoid instead
+(2026-04-14T09:12:54.834334040) (2026-04-14T09:12:54.834338213) [Wrn] [SDFFeatures.cc:350] DART: Cone is not a supported collision geomerty primitive, using generated mesh of a cone instead
+(2026-04-14T09:12:54.835654869) (2026-04-14T09:12:54.835658943) [Msg] Serving scene information on [/world/shapes/scene/info]
+(2026-04-14T09:12:54.835725114) (2026-04-14T09:12:54.835728591) [Msg] Serving graph information on [/world/shapes/scene/graph]
+(2026-04-14T09:12:54.835831722) (2026-04-14T09:12:54.835835597) [Msg] Serving full state on [/world/shapes/state]
+(2026-04-14T09:12:54.835896700) (2026-04-14T09:12:54.835900078) [Msg] Serving full state (async) on [/world/shapes/state_async]
+(2026-04-14T09:12:54.835962374) (2026-04-14T09:12:54.835965951) [Msg] Publishing scene information on [/world/shapes/scene/info]
+(2026-04-14T09:12:54.836054775) (2026-04-14T09:12:54.836065505) [Msg] Publishing entity deletions on [/world/shapes/scene/deletion]
+(2026-04-14T09:12:54.836131775) (2026-04-14T09:12:54.836135650) [Msg] Publishing state changes on [/world/shapes/state]
+(2026-04-14T09:12:54.836183638) (2026-04-14T09:12:54.836187116) [Msg] Publishing pose messages on [/world/shapes/pose/info]
+(2026-04-14T09:12:54.836242954) (2026-04-14T09:12:54.836246332) [Msg] Publishing dynamic pose messages on [/world/shapes/dynamic_pose/info]
+(2026-04-14T09:12:54.836393775) (2026-04-14T09:12:54.836396557) [Dbg] [EntityComponentManager.cc:1656] Updated state thread iterators: 16 threads processing around 3 entities each.
+(2026-04-14T09:12:59.593567911) (2026-04-14T09:12:59.593574563) [Dbg] [SignalHandler.cc:142] Received signal[2].
+(2026-04-14T09:12:59.593585205) (2026-04-14T09:12:59.593587150) [Dbg] [ServerPrivate.cc:122] Server received signal[2]
+(2026-04-14T09:12:59.593601067) (2026-04-14T09:12:59.593603011) [Dbg] [gz.cc:434] Shutting down gz-sim-server
+(2026-04-14T09:12:59.595450942) (2026-04-14T09:12:59.595456468) [Dbg] [SimulationRunner.cc:578] Exiting postupdate worker thread (0)

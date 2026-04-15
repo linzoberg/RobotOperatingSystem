@@ -1,0 +1,2 @@
+Warning [Utils.cc:132] [/sdf/model[@name="turtlebot3_waffle"]/link[@name="base_scan"]/sensor[@name="hls_lfcd_lds"]/gz_frame_id:<data-string>:L163]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].
+Warning [Utils.cc:132] [/sdf/model[@name="turtlebot3_waffle"]/link[@name="camera_rgb_frame"]/sensor[@name="camera"]/gz_frame_id:<data-string>:L394]: XML Element[gz_frame_id], child of element[sensor], not defined in SDF. Copying[gz_frame_id] as children of [sensor].

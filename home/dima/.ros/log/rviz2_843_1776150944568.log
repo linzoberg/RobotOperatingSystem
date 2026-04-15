@@ -1,0 +1,53 @@
+[INFO] [1776150944.778616888] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1776150944.778766812] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[INFO] [1776150944.839569982] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1776150945.062837158] [rviz]: Subscribing to: /mobile_base/sensors/bumper_pointcloud
+
+[INFO] [1776150945.064440356] [rviz]: Subscribing to: /mobile_base/sensors/bumper_pointcloud
+
+[INFO] [1776150945.083671032] [rviz]: Subscribing to: /global_costmap/voxel_marked_cloud
+
+[INFO] [1776150945.122884603] [rviz]: Subscribing to: /local_costmap/voxel_marked_cloud
+
+[INFO] [1776150945.151218864] [rviz]: Subscribing to: /mobile_base/sensors/bumper_pointcloud
+
+[INFO] [1776150945.155910742] [rviz]: Subscribing to: /global_costmap/voxel_marked_cloud
+
+[INFO] [1776150945.166935420] [rviz]: Subscribing to: /local_costmap/voxel_marked_cloud
+
+[INFO] [1776150945.273190307] [nav2_rviz_selector_node]: Trying to load plugins...
+[INFO] [1776150945.447301243] [rviz2]: Trying to create a map of size 236 x 266 using 1 swatches
+[ERROR] [1776150945.454104614] [rviz2]: rviz/glsl120/indexed_8bit_image.vert
+rviz/glsl120/indexed_8bit_image.frag
+ GLSL link result : 
+active samplers with a different type refer to the same texture image unit
+[INFO] [1776150946.311730952] [nav2_rviz_docking_panel_node]: Loading dock plugins
+[INFO] [1776150948.607255465] [rviz]: Message Filter dropping message: frame 'odom' at time 7.540 for reason 'discarding message because the queue is full'
+[INFO] [1776150948.831147963] [rviz]: Message Filter dropping message: frame 'base_scan' at time 7.200 for reason 'discarding message because the queue is full'
+[INFO] [1776150956.991960873] [rviz]: Message Filter dropping message: frame 'odom' at time 10.060 for reason 'discarding message because the queue is full'
+[INFO] [1776150957.215762804] [rviz]: Message Filter dropping message: frame 'base_scan' at time 9.700 for reason 'discarding message because the queue is full'
+[INFO] [1776150964.607436843] [rviz]: Message Filter dropping message: frame 'odom' at time 7.557 for reason 'discarding message because the queue is full'
+[INFO] [1776150965.408507635] [rviz]: Message Filter dropping message: frame 'odom' at time 12.600 for reason 'discarding message because the queue is full'
+[INFO] [1776150965.535794327] [rviz]: Message Filter dropping message: frame 'base_scan' at time 12.200 for reason 'discarding message because the queue is full'
+[INFO] [1776150973.600019552] [rviz]: Message Filter dropping message: frame 'odom' at time 10.259 for reason 'discarding message because the queue is full'
+[INFO] [1776150973.792102528] [rviz]: Message Filter dropping message: frame 'odom' at time 15.140 for reason 'discarding message because the queue is full'
+[INFO] [1776150974.048145735] [rviz]: Message Filter dropping message: frame 'base_scan' at time 14.800 for reason 'discarding message because the queue is full'
+[INFO] [1776150981.983868676] [rviz]: Message Filter dropping message: frame 'odom' at time 17.620 for reason 'discarding message because the queue is full'
+[INFO] [1776150982.239214101] [rviz]: Message Filter dropping message: frame 'base_scan' at time 17.300 for reason 'discarding message because the queue is full'
+[INFO] [1776150982.399249466] [rviz]: Message Filter dropping message: frame 'odom' at time 12.970 for reason 'discarding message because the queue is full'
+[INFO] [1776150989.983775015] [rviz]: Message Filter dropping message: frame 'odom' at time 20.160 for reason 'discarding message because the queue is full'
+[INFO] [1776150990.431526243] [rviz]: Message Filter dropping message: frame 'base_scan' at time 19.900 for reason 'discarding message because the queue is full'
+[INFO] [1776150990.591201294] [rviz]: Message Filter dropping message: frame 'odom' at time 15.687 for reason 'discarding message because the queue is full'
+[INFO] [1776150997.791278916] [rviz]: Message Filter dropping message: frame 'odom' at time 22.660 for reason 'discarding message because the queue is full'
+[INFO] [1776150998.144794425] [rviz]: Message Filter dropping message: frame 'base_scan' at time 22.400 for reason 'discarding message because the queue is full'
+[INFO] [1776150998.591732398] [rviz]: Message Filter dropping message: frame 'odom' at time 18.382 for reason 'discarding message because the queue is full'
+[INFO] [1776151001.816967395] [rviz2]: Trying to create a map of size 60 x 60 using 1 swatches
+[INFO] [1776151002.840502575] [rviz2]: Trying to create a map of size 236 x 266 using 1 swatches
+[INFO] [1776151016.617257330] [rviz]: Message Filter dropping message: frame 'odom' at time 19.966 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1776151025.791968623] [rviz]: Message Filter dropping message: frame 'odom' at time 22.540 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1776151030.729872790] [rviz]: Message Filter dropping message: frame 'odom' at time 23.980 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1776151032.740593810] [rviz]: Message Filter dropping message: frame 'base_scan' at time 23.600 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1776151344.084021397] [rviz2]: Setting estimate pose: Frame:map, Position(0.0357603, -0.00640678, 0), Orientation(0, 0, 0.0210064, 0.999779) = Angle: 0.0420159
+[INFO] [1776151357.844734258] [rviz2]: Setting estimate pose: Frame:map, Position(0.0564682, 0.0515227, 0), Orientation(0, 0, -0.00555743, 0.999985) = Angle: -0.0111149
+[INFO] [1776151363.552073865] [rviz2]: Setting estimate pose: Frame:map, Position(0.0714424, -0.0383261, 0), Orientation(0, 0, 0.0244857, 0.9997) = Angle: 0.0489762
+[INFO] [1776151399.904758559] [rviz2]: Setting estimate pose: Frame:map, Position(0.0115437, 0.036548, 0), Orientation(0, 0, 0.0129257, 0.999916) = Angle: 0.0258521
