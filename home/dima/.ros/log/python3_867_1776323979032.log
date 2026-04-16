@@ -1,0 +1,220 @@
+[INFO] [1776323979.160982823] [robot_controller]: Поток клавиатуры запущен.
+[INFO] [1776323986.350945069] [robot_controller]: Режим: ДВИЖЕНИЕ ВДОЛЬ СТЕНЫ
+[INFO] [1776323986.400643956] [robot_controller]: Еду вперёд, ищу стену. front=1.49
+[INFO] [1776323986.949296444] [robot_controller]: Еду вперёд, ищу стену. front=1.48
+[INFO] [1776323987.453455137] [robot_controller]: Еду вперёд, ищу стену. front=1.45
+[INFO] [1776323987.999365817] [robot_controller]: Еду вперёд, ищу стену. front=1.40
+[INFO] [1776323988.499467426] [robot_controller]: Еду вперёд, ищу стену. front=1.38
+[INFO] [1776323989.049470398] [robot_controller]: Еду вперёд, ищу стену. front=1.32
+[INFO] [1776323989.553512957] [robot_controller]: Еду вперёд, ищу стену. front=1.26
+[INFO] [1776323990.099901279] [robot_controller]: Еду вперёд, ищу стену. front=1.22
+[INFO] [1776323990.652348900] [robot_controller]: Еду вперёд, ищу стену. front=1.17
+[INFO] [1776323991.199572580] [robot_controller]: Еду вперёд, ищу стену. front=1.15
+[INFO] [1776323991.699618923] [robot_controller]: Еду вперёд, ищу стену. front=1.11
+[INFO] [1776323992.200086302] [robot_controller]: Еду вперёд, ищу стену. front=1.05
+[INFO] [1776323992.750201314] [robot_controller]: Еду вперёд, ищу стену. front=1.00
+[INFO] [1776323993.299222412] [robot_controller]: Еду вперёд, ищу стену. front=0.95
+[INFO] [1776323993.799494671] [robot_controller]: Еду вперёд, ищу стену. front=0.91
+[INFO] [1776323994.349272015] [robot_controller]: Еду вперёд, ищу стену. front=0.86
+[INFO] [1776323994.899346658] [robot_controller]: Еду вперёд, ищу стену. front=0.83
+[INFO] [1776323995.399428007] [robot_controller]: Еду вперёд, ищу стену. front=0.78
+[INFO] [1776323995.953099850] [robot_controller]: Еду вперёд, ищу стену. front=0.73
+[INFO] [1776323996.499285194] [robot_controller]: Еду вперёд, ищу стену. front=0.68
+[INFO] [1776323997.049208538] [robot_controller]: Еду вперёд, ищу стену. front=0.62
+[INFO] [1776323997.549605487] [robot_controller]: Поворачиваю... left=3.89
+[INFO] [1776323998.101092030] [robot_controller]: Поворачиваю... left=3.85
+[INFO] [1776323998.650152374] [robot_controller]: Поворачиваю... left=3.74
+[INFO] [1776323999.199176718] [robot_controller]: Поворачиваю... left=2.64
+[INFO] [1776323999.701067980] [robot_controller]: Поворачиваю... left=2.43
+[INFO] [1776324000.249236973] [robot_controller]: Поворачиваю... left=1.33
+[INFO] [1776324000.749332279] [robot_controller]: Поворачиваю... left=1.03
+[INFO] [1776324001.249766156] [robot_controller]: Поворачиваю... left=0.87
+[INFO] [1776324001.799149521] [robot_controller]: Еду вдоль стены. left=0.68 err=0.178
+[INFO] [1776324002.299155190] [robot_controller]: Еду вдоль стены. left=0.64 err=0.140
+[INFO] [1776324002.805804782] [robot_controller]: Еду вдоль стены. left=0.59 err=0.087
+[INFO] [1776324003.349254429] [robot_controller]: Еду вдоль стены. left=0.55 err=0.051
+[INFO] [1776324003.899440882] [robot_controller]: Еду вдоль стены. left=0.54 err=0.037
+[INFO] [1776324004.451664264] [robot_controller]: Еду вдоль стены. left=0.53 err=0.028
+[INFO] [1776324004.999475011] [robot_controller]: Еду вдоль стены. left=0.50 err=0.002
+[INFO] [1776324005.549211257] [robot_controller]: Еду вдоль стены. left=0.49 err=-0.012
+[INFO] [1776324006.049213008] [robot_controller]: Еду вдоль стены. left=0.47 err=-0.030
+[INFO] [1776324006.549487815] [robot_controller]: Еду вдоль стены. left=0.41 err=-0.090
+[INFO] [1776324007.099225361] [robot_controller]: Стена слева! Начинаю следование. left=0.40
+[INFO] [1776324007.599350385] [robot_controller]: Стена слева! Начинаю следование. left=0.37
+[INFO] [1776324008.102882910] [robot_controller]: Стена слева! Начинаю следование. left=0.39
+[INFO] [1776324008.602885857] [robot_controller]: Стена слева! Начинаю следование. left=0.37
+[INFO] [1776324009.150830922] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324009.699234714] [robot_controller]: Стена слева! Начинаю следование. left=0.37
+[INFO] [1776324010.201431818] [robot_controller]: Еду вдоль стены. left=0.36 err=-0.140
+[INFO] [1776324010.702930458] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324011.249526479] [robot_controller]: Стена слева! Начинаю следование. left=0.35
+[INFO] [1776324011.749576177] [robot_controller]: Еду вдоль стены. left=0.35 err=-0.153
+[INFO] [1776324012.299477209] [robot_controller]: Еду вдоль стены. left=0.34 err=-0.156
+[INFO] [1776324012.849230559] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324013.399487605] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324013.949204351] [robot_controller]: Стена слева! Начинаю следование. left=0.31
+[INFO] [1776324014.450828202] [robot_controller]: Еду вдоль стены. left=0.30 err=-0.196
+[INFO] [1776324014.999921749] [robot_controller]: Еду вдоль стены. left=0.31 err=-0.191
+[INFO] [1776324015.549251995] [robot_controller]: Еду вдоль стены. left=0.29 err=-0.209
+[INFO] [1776324016.050923249] [robot_controller]: Еду вдоль стены. left=0.29 err=-0.210
+[INFO] [1776324016.554083235] [robot_controller]: Еду вдоль стены. left=0.29 err=-0.211
+[INFO] [1776324017.099389357] [robot_controller]: Еду вдоль стены. left=0.28 err=-0.224
+[INFO] [1776324017.649345990] [robot_controller]: Еду вдоль стены. left=0.26 err=-0.240
+[INFO] [1776324018.149415863] [robot_controller]: Еду вдоль стены. left=0.26 err=-0.244
+[INFO] [1776324018.699389531] [robot_controller]: Еду вдоль стены. left=0.25 err=-0.248
+[INFO] [1776324019.253083485] [robot_controller]: Еду вдоль стены. left=0.25 err=-0.249
+[INFO] [1776324019.804649157] [robot_controller]: Еду вдоль стены. left=0.26 err=-0.242
+[INFO] [1776324020.349304685] [robot_controller]: Еду вдоль стены. left=0.27 err=-0.230
+[INFO] [1776324020.849465066] [robot_controller]: Еду вдоль стены. left=0.26 err=-0.237
+[INFO] [1776324021.399414619] [robot_controller]: Еду вдоль стены. left=0.25 err=-0.248
+[INFO] [1776324021.950189420] [robot_controller]: Еду вдоль стены. left=0.29 err=-0.215
+[INFO] [1776324022.454779054] [robot_controller]: Еду вдоль стены. left=0.29 err=-0.214
+[INFO] [1776324022.999440501] [robot_controller]: Еду вдоль стены. left=0.30 err=-0.203
+[INFO] [1776324023.550149847] [robot_controller]: Еду вдоль стены. left=0.31 err=-0.188
+[INFO] [1776324024.099336611] [robot_controller]: Еду вдоль стены. left=0.33 err=-0.172
+[INFO] [1776324024.599527030] [robot_controller]: Еду вдоль стены. left=0.35 err=-0.152
+[INFO] [1776324025.149273055] [robot_controller]: Еду вдоль стены. left=0.36 err=-0.141
+[INFO] [1776324025.649281744] [robot_controller]: Еду вдоль стены. left=0.38 err=-0.123
+[INFO] [1776324026.151203240] [robot_controller]: Еду вдоль стены. left=0.39 err=-0.115
+[INFO] [1776324026.702883066] [robot_controller]: Еду вдоль стены. left=0.40 err=-0.096
+[INFO] [1776324027.249291898] [robot_controller]: Еду вдоль стены. left=0.44 err=-0.063
+[INFO] [1776324027.799622863] [robot_controller]: Еду вдоль стены. left=0.45 err=-0.050
+[INFO] [1776324028.351093032] [robot_controller]: Еду вдоль стены. left=0.47 err=-0.033
+[INFO] [1776324028.899323550] [robot_controller]: Еду вдоль стены. left=0.51 err=0.012
+[INFO] [1776324029.399667161] [robot_controller]: Еду вдоль стены. left=0.52 err=0.015
+[INFO] [1776324029.949271205] [robot_controller]: Еду вдоль стены. left=0.54 err=0.044
+[INFO] [1776324030.449612676] [robot_controller]: Еду вдоль стены. left=0.54 err=0.041
+[INFO] [1776324030.999739182] [robot_controller]: Еду вдоль стены. left=0.57 err=0.068
+[INFO] [1776324031.549301743] [robot_controller]: Еду вдоль стены. left=0.59 err=0.089
+[INFO] [1776324032.050634838] [robot_controller]: Еду вдоль стены. left=0.61 err=0.108
+[INFO] [1776324032.599145094] [robot_controller]: Еду вдоль стены. left=0.62 err=0.119
+[INFO] [1776324033.099301325] [robot_controller]: Еду вдоль стены. left=0.62 err=0.117
+[INFO] [1776324033.650839503] [robot_controller]: Еду вдоль стены. left=0.65 err=0.150
+[INFO] [1776324034.200316531] [robot_controller]: Еду вдоль стены. left=0.65 err=0.152
+[INFO] [1776324034.750827245] [robot_controller]: Еду вдоль стены. left=0.65 err=0.153
+[INFO] [1776324035.299489076] [robot_controller]: Еду вдоль стены. left=0.67 err=0.172
+[INFO] [1776324035.799626743] [robot_controller]: Еду вдоль стены. left=0.68 err=0.180
+[INFO] [1776324036.355089029] [robot_controller]: Еду вдоль стены. left=0.68 err=0.185
+[INFO] [1776324036.899625400] [robot_controller]: Еду вдоль стены. left=0.68 err=0.184
+[INFO] [1776324037.449340194] [robot_controller]: Стена слева! Начинаю следование. left=0.68
+[INFO] [1776324037.999261747] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324038.499352904] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324039.001467874] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324039.549359796] [robot_controller]: Стена слева! Начинаю следование. left=0.67
+[INFO] [1776324040.049530043] [robot_controller]: Стена слева! Начинаю следование. left=0.67
+[INFO] [1776324040.601638144] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324041.150458493] [robot_controller]: Стена слева! Начинаю следование. left=0.64
+[INFO] [1776324041.701625289] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324042.201925212] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324042.749638557] [robot_controller]: Стена слева! Начинаю следование. left=0.63
+[INFO] [1776324043.299504676] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324043.800945476] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324044.349509697] [robot_controller]: Стена слева! Начинаю следование. left=0.61
+[INFO] [1776324044.899580983] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324045.405634217] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324045.949482760] [robot_controller]: Стена слева! Начинаю следование. left=0.59
+[INFO] [1776324046.499274930] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324046.999292685] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324047.499477056] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324048.053699477] [robot_controller]: Стена слева! Начинаю следование. left=0.55
+[INFO] [1776324048.602168516] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324049.153682724] [robot_controller]: Стена слева! Начинаю следование. left=0.53
+[INFO] [1776324049.699541707] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324050.200051802] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324050.749607905] [robot_controller]: Стена слева! Начинаю следование. left=0.44
+[INFO] [1776324051.299359880] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324051.849301487] [robot_controller]: Стена слева! Начинаю следование. left=0.39
+[INFO] [1776324052.349569479] [robot_controller]: Стена слева! Начинаю следование. left=0.36
+[INFO] [1776324052.899400723] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324053.449864996] [robot_controller]: Стена слева! Начинаю следование. left=0.32
+[INFO] [1776324053.999949493] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324054.549511732] [robot_controller]: Стена слева! Начинаю следование. left=0.27
+[INFO] [1776324055.099865847] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324055.649387174] [robot_controller]: Стена слева! Начинаю следование. left=0.25
+[INFO] [1776324056.199284560] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324056.749286144] [robot_controller]: Стена слева! Начинаю следование. left=0.24
+[INFO] [1776324057.249527849] [robot_controller]: Стена слева! Начинаю следование. left=0.23
+[INFO] [1776324057.799259653] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324058.299326291] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324058.849322477] [robot_controller]: Стена слева! Начинаю следование. left=0.22
+[INFO] [1776324059.349352655] [robot_controller]: Стена слева! Начинаю следование. left=0.22
+[INFO] [1776324059.849461965] [robot_controller]: Стена слева! Начинаю следование. left=0.22
+[INFO] [1776324060.399469354] [robot_controller]: Еду вдоль стены. left=0.22 err=-0.283
+[INFO] [1776324060.901634959] [robot_controller]: Еду вдоль стены. left=0.22 err=-0.283
+[INFO] [1776324061.449303950] [robot_controller]: Еду вдоль стены. left=0.22 err=-0.282
+[INFO] [1776324061.949459802] [robot_controller]: Еду вдоль стены. left=0.22 err=-0.275
+[INFO] [1776324062.501733994] [robot_controller]: Еду вдоль стены. left=0.23 err=-0.268
+[INFO] [1776324063.049392699] [robot_controller]: Еду вдоль стены. left=0.27 err=-0.235
+[INFO] [1776324063.553714302] [robot_controller]: Еду вдоль стены. left=0.27 err=-0.227
+[INFO] [1776324064.099209715] [robot_controller]: Еду вдоль стены. left=0.28 err=-0.217
+[INFO] [1776324064.599262871] [robot_controller]: Еду вдоль стены. left=0.30 err=-0.198
+[INFO] [1776324065.099402483] [robot_controller]: Еду вдоль стены. left=0.31 err=-0.189
+[INFO] [1776324065.599749608] [robot_controller]: Еду вдоль стены. left=0.35 err=-0.152
+[INFO] [1776324066.149333972] [robot_controller]: Еду вдоль стены. left=0.36 err=-0.137
+[INFO] [1776324066.701900697] [robot_controller]: Еду вдоль стены. left=0.39 err=-0.107
+[INFO] [1776324067.249214351] [robot_controller]: Еду вдоль стены. left=0.41 err=-0.088
+[INFO] [1776324067.749314052] [robot_controller]: Еду вдоль стены. left=0.44 err=-0.059
+[INFO] [1776324068.249731812] [robot_controller]: Еду вдоль стены. left=0.47 err=-0.035
+[INFO] [1776324068.799393955] [robot_controller]: Еду вдоль стены. left=0.48 err=-0.020
+[INFO] [1776324069.301674338] [robot_controller]: Еду вдоль стены. left=0.51 err=0.009
+[INFO] [1776324069.849507338] [robot_controller]: Еду вдоль стены. left=0.55 err=0.054
+[INFO] [1776324070.349585712] [robot_controller]: Еду вдоль стены. left=0.58 err=0.083
+[INFO] [1776324070.899513857] [robot_controller]: Еду вдоль стены. left=0.61 err=0.110
+[INFO] [1776324071.449341665] [robot_controller]: Еду вдоль стены. left=0.61 err=0.114
+[INFO] [1776324072.001776056] [robot_controller]: Еду вдоль стены. left=0.63 err=0.133
+[INFO] [1776324072.549315401] [robot_controller]: Еду вдоль стены. left=0.65 err=0.154
+[INFO] [1776324073.050549417] [robot_controller]: Еду вдоль стены. left=0.66 err=0.157
+[INFO] [1776324073.552941096] [robot_controller]: Еду вдоль стены. left=0.68 err=0.180
+[INFO] [1776324074.099380295] [robot_controller]: Еду вдоль стены. left=0.68 err=0.185
+[INFO] [1776324074.649218273] [robot_controller]: Еду вдоль стены. left=0.70 err=0.202
+[INFO] [1776324075.152986281] [robot_controller]: Еду вдоль стены. left=0.70 err=0.200
+[INFO] [1776324075.699342717] [robot_controller]: Еду вдоль стены. left=0.70 err=0.204
+[INFO] [1776324076.199839806] [robot_controller]: Еду вдоль стены. left=0.72 err=0.224
+[INFO] [1776324076.749253077] [robot_controller]: Еду вдоль стены. left=0.73 err=0.225
+[INFO] [1776324077.249402215] [robot_controller]: Еду вдоль стены. left=0.73 err=0.230
+[INFO] [1776324077.751465285] [robot_controller]: Еду вдоль стены. left=0.73 err=0.227
+[INFO] [1776324078.300556972] [robot_controller]: Еду вдоль стены. left=0.72 err=0.225
+[INFO] [1776324078.851229400] [robot_controller]: Еду вдоль стены. left=0.74 err=0.243
+[INFO] [1776324079.399356434] [robot_controller]: Еду вдоль стены. left=0.74 err=0.244
+[INFO] [1776324079.900130571] [robot_controller]: Еду вдоль стены. left=0.73 err=0.235
+[INFO] [1776324080.401419897] [robot_controller]: Еду вдоль стены. left=0.75 err=0.254
+[INFO] [1776324080.949285907] [robot_controller]: Еду вдоль стены. left=0.75 err=0.248
+[INFO] [1776324081.450478388] [robot_controller]: Еду вдоль стены. left=0.75 err=0.251
+[INFO] [1776324081.953369180] [robot_controller]: Еду вдоль стены. left=0.75 err=0.255
+[INFO] [1776324082.499274060] [robot_controller]: Еду вдоль стены. left=0.75 err=0.254
+[INFO] [1776324082.999495946] [robot_controller]: Еду вдоль стены. left=0.75 err=0.247
+[INFO] [1776324083.549605850] [robot_controller]: Еду вдоль стены. left=0.75 err=0.254
+[INFO] [1776324084.099289617] [robot_controller]: Еду вдоль стены. left=0.74 err=0.243
+[INFO] [1776324084.601529187] [robot_controller]: Еду вдоль стены. left=0.75 err=0.254
+[INFO] [1776324085.149384255] [robot_controller]: Еду вдоль стены. left=0.74 err=0.241
+[INFO] [1776324085.699283186] [robot_controller]: Еду вдоль стены. left=0.74 err=0.238
+[INFO] [1776324086.199394218] [robot_controller]: Еду вдоль стены. left=0.74 err=0.243
+[INFO] [1776324086.752394839] [robot_controller]: Еду вдоль стены. left=0.73 err=0.235
+[INFO] [1776324087.299255383] [robot_controller]: Еду вдоль стены. left=0.73 err=0.232
+[INFO] [1776324087.852812522] [robot_controller]: Еду вдоль стены. left=0.73 err=0.228
+[INFO] [1776324088.399509988] [robot_controller]: Еду вдоль стены. left=0.72 err=0.218
+[INFO] [1776324088.949374922] [robot_controller]: Еду вдоль стены. left=0.71 err=0.215
+[INFO] [1776324089.449553495] [robot_controller]: Еду вдоль стены. left=0.71 err=0.214
+[INFO] [1776324089.999274092] [robot_controller]: Еду вдоль стены. left=0.70 err=0.201
+[INFO] [1776324090.501274312] [robot_controller]: Еду вдоль стены. left=0.69 err=0.185
+[INFO] [1776324091.049261843] [robot_controller]: Еду вдоль стены. left=0.68 err=0.181
+[INFO] [1776324091.549323703] [robot_controller]: Еду вдоль стены. left=0.67 err=0.168
+[INFO] [1776324092.049416347] [robot_controller]: Еду вдоль стены. left=0.65 err=0.154
+[INFO] [1776324092.600964808] [robot_controller]: Еду вдоль стены. left=0.62 err=0.123
+[INFO] [1776324093.149250187] [robot_controller]: Еду вдоль стены. left=0.60 err=0.104
+[INFO] [1776324093.649340079] [robot_controller]: Еду вдоль стены. left=0.57 err=0.070
+[INFO] [1776324094.149431703] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324094.699574813] [robot_controller]: Стена слева! Начинаю следование. left=0.53
+[INFO] [1776324095.199818623] [robot_controller]: Стена слева! Начинаю следование. left=0.51
+[INFO] [1776324095.699998624] [robot_controller]: Стена слева! Начинаю следование. left=0.51
+[INFO] [1776324096.249219824] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324096.750147885] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324097.299281060] [robot_controller]: Стена слева! Начинаю следование. left=0.48
+[INFO] [1776324097.799296496] [robot_controller]: Стена слева! Начинаю следование. left=0.48
+[INFO] [1776324098.300345996] [robot_controller]: Стена слева! Начинаю следование. left=0.46
+[INFO] [1776324098.849170165] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324099.349324388] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324099.899250790] [robot_controller]: Стена слева! Начинаю следование. left=0.43
+[INFO] [1776324100.399382664] [robot_controller]: Стена слева! Начинаю следование. left=0.42
+[INFO] [1776324100.949265695] [robot_controller]: Стена впереди! Поворачиваю вправо
+[INFO] [1776324101.459138457] [robot_controller]: Стена впереди! Поворачиваю вправо

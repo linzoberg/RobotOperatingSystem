@@ -1,0 +1,18 @@
+1776260874.1123633 [INFO] [launch]: All log files can be found below /home/dima/.ros/log/2026-04-15-17-47-54-111305-DESKTOP-6NGNJC6-553
+1776260874.1124723 [INFO] [launch]: Default logging verbosity is set to INFO
+1776260874.7317216 [INFO] [gazebo-1]: process started with pid [556]
+1776260874.7318485 [INFO] [gazebo-2]: process started with pid [557]
+1776260874.7319314 [INFO] [robot_state_publisher-3]: process started with pid [558]
+1776260874.7320037 [INFO] [create-4]: process started with pid [561]
+1776260874.7320726 [INFO] [parameter_bridge-5]: process started with pid [562]
+1776260874.7321370 [INFO] [image_bridge-6]: process started with pid [563]
+1776260875.5658593 [INFO] [create-4]: process has finished cleanly [pid 561]
+1776261106.5689914 [INFO] [gazebo-2]: process has finished cleanly [pid 557]
+1776261106.5692883 [INFO] [launch]: process[gazebo-2] was required: shutting down launched system
+1776261106.5711379 [INFO] [image_bridge-6]: sending signal 'SIGINT' to process[image_bridge-6]
+1776261106.5717492 [INFO] [parameter_bridge-5]: sending signal 'SIGINT' to process[parameter_bridge-5]
+1776261106.5723746 [INFO] [robot_state_publisher-3]: sending signal 'SIGINT' to process[robot_state_publisher-3]
+1776261106.5728850 [INFO] [gazebo-1]: sending signal 'SIGINT' to process[gazebo-1]
+1776261106.6788688 [INFO] [parameter_bridge-5]: process has finished cleanly [pid 562]
+1776261106.6883886 [INFO] [robot_state_publisher-3]: process has finished cleanly [pid 558]
+1776261106.7098606 [INFO] [image_bridge-6]: process has finished cleanly [pid 563]

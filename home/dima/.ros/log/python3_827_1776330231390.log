@@ -1,0 +1,9 @@
+[INFO] [1776330231.536139418] [robot_controller]: Поток клавиатуры запущен.
+[INFO] [1776330256.477350607] [robot_controller]: Режим: РУЧНОЕ УПРАВЛЕНИЕ
+[INFO] [1776330270.795236152] [robot_controller]: СТОП
+[INFO] [1776330281.114252134] [robot_controller]: СТОП
+[INFO] [1776330287.255881835] [robot_controller]: СТОП
+[INFO] [1776330291.170247390] [robot_controller]: СТОП
+[INFO] [1776330294.187207187] [robot_controller]: СТОП
+[INFO] [1776330295.754854938] [robot_controller]: СТОП
+[INFO] [1776330297.861137170] [robot_controller]: Режим: ДВИЖЕНИЕ ПО ЭЛЛИПСУ | Старт: (1.84, -1.06) yaw=-72.2°

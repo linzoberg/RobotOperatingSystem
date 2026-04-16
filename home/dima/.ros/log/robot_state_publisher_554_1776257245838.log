@@ -1,0 +1,7 @@
+[INFO] [1776257245.917560168] [robot_state_publisher]: Robot initialized
+[WARN] [1776257258.617760703] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[WARN] [1776257260.609143056] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[WARN] [1776257260.684369525] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[WARN] [1776257260.929048814] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[WARN] [1776257262.441573422] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[WARN] [1776257263.153892423] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!

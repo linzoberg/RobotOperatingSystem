@@ -326,3 +326,337 @@ ros2 run lab2_navigator go_to_point
 ros2 run lab2_navigator cmd_vel_bridge
 ros2 launch lab2_navigator navigation.launch.py
 ros2 launch lab2_world lab2_world.launch.py
+ros2 topic info /cmd_vel
+export TURTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_gazebo empty_world.launch.py
+ros2 topic info /cmd_vel
+ros2 topic list
+ros2 topic info /cmd_vel --verbose
+clear
+cd ~/ros2_ws/src
+ros2 pkg create --build-type ament_python lab3_ellipse --dependencies rclpy geometry_msgs
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/ellipse_controller.py
+nano ~/ros2_ws/src/lab3_ellipse/setup.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+ros2 run lab3_ellipse ellipse
+ls ~/ros2_ws/src/lab2_world/
+ls ~/ros2_ws/src/lab2_world/launch/
+ls ~/ros2_ws/src/lab2_world/worlds/
+export TURTLEBOT3_MODEL=burger
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py
+cat ~/ros2_ws/src/lab2_world/launch/lab2_world.launch.py
+clear
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse ellipse
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse ellipse --ros-args -p a:=1.0 -p b:=0.5
+cat ~/ros2_ws/src/lab2_world/worlds/lab2_world.sdf
+clear
+ros2 launch lab2_world lab2_world.launch.py
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-3.0 y_pose:=-4.0
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse ellipse --ros-args -p a:=0.8 -p b:=0.5
+ros2 topic echo /cmd_vel --once
+ros2 topic echo /odom --once
+rviz2
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/ellipse_controller.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse ellipse --ros-args -p a:=1.5 -p b:=0.7 -p loops:=1
+ros2 run lab3_ellipse ellipse --ros-args -p a:=1.5 -p b:=0.7 
+ros2 launch slam_toolbox online_async_launch.py use_sim_time:=true
+rviz2
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse ellipse --ros-args -p a:=1.5 -p b:=0.7 -p speed:=0.15
+ros2 launch slam_toolbox online_async_launch.py use_sim_time:=true
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/ellipse_controller.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse ellipse --ros-args -p a:=1.5 -p b:=0.7 -p speed:=0.12 -p loops:=1
+rviz2
+ros2 launch slam_toolbox online_async_launch.py use_sim_time:=true
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/ellipse_controller.py
+nano ~/ros2_ws/src/lab3_ellipse/package.xml
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+rm ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/ellipse_controller.py
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/__init__.py
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/robot_controller.py
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/ellipse_motion.py
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/wall_follower.py
+nano ~/ros2_ws/src/lab3_ellipse/setup.py
+nano ~/ros2_ws/src/lab3_ellipse/package.xml
+сдуфк
+clear
+ls ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+rviz2
+ros2 launch slam_toolbox online_async_launch.py use_sim_time:=true
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse robot --ros-args -p a:=1.0 -p b:=0.5
+ls ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/
+clear
+cat ~/ros2_ws/src/lab3_ellipse/setup.py
+nano ~/ros2_ws/src/lab3_ellipse/setup.py
+clear
+rm -rf ~/ros2_ws/build/lab3_ellipse
+rm -rf ~/ros2_ws/install/lab3_ellipse
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+ros2 run lab3_ellipse robot --ros-args -p a:=1.0 -p b:=0.5
+ros2 run rqt_plot rqt_plot /wall_error/data /wall_speed/data
+rviz2
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/ellipse_motion.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+ros2 run lab3_ellipse robot --ros-args -p a:=1.0 -p b:=0.5
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+rviz
+rviz2
+ros2 run rqt_plot rqt_plot /wall_error/data /wall_speed/data
+rviz2
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse robot --ros-args -p a:=1.0 -p b:=0.5 -p speed:=0.30
+rviz2
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/ellipse_motion.py
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/wall_follower.py
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/robot_controller.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+clear
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/robot_controller.py
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/ellipse_motion.py
+rqt
+sudo apt install ros-jazzy-plotjuggler-ros
+ros2 run plotjuggler plotjuggler
+ros2 run lab3_ellipse robot --ros-args -p a:=1.0 -p b:=0.5
+rviz2
+clear
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+ros2 run plotjuggler plotjuggler
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+ros2 run lab3_ellipse robot --ros-args -p a:=1.0 -p b:=0.5 -p speed:=0.5
+rviz2
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/ellipse_motion.py
+sudo apt install ros-jazzy-plotjuggler-ros
+source /opt/ros/jazzy/setup.bash
+ros2 run plotjuggler plotjuggler
+ros2 run lab2_navigator go_to_point
+ros2 run lab2_navigator cmd_vel_bridge
+ros2 launch lab2_navigator navigation.launch.py
+ros2 launch lab2_world lab2_world.launch.py
+ros2 run lab3_ellipse robot --ros-args -p a:=0.7 -p b:=0.4 -p speed:=0.5
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/ellipse_motion.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+rviz2
+source /opt/ros/jazzy/setup.bash
+ros2 run plotjuggler plotjuggler
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse robot --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.5
+rviz2
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/ellipse_motion.py
+grep set_node ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/robot_controller.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+export TURTLEBOT3_MODEL=waffle
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+ros2 run lab3_ellipse robot --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.5
+rviz2
+os2 run plotjuggler plotjuggler
+ros2 run plotjuggler plotjuggler
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/wall_follower.py
+ros2 run lab3_ellipse robot --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.5
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+ros2 run lab3_ellipse robot --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.7
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/wall_follower.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+ros2 run lab3_ellipse robot --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.30
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/wall_follower.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse robot --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.25 -p wall_dist:=0.6
+ros2 topic echo /rosout | grep wall
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/wall_follower.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse robot --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.22 -p wall_dist:=0.55
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/wall_follower.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/wall_follower.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse robot --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.25 -p wall_dist:=0.5
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse robot --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.25 -p wall_dist:=0.5
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/wall_follower.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse robot --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.25 -p wall_dist:=0.5
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/wall_follower.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse robot --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.25 -p wall_dist:=0.5
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/wall_follower.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse robot   --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.22 -p wall_dist:=0.5
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/wall_follower.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse robot   --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.20 -p wall_dist:=0.5
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/wall_follower.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse robot   --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.20 -p wall_dist:=0.5
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/wall_follower.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse robot   --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.20 -p wall_dist:=0.5
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/wall_follower.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+source ~/ros2_ws/install/setup.bash
+ros2 run lab3_ellipse robot   --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.22 -p wall_dist:=0.5
+ros2 run lab3_ellipse robot   --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.5 -p wall_dist:=0.5
+nano ~/ros2_ws/src/lab3_ellipse/lab3_ellipse/wall_follower.py
+cd ~/ros2_ws
+colcon build --packages-select lab3_ellipse
+source install/setup.bash
+export TURTLEBOT3_MODEL=waffle
+source ~/ros2_ws/install/setup.bash
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+ros2 run lab3_ellipse robot   --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.5 -p wall_dist:=0.5
+ros2 run plotjuggler plotjuggler
+rviz2
+ros2 run lab3_ellipse robot   --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.5 -p wall_dist:=0.5
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+rviz2
+ros2 run lab3_ellipse robot   --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.5 -p wall_dist:=0.5
+ros2 run plotjuggler plotjuggler
+ros2 launch lab2_world lab2_world.launch.py x_pose:=-1.5 y_pose:=-3.5
+ros2 run lab3_ellipse robot   --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.5 -p wall_dist:=0.5
+rviz2
+ros2 run plotjuggler plotjuggler
+ros2 run lab3_ellipse robot   --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.5 -p wall_dist:=0.5
+ros2 launch lab2_world lab2_world.launch.py
+ros2 run plotjuggler plotjuggler
+ros2 run lab3_ellipse robot   --ros-args -p a:=0.6 -p b:=0.35 -p speed:=1.0 -p wall_dist:=0.5
+ros2 run lab3_ellipse robot   --ros-args -p a:=0.6 -p b:=0.35 -p speed:=1.0 -p wall_dist:=0.5
+ros2 run plotjuggler plotjuggler
+ros2 launch lab2_world lab2_world.launch.py
+ros2 run lab3_ellipse robot   --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.8 -p wall_dist:=0.5
+ros2 run plotjuggler plotjuggler
+ros2 run lab3_ellipse robot   --ros-args -p a:=0.6 -p b:=0.35 -p speed:=0.5 -p wall_dist:=0.5
+ros2 launch lab2_world lab2_world.launch.py

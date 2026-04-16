@@ -1,0 +1,22 @@
+1776256418.8837464 [INFO] [launch]: All log files can be found below /home/dima/.ros/log/2026-04-15-16-33-38-882166-DESKTOP-6NGNJC6-524
+1776256418.8838625 [INFO] [launch]: Default logging verbosity is set to INFO
+1776256419.4987090 [INFO] [gazebo-1]: process started with pid [528]
+1776256419.4988408 [INFO] [gazebo-2]: process started with pid [529]
+1776256419.4989443 [INFO] [robot_state_publisher-3]: process started with pid [530]
+1776256419.4990442 [INFO] [create-4]: process started with pid [533]
+1776256419.4991169 [INFO] [parameter_bridge-5]: process started with pid [534]
+1776256419.4992254 [INFO] [image_bridge-6]: process started with pid [535]
+1776256420.3507726 [INFO] [create-4]: process has finished cleanly [pid 533]
+1776256492.9852812 [INFO] [gazebo-2]: process has finished cleanly [pid 529]
+1776256492.9855585 [INFO] [launch]: process[gazebo-2] was required: shutting down launched system
+1776256492.9872174 [INFO] [image_bridge-6]: sending signal 'SIGINT' to process[image_bridge-6]
+1776256492.9876182 [INFO] [parameter_bridge-5]: sending signal 'SIGINT' to process[parameter_bridge-5]
+1776256492.9881096 [INFO] [robot_state_publisher-3]: sending signal 'SIGINT' to process[robot_state_publisher-3]
+1776256492.9886646 [INFO] [gazebo-1]: sending signal 'SIGINT' to process[gazebo-1]
+1776256493.0942535 [INFO] [parameter_bridge-5]: process has finished cleanly [pid 534]
+1776256493.0967767 [INFO] [robot_state_publisher-3]: process has finished cleanly [pid 530]
+1776256493.1078589 [INFO] [image_bridge-6]: process has finished cleanly [pid 535]
+1776256497.9925578 [ERROR] [gazebo-1]: process[gazebo-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1776256497.9929955 [INFO] [gazebo-1]: sending signal 'SIGTERM' to process[gazebo-1]
+1776256497.9933376 [ERROR] [gazebo-1]: process has died [pid 528, exit code -15, cmd 'ruby /opt/ros/jazzy/opt/gz_tools_vendor/bin/gz sim -r -s -v2 /home/dima/ros2_ws/src/lab2_world/worlds/lab2_world.sdf --force-version 8'].
+1776256497.9935253 [INFO] [launch]: process[gazebo-1] was required: shutting down launched system

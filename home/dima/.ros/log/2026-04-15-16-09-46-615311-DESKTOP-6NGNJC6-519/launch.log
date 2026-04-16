@@ -1,0 +1,15 @@
+1776254986.6165502 [INFO] [launch]: All log files can be found below /home/dima/.ros/log/2026-04-15-16-09-46-615311-DESKTOP-6NGNJC6-519
+1776254986.6166651 [INFO] [launch]: Default logging verbosity is set to INFO
+1776254987.2182121 [INFO] [gazebo-1]: process started with pid [522]
+1776254987.2183321 [INFO] [gazebo-2]: process started with pid [523]
+1776254987.2184117 [INFO] [create-3]: process started with pid [524]
+1776254987.2184811 [INFO] [parameter_bridge-4]: process started with pid [527]
+1776254987.2185454 [INFO] [robot_state_publisher-5]: process started with pid [528]
+1776254991.1859012 [INFO] [create-3]: process has finished cleanly [pid 524]
+1776255267.9501729 [INFO] [gazebo-2]: process has finished cleanly [pid 523]
+1776255267.9503939 [INFO] [launch]: process[gazebo-2] was required: shutting down launched system
+1776255267.9514198 [INFO] [robot_state_publisher-5]: sending signal 'SIGINT' to process[robot_state_publisher-5]
+1776255267.9517732 [INFO] [parameter_bridge-4]: sending signal 'SIGINT' to process[parameter_bridge-4]
+1776255267.9523053 [INFO] [gazebo-1]: sending signal 'SIGINT' to process[gazebo-1]
+1776255268.0582902 [INFO] [parameter_bridge-4]: process has finished cleanly [pid 527]
+1776255268.0594671 [INFO] [robot_state_publisher-5]: process has finished cleanly [pid 528]

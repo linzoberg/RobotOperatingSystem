@@ -1,0 +1,383 @@
+[INFO] [1776324935.095566130] [robot_controller]: Поток клавиатуры запущен.
+[INFO] [1776324940.004912142] [robot_controller]: Режим: ДВИЖЕНИЕ ВДОЛЬ СТЕНЫ
+[INFO] [1776324940.027480940] [robot_controller]: DRIVE: еду прямо, front=1.48
+[INFO] [1776324940.577929609] [robot_controller]: DRIVE: еду прямо, front=1.46
+[INFO] [1776324941.127374183] [robot_controller]: DRIVE: еду прямо, front=1.43
+[INFO] [1776324941.677101362] [robot_controller]: DRIVE: еду прямо, front=1.40
+[INFO] [1776324942.179119201] [robot_controller]: DRIVE: еду прямо, front=1.36
+[INFO] [1776324942.732962426] [robot_controller]: DRIVE: еду прямо, front=1.33
+[INFO] [1776324943.279422544] [robot_controller]: DRIVE: еду прямо, front=1.28
+[INFO] [1776324943.828531731] [robot_controller]: DRIVE: еду прямо, front=1.26
+[INFO] [1776324944.379122201] [robot_controller]: DRIVE: еду прямо, front=1.20
+[INFO] [1776324944.879435374] [robot_controller]: DRIVE: еду прямо, front=1.16
+[INFO] [1776324945.431452644] [robot_controller]: DRIVE: еду прямо, front=1.12
+[INFO] [1776324945.981425714] [robot_controller]: DRIVE: еду прямо, front=1.08
+[INFO] [1776324946.527731685] [robot_controller]: DRIVE: еду прямо, front=1.04
+[INFO] [1776324947.077233255] [robot_controller]: DRIVE: еду прямо, front=0.99
+[INFO] [1776324947.577939828] [robot_controller]: DRIVE: еду прямо, front=0.97
+[INFO] [1776324948.127138299] [robot_controller]: DRIVE: еду прямо, front=0.94
+[INFO] [1776324948.627154772] [robot_controller]: DRIVE: еду прямо, front=0.92
+[INFO] [1776324949.127216399] [robot_controller]: DRIVE: еду прямо, front=0.87
+[INFO] [1776324949.628103126] [robot_controller]: DRIVE: еду прямо, front=0.78
+[INFO] [1776324950.177349855] [robot_controller]: DRIVE: еду прямо, front=0.75
+[INFO] [1776324950.678162499] [robot_controller]: DRIVE: еду прямо, front=0.72
+[INFO] [1776324951.179688452] [robot_controller]: DRIVE: еду прямо, front=0.68
+[INFO] [1776324951.727474963] [robot_controller]: DRIVE: еду прямо, front=0.66
+[INFO] [1776324952.231726048] [robot_controller]: DRIVE: еду прямо, front=0.61
+[INFO] [1776324952.778082442] [robot_controller]: TURN: 5° из 90°
+[INFO] [1776324953.327661475] [robot_controller]: TURN: 14° из 90°
+[INFO] [1776324953.877110006] [robot_controller]: TURN: 23° из 90°
+[INFO] [1776324954.428173157] [robot_controller]: TURN: 34° из 90°
+[INFO] [1776324954.977106581] [robot_controller]: TURN: 43° из 90°
+[INFO] [1776324955.479700447] [robot_controller]: TURN: 51° из 90°
+[INFO] [1776324956.027293656] [robot_controller]: TURN: 58° из 90°
+[INFO] [1776324956.579703423] [robot_controller]: TURN: 68° из 90°
+[INFO] [1776324957.127536599] [robot_controller]: TURN: 77° из 90°
+[INFO] [1776324957.627718418] [robot_controller]: TURN: 85° из 90°
+[INFO] [1776324958.178105686] [robot_controller]: ALIGN: нос к стене, вправо. diff=-0.515
+[INFO] [1776324958.727158259] [robot_controller]: ALIGN: нос к стене, вправо. diff=-0.205
+[INFO] [1776324959.227585494] [robot_controller]: ALIGN: нос к стене, вправо. diff=-0.124
+[INFO] [1776324959.779356003] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776324960.279561343] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776324960.827565772] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776324961.379926137] [robot_controller]: FOLLOW: прямо! left=0.50
+[INFO] [1776324961.928290259] [robot_controller]: FOLLOW: прямо! left=0.50
+[INFO] [1776324962.477666759] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776324963.027791325] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776324963.577145191] [robot_controller]: FOLLOW: прямо! left=0.50
+[INFO] [1776324964.077608860] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776324964.580923329] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776324965.127429665] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776324965.627694772] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776324966.183933810] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776324966.727338854] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776324967.277124582] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776324967.777530384] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776324968.278644736] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776324968.827359401] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776324969.377194341] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776324969.877316370] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776324970.377468652] [robot_controller]: FOLLOW: прямо! left=0.50
+[INFO] [1776324970.927276448] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776324971.427308238] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776324971.927374998] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776324972.477457569] [robot_controller]: FOLLOW: прямо! left=0.50
+[INFO] [1776324973.027299739] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776324973.578629041] [robot_controller]: FOLLOW: прямо! left=0.50
+[INFO] [1776324974.083749431] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776324974.627256034] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776324975.177077704] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776324975.677625532] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776324976.227531821] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776324976.731726596] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776324977.277408404] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776324977.779697036] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776324978.327179763] [robot_controller]: FOLLOW: прямо! left=0.50
+[INFO] [1776324978.830616562] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776324979.377142266] [robot_controller]: FOLLOW: прямо! left=0.50
+[INFO] [1776324979.883706691] [robot_controller]: FOLLOW: прямо! left=0.50
+[INFO] [1776324980.427364630] [robot_controller]: FOLLOW: прямо! left=0.52
+[INFO] [1776324980.977132687] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776324981.477145084] [robot_controller]: FOLLOW: прямо! left=0.52
+[INFO] [1776324981.977439643] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776324982.528583348] [robot_controller]: FOLLOW: прямо! left=0.50
+[INFO] [1776324983.077564587] [robot_controller]: FOLLOW: прямо! left=0.52
+[INFO] [1776324983.627084054] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776324984.127906577] [robot_controller]: FOLLOW: прямо! left=0.53
+[INFO] [1776324984.677493425] [robot_controller]: FOLLOW: прямо! left=0.52
+[INFO] [1776324985.227203345] [robot_controller]: FOLLOW: прямо! left=0.53
+[INFO] [1776324985.777526395] [robot_controller]: FOLLOW: стена впереди! Поворачиваю
+[INFO] [1776324986.327565251] [robot_controller]: TURN: 11° из 90°
+[INFO] [1776324986.877122319] [robot_controller]: TURN: 20° из 90°
+[INFO] [1776324987.377129090] [robot_controller]: TURN: 29° из 90°
+[INFO] [1776324987.927885358] [robot_controller]: TURN: 38° из 90°
+[INFO] [1776324988.477582526] [robot_controller]: TURN: 49° из 90°
+[INFO] [1776324989.030464894] [robot_controller]: TURN: 58° из 90°
+[INFO] [1776324989.577691531] [robot_controller]: TURN: 66° из 90°
+[INFO] [1776324990.078528854] [robot_controller]: TURN: 75° из 90°
+[INFO] [1776324990.627351341] [robot_controller]: TURN: 83° из 90°
+[INFO] [1776324991.128665547] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776324991.677441776] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776324992.179074916] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776324992.679697847] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776324993.227476326] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776324993.730388449] [robot_controller]: FOLLOW: корр. left=0.42 err=-0.084 ω=-0.22
+[INFO] [1776324994.277681269] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776324994.827723289] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776324995.377140159] [robot_controller]: FOLLOW: корр. left=0.42 err=-0.082 ω=-0.05
+[INFO] [1776324995.927161629] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776324996.427176502] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776324996.927188475] [robot_controller]: FOLLOW: корр. left=0.42 err=-0.081 ω=-0.05
+[INFO] [1776324997.427392181] [robot_controller]: FOLLOW: корр. left=0.41 err=-0.087 ω=-0.05
+[INFO] [1776324997.977236371] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776324998.477278492] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776324998.977503682] [robot_controller]: FOLLOW: корр. left=0.42 err=-0.080 ω=-0.05
+[INFO] [1776324999.527167566] [robot_controller]: FOLLOW: корр. left=0.42 err=-0.081 ω=-0.05
+[INFO] [1776325000.027201398] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325000.527241063] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325001.027283082] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325001.577133863] [robot_controller]: FOLLOW: корр. left=0.41 err=-0.086 ω=-0.06
+[INFO] [1776325002.081158835] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325002.631525706] [robot_controller]: FOLLOW: корр. left=0.41 err=-0.092 ω=-0.06
+[INFO] [1776325003.177106876] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325003.678423049] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325004.227178919] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325004.777148790] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325005.278183752] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776325005.827307823] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776325006.377109203] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325006.878430104] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325007.427169247] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325007.977229920] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325008.477303790] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325009.027119107] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325009.528698198] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325010.077130522] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325010.577271973] [robot_controller]: FOLLOW: корр. left=0.42 err=-0.083 ω=-0.05
+[INFO] [1776325011.077391064] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325011.628198631] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325012.177141719] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325012.727112251] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325013.277337095] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325013.827116172] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325014.327413988] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325014.877123564] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325015.377248076] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325015.881165262] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325016.430434629] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325016.979470792] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776325017.527382032] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325018.078831042] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325018.627417495] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325019.181050747] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325019.727384557] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776325020.228788294] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776325020.777123143] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325021.278582832] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325021.827374661] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325022.377358481] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776325022.877772870] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325023.432408524] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325023.977453861] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325024.527737656] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776325025.077597760] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776325025.577787575] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325026.127834445] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776325026.629237593] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776325027.177109888] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325027.677907236] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776325028.227365856] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325028.727560438] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776325029.277023450] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776325029.777147296] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776325030.281113930] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776325030.829849409] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776325031.378478197] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776325031.928426631] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325032.477425717] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776325032.977482127] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776325033.533121519] [robot_controller]: FOLLOW: прямо! left=0.50
+[INFO] [1776325034.077248753] [robot_controller]: FOLLOW: прямо! left=0.50
+[INFO] [1776325034.578335435] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776325035.127253999] [robot_controller]: FOLLOW: прямо! left=0.50
+[INFO] [1776325035.627419717] [robot_controller]: FOLLOW: прямо! left=0.50
+[INFO] [1776325036.127412917] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776325036.679875232] [robot_controller]: FOLLOW: прямо! left=0.49
+[INFO] [1776325037.227681504] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776325037.777395380] [robot_controller]: FOLLOW: прямо! left=0.52
+[INFO] [1776325038.328907183] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776325038.877391130] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776325039.427181532] [robot_controller]: FOLLOW: прямо! left=0.53
+[INFO] [1776325039.978232775] [robot_controller]: FOLLOW: прямо! left=0.53
+[INFO] [1776325040.527508598] [robot_controller]: FOLLOW: прямо! left=0.53
+[INFO] [1776325041.077634117] [robot_controller]: FOLLOW: прямо! left=0.52
+[INFO] [1776325041.627081900] [robot_controller]: FOLLOW: прямо! left=0.50
+[INFO] [1776325042.127295389] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776325042.627351523] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776325043.177096610] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776325043.677172250] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776325044.177173365] [robot_controller]: FOLLOW: прямо! left=0.52
+[INFO] [1776325044.727211636] [robot_controller]: FOLLOW: прямо! left=0.53
+[INFO] [1776325045.227226524] [robot_controller]: FOLLOW: прямо! left=0.51
+[INFO] [1776325045.727434961] [robot_controller]: FOLLOW: прямо! left=0.54
+[INFO] [1776325046.227562431] [robot_controller]: FOLLOW: прямо! left=0.53
+[INFO] [1776325046.777231193] [robot_controller]: FOLLOW: прямо! left=0.52
+[INFO] [1776325047.327130744] [robot_controller]: FOLLOW: прямо! left=0.54
+[INFO] [1776325047.827275129] [robot_controller]: FOLLOW: прямо! left=0.54
+[INFO] [1776325048.327578943] [robot_controller]: FOLLOW: прямо! left=0.52
+[INFO] [1776325048.877247805] [robot_controller]: FOLLOW: прямо! left=0.53
+[INFO] [1776325049.427939704] [robot_controller]: FOLLOW: прямо! left=0.53
+[INFO] [1776325049.977021686] [robot_controller]: FOLLOW: прямо! left=0.53
+[INFO] [1776325050.477370438] [robot_controller]: FOLLOW: прямо! left=0.54
+[INFO] [1776325051.027247470] [robot_controller]: FOLLOW: прямо! left=0.52
+[INFO] [1776325051.580639776] [robot_controller]: FOLLOW: прямо! left=0.53
+[INFO] [1776325052.127197695] [robot_controller]: FOLLOW: прямо! left=0.54
+[INFO] [1776325052.628715002] [robot_controller]: FOLLOW: прямо! left=0.54
+[INFO] [1776325053.178052393] [robot_controller]: FOLLOW: прямо! left=0.55
+[INFO] [1776325053.727376396] [robot_controller]: FOLLOW: прямо! left=0.53
+[INFO] [1776325054.227479869] [robot_controller]: FOLLOW: прямо! left=0.54
+[INFO] [1776325054.727809109] [robot_controller]: FOLLOW: прямо! left=0.55
+[INFO] [1776325055.277342479] [robot_controller]: FOLLOW: прямо! left=0.56
+[INFO] [1776325055.827642200] [robot_controller]: FOLLOW: прямо! left=0.54
+[INFO] [1776325056.377373603] [robot_controller]: FOLLOW: прямо! left=0.53
+[INFO] [1776325056.927426215] [robot_controller]: FOLLOW: прямо! left=0.56
+[INFO] [1776325057.427460355] [robot_controller]: FOLLOW: прямо! left=0.54
+[INFO] [1776325057.932054678] [robot_controller]: FOLLOW: прямо! left=0.57
+[INFO] [1776325058.478327756] [robot_controller]: TURN: 5° из 90°
+[INFO] [1776325059.027883552] [robot_controller]: TURN: 14° из 90°
+[INFO] [1776325059.577151505] [robot_controller]: TURN: 22° из 90°
+[INFO] [1776325060.077178478] [robot_controller]: TURN: 31° из 90°
+[INFO] [1776325060.577455751] [robot_controller]: TURN: 38° из 90°
+[INFO] [1776325061.078095624] [robot_controller]: TURN: 46° из 90°
+[INFO] [1776325061.627182938] [robot_controller]: TURN: 54° из 90°
+[INFO] [1776325062.127191159] [robot_controller]: TURN: 63° из 90°
+[INFO] [1776325062.677223035] [robot_controller]: TURN: 72° из 90°
+[INFO] [1776325063.227338878] [robot_controller]: TURN: 81° из 90°
+[INFO] [1776325063.732701751] [robot_controller]: ALIGN: нос к стене, вправо. diff=-0.049
+[INFO] [1776325064.277352369] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325064.777669850] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325065.327366062] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325065.880676486] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325066.429507030] [robot_controller]: FOLLOW: корр. left=0.41 err=-0.091 ω=-0.05
+[INFO] [1776325066.977107006] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776325067.477870422] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325068.027138707] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325068.527183145] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776325069.077249720] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325069.627432177] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776325070.128231490] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325070.679675137] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325071.227383376] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776325071.728578818] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776325072.277374187] [robot_controller]: FOLLOW: корр. left=0.42 err=-0.080 ω=-0.05
+[INFO] [1776325072.777409363] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325073.327254737] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776325073.829080789] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325074.377305634] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325074.877394120] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776325075.377442446] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325075.928696324] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776325076.477931291] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776325077.027396179] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325077.528190940] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325078.083720092] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325078.627583839] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325079.177773639] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325079.727279901] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325080.277234922] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325080.777390561] [robot_controller]: FOLLOW: корр. left=0.42 err=-0.080 ω=-0.05
+[INFO] [1776325081.329220773] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325081.877102045] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325082.381231785] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325082.927348764] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325083.427390564] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325083.979164161] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325084.527505861] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776325085.030403973] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325085.577779765] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325086.127214118] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325086.629195008] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325087.177299678] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325087.681508659] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325088.227301930] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325088.727613078] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325089.277629940] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325089.827177935] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325090.327554841] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325090.829551364] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325091.331072537] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325091.877508107] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325092.427522877] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325092.977116446] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325093.477154253] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325093.977524019] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325094.527423464] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325095.027590218] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325095.577551637] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325096.077776626] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325096.627402388] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325097.177369773] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325097.678803232] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325098.227722898] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325098.728613642] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325099.277303303] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325099.777559431] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325100.328438451] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325100.877118102] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325101.377271093] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325101.927464609] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325102.428556991] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325102.977130243] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325103.477657046] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325104.028777819] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325104.580060186] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325105.127091861] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325105.630183771] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325106.177701937] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325106.727174208] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325107.227453594] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325107.728489691] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325108.277366636] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325108.783134197] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325109.327071262] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325109.827281872] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325110.377402743] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325110.877560147] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325111.427424049] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325111.927522675] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325112.428004717] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776325112.977501727] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776325113.527134450] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325114.027690922] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325114.579072592] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325115.083040065] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325115.627813935] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776325116.131034008] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776325116.679082678] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325117.227173448] [robot_controller]: FOLLOW: прямо! left=0.48
+[INFO] [1776325117.727332953] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325118.228850805] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325118.777560776] [robot_controller]: FOLLOW: прямо! left=0.47
+[INFO] [1776325119.327757450] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325119.827917381] [robot_controller]: TURN: 6° из 90°
+[INFO] [1776325120.377280089] [robot_controller]: TURN: 14° из 90°
+[INFO] [1776325120.931249553] [robot_controller]: TURN: 24° из 90°
+[INFO] [1776325121.477216677] [robot_controller]: TURN: 32° из 90°
+[INFO] [1776325121.979321318] [robot_controller]: TURN: 38° из 90°
+[INFO] [1776325122.527907912] [robot_controller]: TURN: 48° из 90°
+[INFO] [1776325123.077269778] [robot_controller]: TURN: 56° из 90°
+[INFO] [1776325123.577391347] [robot_controller]: TURN: 64° из 90°
+[INFO] [1776325124.128463313] [robot_controller]: TURN: 73° из 90°
+[INFO] [1776325124.677472879] [robot_controller]: TURN: 82° из 90°
+[INFO] [1776325125.179045848] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325125.728548287] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325126.277727499] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325126.827491117] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776325127.378169272] [robot_controller]: FOLLOW: прямо! left=0.43
+[INFO] [1776325127.927362359] [robot_controller]: FOLLOW: корр. left=0.41 err=-0.086 ω=-0.06
+[INFO] [1776325128.477315812] [robot_controller]: FOLLOW: корр. left=0.40 err=-0.104 ω=-0.09
+[INFO] [1776325129.027407813] [robot_controller]: FOLLOW: корр. left=0.40 err=-0.102 ω=-0.08
+[INFO] [1776325129.579142236] [robot_controller]: FOLLOW: корр. left=0.39 err=-0.106 ω=-0.06
+[INFO] [1776325130.127154793] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776325130.627704191] [robot_controller]: FOLLOW: корр. left=0.40 err=-0.102 ω=-0.06
+[INFO] [1776325131.129212526] [robot_controller]: FOLLOW: корр. left=0.39 err=-0.109 ω=-0.07
+[INFO] [1776325131.677226316] [robot_controller]: FOLLOW: корр. left=0.40 err=-0.103 ω=-0.06
+[INFO] [1776325132.177424710] [robot_controller]: FOLLOW: корр. left=0.41 err=-0.092 ω=-0.06
+[INFO] [1776325132.729848480] [robot_controller]: FOLLOW: корр. left=0.40 err=-0.095 ω=-0.06
+[INFO] [1776325133.279080651] [robot_controller]: FOLLOW: корр. left=0.41 err=-0.088 ω=-0.05
+[INFO] [1776325133.779196443] [robot_controller]: FOLLOW: корр. left=0.41 err=-0.093 ω=-0.06
+[INFO] [1776325134.327189516] [robot_controller]: FOLLOW: корр. left=0.41 err=-0.087 ω=-0.05
+[INFO] [1776325134.827239118] [robot_controller]: FOLLOW: корр. left=0.42 err=-0.081 ω=-0.05
+[INFO] [1776325135.331163164] [robot_controller]: FOLLOW: корр. left=0.41 err=-0.085 ω=-0.05
+[INFO] [1776325135.877363774] [robot_controller]: FOLLOW: корр. left=0.42 err=-0.080 ω=-0.02
+[INFO] [1776325136.430186295] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776325136.979080458] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325137.527326118] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325138.027489073] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776325138.577174657] [robot_controller]: FOLLOW: прямо! left=0.42
+[INFO] [1776325139.077219963] [robot_controller]: FOLLOW: прямо! left=0.46
+[INFO] [1776325139.578028563] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325140.127425651] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325140.681647173] [robot_controller]: FOLLOW: прямо! left=0.44
+[INFO] [1776325141.227141916] [robot_controller]: FOLLOW: прямо! left=0.45
+[INFO] [1776325141.727260839] [robot_controller]: FOLLOW: прямо! left=0.48

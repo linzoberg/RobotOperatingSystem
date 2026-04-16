@@ -1,0 +1,7 @@
+[INFO] [1776255236.505930875] [ellipse_controller]: Эллипс: a=2.0, b=1.0, w0=0.3
+[INFO] [1776255236.604574712] [ellipse_controller]: t=0.00 v=0.300 w=0.600
+[INFO] [1776255237.604717058] [ellipse_controller]: t=0.30 v=0.337 w=0.475
+[INFO] [1776255238.654597989] [ellipse_controller]: t=0.62 v=0.424 w=0.300
+[INFO] [1776255239.704604710] [ellipse_controller]: t=0.93 v=0.513 w=0.205
+[INFO] [1776255240.754660024] [ellipse_controller]: t=1.24 v=0.576 w=0.162
+[INFO] [1776255241.754910281] [ellipse_controller]: t=1.54 v=0.600 w=0.150

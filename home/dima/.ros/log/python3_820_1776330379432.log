@@ -1,0 +1,15 @@
+[INFO] [1776330379.558361307] [robot_controller]: Поток клавиатуры запущен.
+[INFO] [1776330402.706229170] [robot_controller]: Режим: РУЧНОЕ УПРАВЛЕНИЕ
+[INFO] [1776330413.197685691] [robot_controller]: СТОП
+[INFO] [1776330425.383107179] [robot_controller]: СТОП
+[INFO] [1776330428.434917761] [robot_controller]: СТОП
+[INFO] [1776330441.526335218] [robot_controller]: СТОП
+[INFO] [1776330449.745450850] [robot_controller]: СТОП
+[INFO] [1776330453.458681998] [robot_controller]: СТОП
+[INFO] [1776330454.431453492] [robot_controller]: СТОП
+[INFO] [1776330455.138715067] [robot_controller]: СТОП
+[INFO] [1776330457.548636579] [robot_controller]: Режим: ДВИЖЕНИЕ ПО ЭЛЛИПСУ | Старт: (1.04, -2.88) yaw=-29.2°
+[INFO] [1776330482.706377914] [robot_controller]: СТОП
+[INFO] [1776330483.867866637] [robot_controller]: Режим: РУЧНОЕ УПРАВЛЕНИЕ
+[INFO] [1776330484.016476107] [robot_controller]: СТОП
+[INFO] [1776330487.215441813] [robot_controller]: Режим: ДВИЖЕНИЕ ВДОЛЬ СТЕНЫ

@@ -1,0 +1,24 @@
+[0.874s] Invoking command in '/home/dima/ros2_ws/src/lab3_ellipse': PYTHONPATH=/home/dima/ros2_ws/build/lab3_ellipse/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dima/ros2_ws/install/lab3_ellipse/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab3_ellipse build --build-base /home/dima/ros2_ws/build/lab3_ellipse/build install --record /home/dima/ros2_ws/build/lab3_ellipse/install.log --single-version-externally-managed install_data
+[1.105s] running egg_info
+[1.122s] writing ../../build/lab3_ellipse/lab3_ellipse.egg-info/PKG-INFO
+[1.123s] writing dependency_links to ../../build/lab3_ellipse/lab3_ellipse.egg-info/dependency_links.txt
+[1.123s] writing entry points to ../../build/lab3_ellipse/lab3_ellipse.egg-info/entry_points.txt
+[1.123s] writing requirements to ../../build/lab3_ellipse/lab3_ellipse.egg-info/requires.txt
+[1.123s] writing top-level names to ../../build/lab3_ellipse/lab3_ellipse.egg-info/top_level.txt
+[1.157s] reading manifest file '../../build/lab3_ellipse/lab3_ellipse.egg-info/SOURCES.txt'
+[1.159s] writing manifest file '../../build/lab3_ellipse/lab3_ellipse.egg-info/SOURCES.txt'
+[1.159s] running build
+[1.159s] running build_py
+[1.160s] copying lab3_ellipse/wall_follower.py -> /home/dima/ros2_ws/build/lab3_ellipse/build/lib/lab3_ellipse
+[1.160s] running install
+[1.165s] running install_lib
+[1.191s] copying /home/dima/ros2_ws/build/lab3_ellipse/build/lib/lab3_ellipse/wall_follower.py -> /home/dima/ros2_ws/install/lab3_ellipse/lib/python3.12/site-packages/lab3_ellipse
+[1.191s] byte-compiling /home/dima/ros2_ws/install/lab3_ellipse/lib/python3.12/site-packages/lab3_ellipse/wall_follower.py to wall_follower.cpython-312.pyc
+[1.193s] running install_data
+[1.194s] running install_egg_info
+[1.216s] removing '/home/dima/ros2_ws/install/lab3_ellipse/lib/python3.12/site-packages/lab3_ellipse-0.0.1-py3.12.egg-info' (and everything under it)
+[1.216s] Copying ../../build/lab3_ellipse/lab3_ellipse.egg-info to /home/dima/ros2_ws/install/lab3_ellipse/lib/python3.12/site-packages/lab3_ellipse-0.0.1-py3.12.egg-info
+[1.218s] running install_scripts
+[1.338s] Installing robot script to /home/dima/ros2_ws/install/lab3_ellipse/lib/lab3_ellipse
+[1.339s] writing list of installed files to '/home/dima/ros2_ws/build/lab3_ellipse/install.log'
+[1.358s] Invoked command in '/home/dima/ros2_ws/src/lab3_ellipse' returned '0': PYTHONPATH=/home/dima/ros2_ws/build/lab3_ellipse/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dima/ros2_ws/install/lab3_ellipse/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab3_ellipse build --build-base /home/dima/ros2_ws/build/lab3_ellipse/build install --record /home/dima/ros2_ws/build/lab3_ellipse/install.log --single-version-externally-managed install_data

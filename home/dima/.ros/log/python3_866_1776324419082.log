@@ -1,0 +1,259 @@
+[INFO] [1776324419.588237812] [robot_controller]: Поток клавиатуры запущен.
+[INFO] [1776324421.337336579] [robot_controller]: Режим: ДВИЖЕНИЕ ПО ЭЛЛИПСУ | Старт: (0.00, 0.00) yaw=0.0°
+[INFO] [1776324421.363273095] [robot_controller]: Режим: ДВИЖЕНИЕ ВДОЛЬ СТЕНЫ
+[INFO] [1776324421.409485171] [robot_controller]: Еду прямо. front=1.48
+[INFO] [1776324421.961385548] [robot_controller]: Еду прямо. front=1.47
+[INFO] [1776324422.509177926] [robot_controller]: Еду прямо. front=1.44
+[INFO] [1776324423.011635078] [robot_controller]: Еду прямо. front=1.41
+[INFO] [1776324423.558948297] [robot_controller]: Еду прямо. front=1.36
+[INFO] [1776324424.059211375] [robot_controller]: Еду прямо. front=1.31
+[INFO] [1776324424.561424127] [robot_controller]: Еду прямо. front=1.30
+[INFO] [1776324425.109644963] [robot_controller]: Еду прямо. front=1.25
+[INFO] [1776324425.660057490] [robot_controller]: Еду прямо. front=1.20
+[INFO] [1776324426.209385276] [robot_controller]: Еду прямо. front=1.17
+[INFO] [1776324426.759252237] [robot_controller]: Еду прямо. front=1.11
+[INFO] [1776324427.259566231] [robot_controller]: Еду прямо. front=1.10
+[INFO] [1776324427.809333699] [robot_controller]: Еду прямо. front=1.06
+[INFO] [1776324428.365239029] [robot_controller]: Еду прямо. front=1.00
+[INFO] [1776324428.909062813] [robot_controller]: Еду прямо. front=0.98
+[INFO] [1776324429.409240444] [robot_controller]: Еду прямо. front=0.92
+[INFO] [1776324429.910680986] [robot_controller]: Еду прямо. front=0.88
+[INFO] [1776324430.459350285] [robot_controller]: Еду прямо. front=0.84
+[INFO] [1776324431.012398223] [robot_controller]: Еду прямо. front=0.80
+[INFO] [1776324431.559338037] [robot_controller]: Еду прямо. front=0.74
+[INFO] [1776324432.109064724] [robot_controller]: Еду прямо. front=0.70
+[INFO] [1776324432.659172980] [robot_controller]: Еду прямо. front=0.68
+[INFO] [1776324433.211409191] [robot_controller]: Еду прямо. front=0.64
+[INFO] [1776324433.759722078] [robot_controller]: Еду прямо. front=0.60
+[INFO] [1776324434.313221181] [robot_controller]: Поворот... 1° из 90°
+[INFO] [1776324434.859343083] [robot_controller]: Поворот... 15° из 90°
+[INFO] [1776324435.361181185] [robot_controller]: Поворот... 25° из 90°
+[INFO] [1776324435.908998690] [robot_controller]: Поворот... 36° из 90°
+[INFO] [1776324436.409012488] [robot_controller]: Поворот... 47° из 90°
+[INFO] [1776324436.909594956] [robot_controller]: Поворот... 56° из 90°
+[INFO] [1776324437.411997910] [robot_controller]: Поворот... 66° из 90°
+[INFO] [1776324437.961205445] [robot_controller]: Поворот... 77° из 90°
+[INFO] [1776324438.510108157] [robot_controller]: Выравниваюсь вправо. diff=-0.955
+[INFO] [1776324439.058973823] [robot_controller]: Выравниваюсь вправо. diff=-0.357
+[INFO] [1776324439.559056913] [robot_controller]: Выравниваюсь вправо. diff=-0.234
+[INFO] [1776324440.059204915] [robot_controller]: Выравниваюсь вправо. diff=-0.118
+[INFO] [1776324440.560326417] [robot_controller]: ПРЯМО! left=0.42
+[INFO] [1776324441.113245520] [robot_controller]: ПРЯМО! left=0.44
+[INFO] [1776324441.659702722] [robot_controller]: ПРЯМО! left=0.43
+[INFO] [1776324442.209092125] [robot_controller]: ПРЯМО! left=0.42
+[INFO] [1776324442.759134527] [robot_controller]: ПРЯМО! left=0.42
+[INFO] [1776324443.264281830] [robot_controller]: ПРЯМО! left=0.43
+[INFO] [1776324443.810447341] [robot_controller]: ПРЯМО! left=0.42
+[INFO] [1776324444.360683050] [robot_controller]: ПРЯМО! left=0.44
+[INFO] [1776324444.909239386] [robot_controller]: ПРЯМО! left=0.43
+[INFO] [1776324445.459058760] [robot_controller]: ПРЯМО! left=0.41
+[INFO] [1776324445.959248723] [robot_controller]: ПРЯМО! left=0.42
+[INFO] [1776324446.459274029] [robot_controller]: ПРЯМО! left=0.41
+[INFO] [1776324446.959347351] [robot_controller]: ПРЯМО! left=0.42
+[INFO] [1776324447.460733229] [robot_controller]: ПРЯМО! left=0.43
+[INFO] [1776324448.012709351] [robot_controller]: ПРЯМО! left=0.43
+[INFO] [1776324448.559242586] [robot_controller]: ПРЯМО! left=0.41
+[INFO] [1776324449.109070763] [robot_controller]: ПРЯМО! left=0.42
+[INFO] [1776324449.659055294] [robot_controller]: ПРЯМО! left=0.42
+[INFO] [1776324450.159783444] [robot_controller]: ПРЯМО! left=0.42
+[INFO] [1776324450.710848150] [robot_controller]: ПРЯМО! left=0.41
+[INFO] [1776324451.259093478] [robot_controller]: ПРЯМО! left=0.43
+[INFO] [1776324451.759572787] [robot_controller]: ПРЯМО! left=0.45
+[INFO] [1776324452.313069998] [robot_controller]: ПРЯМО! left=0.43
+[INFO] [1776324452.859308008] [robot_controller]: ПРЯМО! left=0.41
+[INFO] [1776324453.359376844] [robot_controller]: ПРЯМО! left=0.43
+[INFO] [1776324453.859590196] [robot_controller]: ПРЯМО! left=0.42
+[INFO] [1776324454.409210916] [robot_controller]: ПРЯМО! left=0.43
+[INFO] [1776324454.909414301] [robot_controller]: ПРЯМО! left=0.41
+[INFO] [1776324455.409422687] [robot_controller]: ПРЯМО! left=0.41
+[INFO] [1776324455.960543823] [robot_controller]: ПРЯМО! left=0.44
+[INFO] [1776324456.509150759] [robot_controller]: ПРЯМО! left=0.42
+[INFO] [1776324457.010954011] [robot_controller]: ПРЯМО! left=0.43
+[INFO] [1776324457.562017189] [robot_controller]: ПРЯМО! left=0.42
+[INFO] [1776324458.109380025] [robot_controller]: ПРЯМО! left=0.43
+[INFO] [1776324458.659765361] [robot_controller]: ПРЯМО! left=0.42
+[INFO] [1776324459.160666305] [robot_controller]: ПРЯМО! left=0.41
+[INFO] [1776324459.709117909] [robot_controller]: ПРЯМО! left=0.41
+[INFO] [1776324460.209323642] [robot_controller]: ПРЯМО! left=0.42
+[INFO] [1776324460.764585028] [robot_controller]: ПРЯМО! left=0.43
+[INFO] [1776324461.309264662] [robot_controller]: ПРЯМО! left=0.43
+[INFO] [1776324461.809595763] [robot_controller]: ПРЯМО! left=0.44
+[INFO] [1776324462.312058533] [robot_controller]: ПРЯМО! left=0.42
+[INFO] [1776324462.864691211] [robot_controller]: ПРЯМО! left=0.41
+[INFO] [1776324463.409431916] [robot_controller]: ПРЯМО! left=0.40
+[INFO] [1776324463.960661251] [robot_controller]: ПРЯМО! left=0.42
+[INFO] [1776324464.509296344] [robot_controller]: ПРЯМО! left=0.42
+[INFO] [1776324465.009520922] [robot_controller]: Поворот... 5° из 90°
+[INFO] [1776324465.564717105] [robot_controller]: Поворот... 19° из 90°
+[INFO] [1776324466.109051798] [robot_controller]: Поворот... 30° из 90°
+[INFO] [1776324466.659354201] [robot_controller]: Поворот... 41° из 90°
+[INFO] [1776324467.209058004] [robot_controller]: Поворот... 54° из 90°
+[INFO] [1776324467.712894534] [robot_controller]: Поворот... 65° из 90°
+[INFO] [1776324468.259551777] [robot_controller]: Поворот... 76° из 90°
+[INFO] [1776324468.810449625] [robot_controller]: Выровнялся! Еду вдоль стены. diff=0.043
+[INFO] [1776324469.359478269] [robot_controller]: Поворот... 10° из 90°
+[INFO] [1776324469.909037517] [robot_controller]: Поворот... 22° из 90°
+[INFO] [1776324470.411159611] [robot_controller]: Поворот... 35° из 90°
+[INFO] [1776324470.959040251] [robot_controller]: Поворот... 47° из 90°
+[INFO] [1776324471.509023648] [robot_controller]: Поворот... 58° из 90°
+[INFO] [1776324472.009283092] [robot_controller]: Поворот... 71° из 90°
+[INFO] [1776324472.558994094] [robot_controller]: Поворот... 80° из 90°
+[INFO] [1776324473.059073997] [robot_controller]: Выравниваюсь влево. diff=4.625
+[INFO] [1776324473.559326599] [robot_controller]: Выравниваюсь влево. diff=2.893
+[INFO] [1776324474.109340102] [robot_controller]: Выравниваюсь влево. diff=2.604
+[INFO] [1776324474.664675604] [robot_controller]: Выравниваюсь влево. diff=2.406
+[INFO] [1776324475.212703707] [robot_controller]: Выравниваюсь влево. diff=2.564
+[INFO] [1776324475.759138983] [robot_controller]: Выравниваюсь влево. diff=4.678
+[INFO] [1776324476.260027235] [robot_controller]: Выравниваюсь влево. diff=4.666
+[INFO] [1776324476.810476608] [robot_controller]: Выравниваюсь влево. diff=4.666
+[INFO] [1776324477.360472536] [robot_controller]: Выравниваюсь влево. diff=4.688
+[INFO] [1776324477.909152631] [robot_controller]: Выравниваюсь влево. diff=4.680
+[INFO] [1776324478.459055049] [robot_controller]: Выравниваюсь влево. diff=4.667
+[INFO] [1776324478.959700176] [robot_controller]: Выравниваюсь влево. diff=4.676
+[INFO] [1776324479.509588293] [robot_controller]: Выравниваюсь влево. diff=4.681
+[INFO] [1776324480.059038766] [robot_controller]: Выравниваюсь влево. diff=2.851
+[INFO] [1776324480.559042628] [robot_controller]: Выравниваюсь влево. diff=1.967
+[INFO] [1776324481.059073593] [robot_controller]: Выравниваюсь влево. diff=1.149
+[INFO] [1776324481.561006551] [robot_controller]: Выравниваюсь влево. diff=0.924
+[INFO] [1776324482.062047118] [robot_controller]: Выравниваюсь влево. diff=0.641
+[INFO] [1776324482.609061744] [robot_controller]: Выравниваюсь влево. diff=0.461
+[INFO] [1776324483.109210721] [robot_controller]: Выравниваюсь влево. diff=0.384
+[INFO] [1776324483.609587321] [robot_controller]: Выравниваюсь влево. diff=0.260
+[INFO] [1776324484.159476396] [robot_controller]: Выравниваюсь влево. diff=0.196
+[INFO] [1776324484.659831448] [robot_controller]: Выравниваюсь влево. diff=0.123
+[INFO] [1776324485.209674142] [robot_controller]: Выравниваюсь влево. diff=0.055
+[INFO] [1776324485.760937845] [robot_controller]: ПРЯМО! left=0.36
+[INFO] [1776324486.309387481] [robot_controller]: ПРЯМО! left=0.35
+[INFO] [1776324486.809722708] [robot_controller]: ПРЯМО! left=0.36
+[INFO] [1776324487.313947319] [robot_controller]: ПРЯМО! left=0.36
+[INFO] [1776324487.814783804] [robot_controller]: ПРЯМО! left=0.34
+[INFO] [1776324488.359260207] [robot_controller]: ПРЯМО! left=0.33
+[INFO] [1776324488.859377684] [robot_controller]: ПРЯМО! left=0.35
+[INFO] [1776324489.360203336] [robot_controller]: ПРЯМО! left=0.35
+[INFO] [1776324489.913903022] [robot_controller]: ПРЯМО! left=0.33
+[INFO] [1776324490.414814583] [robot_controller]: ПРЯМО! left=0.35
+[INFO] [1776324490.959548494] [robot_controller]: ПРЯМО! left=0.35
+[INFO] [1776324491.459623396] [robot_controller]: ПРЯМО! left=0.33
+[INFO] [1776324491.959672299] [robot_controller]: ПРЯМО! left=0.35
+[INFO] [1776324492.509359429] [robot_controller]: ПРЯМО! left=0.34
+[INFO] [1776324493.009614803] [robot_controller]: ПРЯМО! left=0.34
+[INFO] [1776324493.559078564] [robot_controller]: ПРЯМО! left=0.35
+[INFO] [1776324494.109471513] [robot_controller]: ПРЯМО! left=0.34
+[INFO] [1776324494.659079243] [robot_controller]: ПРЯМО! left=0.32
+[INFO] [1776324495.159185100] [robot_controller]: ПРЯМО! left=0.31
+[INFO] [1776324495.713839598] [robot_controller]: ПРЯМО! left=0.32
+[INFO] [1776324496.261809194] [robot_controller]: ПРЯМО! left=0.31
+[INFO] [1776324496.809109695] [robot_controller]: ПРЯМО! left=0.32
+[INFO] [1776324497.359301539] [robot_controller]: ПРЯМО! left=0.31
+[INFO] [1776324497.861556741] [robot_controller]: ПРЯМО! left=0.31
+[INFO] [1776324498.409141844] [robot_controller]: ПРЯМО! left=0.30
+[INFO] [1776324498.909488346] [robot_controller]: ПРЯМО! left=0.29
+[INFO] [1776324499.460459549] [robot_controller]: Поворот... 6° из 90°
+[INFO] [1776324500.009239787] [robot_controller]: Поворот... 19° из 90°
+[INFO] [1776324500.558995681] [robot_controller]: Поворот... 32° из 90°
+[INFO] [1776324501.063826147] [robot_controller]: Поворот... 45° из 90°
+[INFO] [1776324501.609858243] [robot_controller]: Поворот... 56° из 90°
+[INFO] [1776324502.160825071] [robot_controller]: Поворот... 65° из 90°
+[INFO] [1776324502.661549422] [robot_controller]: Поворот... 76° из 90°
+[INFO] [1776324503.209023834] [robot_controller]: Выравниваюсь влево. diff=4.747
+[INFO] [1776324503.713543556] [robot_controller]: Выравниваюсь влево. diff=2.614
+[INFO] [1776324504.259112817] [robot_controller]: Выравниваюсь влево. diff=2.801
+[INFO] [1776324504.760008020] [robot_controller]: Выравниваюсь влево. diff=4.751
+[INFO] [1776324505.309088222] [robot_controller]: Выравниваюсь влево. diff=4.772
+[INFO] [1776324505.809793025] [robot_controller]: Выравниваюсь влево. diff=2.832
+[INFO] [1776324506.361557727] [robot_controller]: Выравниваюсь влево. diff=2.729
+[INFO] [1776324506.909129130] [robot_controller]: Выравниваюсь влево. diff=2.669
+[INFO] [1776324507.459060374] [robot_controller]: Выравниваюсь влево. diff=3.046
+[INFO] [1776324507.960583202] [robot_controller]: Выравниваюсь влево. diff=4.804
+[INFO] [1776324508.463355782] [robot_controller]: Выравниваюсь влево. diff=4.785
+[INFO] [1776324509.011081230] [robot_controller]: Выравниваюсь влево. diff=4.794
+[INFO] [1776324509.559024487] [robot_controller]: Выравниваюсь влево. diff=4.786
+[INFO] [1776324510.059184264] [robot_controller]: Выравниваюсь влево. diff=4.785
+[INFO] [1776324510.560525688] [robot_controller]: Выравниваюсь влево. diff=1.705
+[INFO] [1776324511.109131171] [robot_controller]: Выравниваюсь влево. diff=1.208
+[INFO] [1776324511.660747572] [robot_controller]: Выравниваюсь влево. diff=0.723
+[INFO] [1776324512.209192049] [robot_controller]: Выравниваюсь влево. diff=0.484
+[INFO] [1776324512.759032180] [robot_controller]: Выравниваюсь влево. diff=0.419
+[INFO] [1776324513.262426784] [robot_controller]: Выравниваюсь влево. diff=0.289
+[INFO] [1776324513.808990987] [robot_controller]: Выравниваюсь влево. diff=0.271
+[INFO] [1776324514.309045160] [robot_controller]: Выравниваюсь влево. diff=0.189
+[INFO] [1776324514.809058131] [robot_controller]: Выравниваюсь влево. diff=0.154
+[INFO] [1776324515.311085982] [robot_controller]: Выравниваюсь влево. diff=0.114
+[INFO] [1776324515.859164538] [robot_controller]: Поворот... 0° из 90°
+[INFO] [1776324516.361409357] [robot_controller]: Поворот... 11° из 90°
+[INFO] [1776324516.909281685] [robot_controller]: Поворот... 23° из 90°
+[INFO] [1776324517.409340987] [robot_controller]: Поворот... 34° из 90°
+[INFO] [1776324517.910935264] [robot_controller]: Поворот... 44° из 90°
+[INFO] [1776324518.411348383] [robot_controller]: Поворот... 53° из 90°
+[INFO] [1776324518.963825311] [robot_controller]: Поворот... 64° из 90°
+[INFO] [1776324519.509374322] [robot_controller]: Поворот... 74° из 90°
+[INFO] [1776324520.009427341] [robot_controller]: Поворот... 82° из 90°
+[INFO] [1776324520.559100277] [robot_controller]: Выравниваюсь влево. diff=2.529
+[INFO] [1776324521.059678062] [robot_controller]: Выравниваюсь влево. diff=2.629
+[INFO] [1776324521.559806698] [robot_controller]: Выравниваюсь влево. diff=2.697
+[INFO] [1776324522.062537717] [robot_controller]: Выравниваюсь влево. diff=2.769
+[INFO] [1776324522.609421936] [robot_controller]: Выравниваюсь влево. diff=2.742
+[INFO] [1776324523.109569205] [robot_controller]: Выравниваюсь влево. diff=2.712
+[INFO] [1776324523.663066949] [robot_controller]: Выравниваюсь влево. diff=2.661
+[INFO] [1776324524.209041922] [robot_controller]: Выравниваюсь влево. diff=2.594
+[INFO] [1776324524.709129956] [robot_controller]: Выравниваюсь влево. diff=2.755
+[INFO] [1776324525.211110621] [robot_controller]: Выравниваюсь влево. diff=3.087
+[INFO] [1776324525.759042263] [robot_controller]: Выравниваюсь влево. diff=2.654
+[INFO] [1776324526.309143408] [robot_controller]: Выравниваюсь влево. diff=2.632
+[INFO] [1776324526.811317723] [robot_controller]: Выравниваюсь влево. diff=3.083
+[INFO] [1776324527.359135222] [robot_controller]: Выравниваюсь влево. diff=4.801
+[INFO] [1776324527.859442807] [robot_controller]: Выравниваюсь влево. diff=2.324
+[INFO] [1776324528.408965813] [robot_controller]: Выравниваюсь влево. diff=1.070
+[INFO] [1776324528.909068303] [robot_controller]: Выравниваюсь влево. diff=0.624
+[INFO] [1776324529.411764439] [robot_controller]: Выравниваюсь влево. diff=0.529
+[INFO] [1776324529.960918114] [robot_controller]: Выравниваюсь влево. diff=0.358
+[INFO] [1776324530.509746128] [robot_controller]: Выравниваюсь влево. diff=0.267
+[INFO] [1776324531.010021287] [robot_controller]: Выравниваюсь влево. diff=0.231
+[INFO] [1776324531.559045963] [robot_controller]: Выравниваюсь влево. diff=0.170
+[INFO] [1776324532.110831337] [robot_controller]: Выравниваюсь влево. diff=0.115
+[INFO] [1776324532.659111115] [robot_controller]: Выравниваюсь влево. diff=0.069
+[INFO] [1776324533.209161866] [robot_controller]: Поворот... 11° из 90°
+[INFO] [1776324533.709341971] [robot_controller]: Поворот... 24° из 90°
+[INFO] [1776324534.259046913] [robot_controller]: Поворот... 38° из 90°
+[INFO] [1776324534.759154651] [robot_controller]: Поворот... 48° из 90°
+[INFO] [1776324535.259288896] [robot_controller]: Поворот... 59° из 90°
+[INFO] [1776324535.761375737] [robot_controller]: Поворот... 70° из 90°
+[INFO] [1776324536.309227462] [robot_controller]: Поворот... 79° из 90°
+[INFO] [1776324536.859033194] [robot_controller]: Выравниваюсь влево. diff=4.795
+[INFO] [1776324537.359036996] [robot_controller]: Выравниваюсь влево. diff=4.788
+[INFO] [1776324537.863048098] [robot_controller]: Выравниваюсь влево. diff=2.831
+[INFO] [1776324538.410090301] [robot_controller]: Выравниваюсь влево. diff=2.579
+[INFO] [1776324538.959452108] [robot_controller]: Выравниваюсь влево. diff=2.697
+[INFO] [1776324539.509025710] [robot_controller]: Выравниваюсь влево. diff=4.823
+[INFO] [1776324540.010273412] [robot_controller]: Выравниваюсь влево. diff=4.823
+[INFO] [1776324540.512220898] [robot_controller]: Выравниваюсь влево. diff=4.809
+[INFO] [1776324541.059229058] [robot_controller]: Выравниваюсь влево. diff=4.815
+[INFO] [1776324541.559298731] [robot_controller]: Выравниваюсь влево. diff=4.811
+[INFO] [1776324542.059381772] [robot_controller]: Выравниваюсь влево. diff=2.560
+[INFO] [1776324542.560495066] [robot_controller]: Выравниваюсь влево. diff=1.119
+[INFO] [1776324543.109173476] [robot_controller]: Выравниваюсь влево. diff=0.690
+[INFO] [1776324543.612235774] [robot_controller]: Выравниваюсь влево. diff=0.567
+[INFO] [1776324544.159209219] [robot_controller]: Выравниваюсь влево. diff=0.465
+[INFO] [1776324544.709037860] [robot_controller]: Выравниваюсь влево. diff=0.329
+[INFO] [1776324545.209080862] [robot_controller]: Выравниваюсь влево. diff=0.224
+[INFO] [1776324545.710095765] [robot_controller]: Выравниваюсь влево. diff=0.184
+[INFO] [1776324546.259072967] [robot_controller]: Выравниваюсь влево. diff=0.128
+[INFO] [1776324546.809042270] [robot_controller]: Выравниваюсь влево. diff=0.065
+[INFO] [1776324547.309051372] [robot_controller]: Выравниваюсь влево. diff=0.058
+[INFO] [1776324547.809058974] [robot_controller]: Поворот... 1° из 90°
+[INFO] [1776324548.309467984] [robot_controller]: Поворот... 10° из 90°
+[INFO] [1776324548.812764164] [robot_controller]: Поворот... 21° из 90°
+[INFO] [1776324549.359315999] [robot_controller]: Поворот... 35° из 90°
+[INFO] [1776324549.863282184] [robot_controller]: Поворот... 45° из 90°
+[INFO] [1776324550.364279903] [robot_controller]: Поворот... 56° из 90°
+[INFO] [1776324550.909373236] [robot_controller]: Поворот... 67° из 90°
+[INFO] [1776324551.412268463] [robot_controller]: Поворот... 76° из 90°
+[INFO] [1776324551.960207955] [robot_controller]: Выравниваюсь влево. diff=4.822
+[INFO] [1776324552.509174472] [robot_controller]: Выравниваюсь влево. diff=2.868
+[INFO] [1776324553.009315425] [robot_controller]: Выравниваюсь влево. diff=2.508
+[INFO] [1776324553.564265075] [robot_controller]: Выравниваюсь влево. diff=2.565
+[INFO] [1776324554.109127715] [robot_controller]: Выравниваюсь влево. diff=2.554
+[INFO] [1776324554.609337515] [robot_controller]: Выравниваюсь влево. diff=3.104
+[INFO] [1776324555.159113117] [robot_controller]: Выравниваюсь влево. diff=4.807
+[INFO] [1776324555.659148420] [robot_controller]: Выравниваюсь влево. diff=4.816
+[INFO] [1776324556.209101600] [robot_controller]: Выравниваюсь влево. diff=4.813

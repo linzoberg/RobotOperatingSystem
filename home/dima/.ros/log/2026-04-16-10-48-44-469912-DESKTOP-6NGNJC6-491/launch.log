@@ -1,0 +1,9 @@
+1776322124.4719174 [INFO] [launch]: All log files can be found below /home/dima/.ros/log/2026-04-16-10-48-44-469912-DESKTOP-6NGNJC6-491
+1776322124.4720571 [INFO] [launch]: Default logging verbosity is set to INFO
+1776322125.1721973 [INFO] [gazebo-1]: process started with pid [495]
+1776322125.1723657 [INFO] [gazebo-2]: process started with pid [496]
+1776322125.1724598 [INFO] [robot_state_publisher-3]: process started with pid [497]
+1776322125.1725430 [INFO] [create-4]: process started with pid [500]
+1776322125.1726213 [INFO] [parameter_bridge-5]: process started with pid [501]
+1776322125.1726959 [INFO] [image_bridge-6]: process started with pid [502]
+1776322126.1025403 [INFO] [create-4]: process has finished cleanly [pid 500]

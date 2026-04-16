@@ -1,0 +1,18 @@
+1776322604.5411706 [INFO] [launch]: All log files can be found below /home/dima/.ros/log/2026-04-16-10-56-44-539381-DESKTOP-6NGNJC6-514
+1776322604.5413311 [INFO] [launch]: Default logging verbosity is set to INFO
+1776322605.1888535 [INFO] [gazebo-1]: process started with pid [518]
+1776322605.1889737 [INFO] [gazebo-2]: process started with pid [519]
+1776322605.1890552 [INFO] [robot_state_publisher-3]: process started with pid [520]
+1776322605.1891406 [INFO] [create-4]: process started with pid [523]
+1776322605.1892247 [INFO] [parameter_bridge-5]: process started with pid [524]
+1776322605.1893053 [INFO] [image_bridge-6]: process started with pid [525]
+1776322606.0949447 [INFO] [create-4]: process has finished cleanly [pid 523]
+1776322710.9085896 [INFO] [gazebo-2]: process has finished cleanly [pid 519]
+1776322710.9088602 [INFO] [launch]: process[gazebo-2] was required: shutting down launched system
+1776322710.9102955 [INFO] [image_bridge-6]: sending signal 'SIGINT' to process[image_bridge-6]
+1776322710.9109299 [INFO] [parameter_bridge-5]: sending signal 'SIGINT' to process[parameter_bridge-5]
+1776322710.9116406 [INFO] [robot_state_publisher-3]: sending signal 'SIGINT' to process[robot_state_publisher-3]
+1776322710.9123313 [INFO] [gazebo-1]: sending signal 'SIGINT' to process[gazebo-1]
+1776322711.0194576 [INFO] [parameter_bridge-5]: process has finished cleanly [pid 524]
+1776322711.0208392 [INFO] [robot_state_publisher-3]: process has finished cleanly [pid 520]
+1776322711.6340125 [ERROR] [image_bridge-6]: process has died [pid 525, exit code -11, cmd '/opt/ros/jazzy/lib/ros_gz_image/image_bridge /camera/image_raw --ros-args'].

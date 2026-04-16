@@ -1,0 +1,21 @@
+[INFO] [1776263494.393777573] [robot_controller]: Поток клавиатуры запущен.
+[INFO] [1776263521.754509040] [robot_controller]: СТОП
+[INFO] [1776263524.491302580] [robot_controller]: Режим: ДВИЖЕНИЕ ПО ЭЛЛИПСУ | Старт: (-0.03, -0.10) yaw=23.4°
+[INFO] [1776263536.604667507] [robot_controller]: СТОП
+[INFO] [1776263537.821466209] [robot_controller]: Режим: РУЧНОЕ УПРАВЛЕНИЕ
+[INFO] [1776263544.404314940] [robot_controller]: СТОП
+[INFO] [1776263547.018199682] [robot_controller]: Режим: ДВИЖЕНИЕ ПО ЭЛЛИПСУ | Старт: (1.62, 0.16) yaw=169.8°
+[INFO] [1776263580.781834466] [robot_controller]: Эллипс завершён! Переключаюсь в MANUAL.
+[INFO] [1776263600.439638835] [robot_controller]: СТОП
+[INFO] [1776263617.746711903] [robot_controller]: СТОП
+[INFO] [1776263624.597569322] [robot_controller]: СТОП
+[INFO] [1776263626.911026945] [robot_controller]: СТОП
+[INFO] [1776263627.968062632] [robot_controller]: СТОП
+[INFO] [1776263628.217619134] [robot_controller]: СТОП
+[INFO] [1776263628.386957188] [robot_controller]: СТОП
+[INFO] [1776263628.572583040] [robot_controller]: СТОП
+[INFO] [1776263628.731293630] [robot_controller]: СТОП
+[INFO] [1776263628.887241288] [robot_controller]: СТОП
+[INFO] [1776263645.106296813] [robot_controller]: Режим: ДВИЖЕНИЕ ПО ЭЛЛИПСУ | Старт: (1.59, 0.02) yaw=131.0°
+[INFO] [1776263668.104782749] [robot_controller]: СТОП
+[INFO] [1776263686.432168825] [robot_controller]: Эллипс завершён! Переключаюсь в MANUAL.

@@ -1,547 +1,614 @@
-15:17:27: Creating resource group General
-15:17:27: Creating resource group Internal
-15:17:27: Creating resource group Autodetect
-15:17:27: SceneManagerFactory for type 'DefaultSceneManager' registered.
-15:17:27: Registering ResourceManager for type Material
-15:17:27: Registering ResourceManager for type Mesh
-15:17:27: Registering ResourceManager for type Mesh2
-15:17:27: Registering ResourceManager for type OldSkeleton
-15:17:27: MovableObjectFactory for type 'ParticleSystem' registered.
-15:17:27: ArchiveFactory for archive type FileSystem registered.
-15:17:27: ArchiveFactory for archive type Zip registered.
-15:17:27: ArchiveFactory for archive type EmbeddedZip registered.
-15:17:27: DDS codec registering
-15:17:27: FreeImage version: 3.18.0
-15:17:27: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
-15:17:27: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,psb,cut,xbm,xpm,gif,hdr,g3,sgi,rgb,rgba,bw,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,srw,sti,x3f,webp,jxr,wdp,hdp
-15:17:27: ETC codec registering
-15:17:27: OITD codec registering
-15:17:27: Registering ResourceManager for type HighLevelGpuProgram
-15:17:27: MovableObjectFactory for type 'Decal' registered.
-15:17:27: MovableObjectFactory for type 'InternalCubemapProbe' registered.
-15:17:27: MovableObjectFactory for type 'Entity' registered.
-15:17:27: MovableObjectFactory for type 'Item' registered.
-15:17:27: MovableObjectFactory for type 'Light' registered.
-15:17:27: MovableObjectFactory for type 'Rectangle2Dv2' registered.
-15:17:27: MovableObjectFactory for type 'BillboardSet' registered.
-15:17:27: MovableObjectFactory for type 'ManualObject2' registered.
-15:17:27: MovableObjectFactory for type 'BillboardChain' registered.
-15:17:27: MovableObjectFactory for type 'RibbonTrail' registered.
-15:17:27: MovableObjectFactory for type 'WireAabb' registered.
-15:17:27: *-*-* OGRE Initialising
-15:17:27: *-*-* Version 2.3.3 (Daedalus)
-15:17:27: OverlayElementFactory for type Panel registered.
-15:17:27: OverlayElementFactory for type BorderPanel registered.
-15:17:27: OverlayElementFactory for type TextArea registered.
-15:17:27: Registering ResourceManager for type Font
-15:17:27: Loading library /opt/ros/jazzy/opt/gz_ogre_next_vendor/lib/OGRE-Next/RenderSystem_GL3Plus.so
-15:17:27: Installing plugin: GL 3+ RenderSystem
-15:17:27: OpenGL 3+ Rendering Subsystem created.
-15:17:27: Found Num EGL Devices: 1
-15:17:27: EGL Device: EGL_MESA_device_software EGL_EXT_device_drm_render_node #0
-15:17:27: Trying to init device: EGL_MESA_device_software EGL_EXT_device_drm_render_node #0...
-15:17:27: Created GL 4.5 context for device EGL_MESA_device_software EGL_EXT_device_drm_render_node #0
-15:17:27: Destroying device: EGL_MESA_device_software EGL_EXT_device_drm_render_node #0...
-15:17:27: Plugin successfully installed
-15:17:27: Loading library /opt/ros/jazzy/opt/gz_ogre_next_vendor/lib/OGRE-Next/Plugin_ParticleFX.so
-15:17:27: Installing plugin: ParticleFX
-15:17:27: Particle Emitter Type 'Point' registered
-15:17:27: Particle Emitter Type 'Box' registered
-15:17:27: Particle Emitter Type 'Ellipsoid' registered
-15:17:27: Particle Emitter Type 'Cylinder' registered
-15:17:27: Particle Emitter Type 'Ring' registered
-15:17:27: Particle Emitter Type 'HollowEllipsoid' registered
-15:17:27: Particle Affector Type 'LinearForce' registered
-15:17:27: Particle Affector Type 'ColourFader' registered
-15:17:27: Particle Affector Type 'ColourFader2' registered
-15:17:27: Particle Affector Type 'ColourImage' registered
-15:17:27: Particle Affector Type 'ColourInterpolator' registered
-15:17:27: Particle Affector Type 'Scaler' registered
-15:17:27: Particle Affector Type 'Rotator' registered
-15:17:27: Particle Affector Type 'DirectionRandomiser' registered
-15:17:27: Particle Affector Type 'DeflectorPlane' registered
-15:17:27: Plugin successfully installed
-15:17:27: CPU Identifier & Features
-15:17:27: -------------------------
-15:17:27:  *   CPU ID: GenuineIntel: 11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz
-15:17:27:  *   Logical cores: 16
-15:17:27:  *      SSE: yes
-15:17:27:  *     SSE2: yes
-15:17:27:  *     SSE3: yes
-15:17:27:  *      MMX: yes
-15:17:27:  *   MMXEXT: yes
-15:17:27:  *    3DNOW: no
-15:17:27:  * 3DNOWEXT: no
-15:17:27:  *     CMOV: yes
-15:17:27:  *      TSC: yes
-15:17:27:  *      FPU: yes
-15:17:27:  *      PRO: yes
-15:17:27:  *       HT: no
-15:17:27: -------------------------
-15:17:27: ******************************
+13:10:48: Creating resource group General
+13:10:48: Creating resource group Internal
+13:10:48: Creating resource group Autodetect
+13:10:48: SceneManagerFactory for type 'DefaultSceneManager' registered.
+13:10:48: Registering ResourceManager for type Material
+13:10:48: Registering ResourceManager for type Mesh
+13:10:48: Registering ResourceManager for type Mesh2
+13:10:48: Registering ResourceManager for type OldSkeleton
+13:10:48: MovableObjectFactory for type 'ParticleSystem' registered.
+13:10:48: ArchiveFactory for archive type FileSystem registered.
+13:10:48: ArchiveFactory for archive type Zip registered.
+13:10:48: ArchiveFactory for archive type EmbeddedZip registered.
+13:10:48: DDS codec registering
+13:10:48: FreeImage version: 3.18.0
+13:10:48: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+13:10:48: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,psb,cut,xbm,xpm,gif,hdr,g3,sgi,rgb,rgba,bw,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,srw,sti,x3f,webp,jxr,wdp,hdp
+13:10:48: ETC codec registering
+13:10:48: OITD codec registering
+13:10:48: Registering ResourceManager for type HighLevelGpuProgram
+13:10:48: MovableObjectFactory for type 'Decal' registered.
+13:10:48: MovableObjectFactory for type 'InternalCubemapProbe' registered.
+13:10:48: MovableObjectFactory for type 'Entity' registered.
+13:10:48: MovableObjectFactory for type 'Item' registered.
+13:10:48: MovableObjectFactory for type 'Light' registered.
+13:10:48: MovableObjectFactory for type 'Rectangle2Dv2' registered.
+13:10:48: MovableObjectFactory for type 'BillboardSet' registered.
+13:10:48: MovableObjectFactory for type 'ManualObject2' registered.
+13:10:48: MovableObjectFactory for type 'BillboardChain' registered.
+13:10:48: MovableObjectFactory for type 'RibbonTrail' registered.
+13:10:48: MovableObjectFactory for type 'WireAabb' registered.
+13:10:48: *-*-* OGRE Initialising
+13:10:48: *-*-* Version 2.3.3 (Daedalus)
+13:10:48: OverlayElementFactory for type Panel registered.
+13:10:48: OverlayElementFactory for type BorderPanel registered.
+13:10:48: OverlayElementFactory for type TextArea registered.
+13:10:48: Registering ResourceManager for type Font
+13:10:48: Loading library /opt/ros/jazzy/opt/gz_ogre_next_vendor/lib/OGRE-Next/RenderSystem_GL3Plus.so
+13:10:48: Installing plugin: GL 3+ RenderSystem
+13:10:48: OpenGL 3+ Rendering Subsystem created.
+13:10:48: Found Num EGL Devices: 1
+13:10:48: EGL Device: EGL_MESA_device_software EGL_EXT_device_drm_render_node #0
+13:10:48: Trying to init device: EGL_MESA_device_software EGL_EXT_device_drm_render_node #0...
+13:10:48: Created GL 4.5 context for device EGL_MESA_device_software EGL_EXT_device_drm_render_node #0
+13:10:48: Destroying device: EGL_MESA_device_software EGL_EXT_device_drm_render_node #0...
+13:10:48: Plugin successfully installed
+13:10:48: Loading library /opt/ros/jazzy/opt/gz_ogre_next_vendor/lib/OGRE-Next/Plugin_ParticleFX.so
+13:10:48: Installing plugin: ParticleFX
+13:10:48: Particle Emitter Type 'Point' registered
+13:10:48: Particle Emitter Type 'Box' registered
+13:10:48: Particle Emitter Type 'Ellipsoid' registered
+13:10:48: Particle Emitter Type 'Cylinder' registered
+13:10:48: Particle Emitter Type 'Ring' registered
+13:10:48: Particle Emitter Type 'HollowEllipsoid' registered
+13:10:48: Particle Affector Type 'LinearForce' registered
+13:10:48: Particle Affector Type 'ColourFader' registered
+13:10:48: Particle Affector Type 'ColourFader2' registered
+13:10:48: Particle Affector Type 'ColourImage' registered
+13:10:48: Particle Affector Type 'ColourInterpolator' registered
+13:10:48: Particle Affector Type 'Scaler' registered
+13:10:48: Particle Affector Type 'Rotator' registered
+13:10:48: Particle Affector Type 'DirectionRandomiser' registered
+13:10:48: Particle Affector Type 'DeflectorPlane' registered
+13:10:48: Plugin successfully installed
+13:10:48: CPU Identifier & Features
+13:10:48: -------------------------
+13:10:48:  *   CPU ID: GenuineIntel: 11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz
+13:10:48:  *   Logical cores: 16
+13:10:48:  *      SSE: yes
+13:10:48:  *     SSE2: yes
+13:10:48:  *     SSE3: yes
+13:10:48:  *      MMX: yes
+13:10:48:  *   MMXEXT: yes
+13:10:48:  *    3DNOW: no
+13:10:48:  * 3DNOWEXT: no
+13:10:48:  *     CMOV: yes
+13:10:48:  *      TSC: yes
+13:10:48:  *      FPU: yes
+13:10:48:  *      PRO: yes
+13:10:48:  *       HT: no
+13:10:48: -------------------------
+13:10:48: ******************************
 *** Starting GLX Subsystem ***
 ******************************
-15:17:27: GL3PlusRenderSystem::_createRenderWindow "OgreWindow(0)_10485761", 1x1 windowed  miscParams: FSAA=0 border=none contentScalingFactor=1.000000 gamma=Yes parentWindowHandle=10485761 stereoMode=Frame Sequential 
-15:17:27: Created GL 4.5 context
-15:17:27: GLXWindow::create used FBConfigID = 310
-15:17:27: GL Version = 4.5.0.0
-15:17:27: GL_VERSION = 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.1
-15:17:27: GL_VENDOR = Mesa
-15:17:27: GL_RENDERER = llvmpipe (LLVM 20.1.2, 256 bits)
-15:17:27: GL_EXTENSIONS = 
-15:17:27: GL_3DFX_texture_compression_FXT1
-15:17:27: GL_AMD_conservative_depth
-15:17:27: GL_AMD_draw_buffers_blend
-15:17:27: GL_AMD_gpu_shader_int64
-15:17:27: GL_AMD_multi_draw_indirect
-15:17:27: GL_AMD_pinned_memory
-15:17:27: GL_AMD_query_buffer_object
-15:17:27: GL_AMD_seamless_cubemap_per_texture
-15:17:27: GL_AMD_shader_stencil_export
-15:17:27: GL_AMD_shader_trinary_minmax
-15:17:27: GL_AMD_texture_texture4
-15:17:27: GL_AMD_vertex_shader_layer
-15:17:27: GL_AMD_vertex_shader_viewport_index
-15:17:27: GL_ANGLE_texture_compression_dxt3
-15:17:27: GL_ANGLE_texture_compression_dxt5
-15:17:27: GL_ARB_ES2_compatibility
-15:17:27: GL_ARB_ES3_1_compatibility
-15:17:27: GL_ARB_ES3_2_compatibility
-15:17:27: GL_ARB_ES3_compatibility
-15:17:27: GL_ARB_arrays_of_arrays
-15:17:27: GL_ARB_base_instance
-15:17:27: GL_ARB_blend_func_extended
-15:17:27: GL_ARB_buffer_storage
-15:17:27: GL_ARB_clear_buffer_object
-15:17:27: GL_ARB_clear_texture
-15:17:27: GL_ARB_clip_control
-15:17:27: GL_ARB_compressed_texture_pixel_storage
-15:17:27: GL_ARB_compute_shader
-15:17:27: GL_ARB_conditional_render_inverted
-15:17:27: GL_ARB_conservative_depth
-15:17:27: GL_ARB_copy_buffer
-15:17:27: GL_ARB_copy_image
-15:17:27: GL_ARB_cull_distance
-15:17:27: GL_ARB_debug_output
-15:17:27: GL_ARB_depth_buffer_float
-15:17:27: GL_ARB_depth_clamp
-15:17:27: GL_ARB_derivative_control
-15:17:27: GL_ARB_direct_state_access
-15:17:27: GL_ARB_draw_buffers
-15:17:27: GL_ARB_draw_buffers_blend
-15:17:27: GL_ARB_draw_elements_base_vertex
-15:17:27: GL_ARB_draw_indirect
-15:17:27: GL_ARB_draw_instanced
-15:17:27: GL_ARB_enhanced_layouts
-15:17:27: GL_ARB_explicit_attrib_location
-15:17:27: GL_ARB_explicit_uniform_location
-15:17:27: GL_ARB_fragment_coord_conventions
-15:17:27: GL_ARB_fragment_layer_viewport
-15:17:27: GL_ARB_fragment_shader
-15:17:27: GL_ARB_framebuffer_no_attachments
-15:17:27: GL_ARB_framebuffer_object
-15:17:27: GL_ARB_framebuffer_sRGB
-15:17:27: GL_ARB_get_program_binary
-15:17:27: GL_ARB_get_texture_sub_image
-15:17:27: GL_ARB_gl_spirv
-15:17:27: GL_ARB_gpu_shader5
-15:17:27: GL_ARB_gpu_shader_fp64
-15:17:27: GL_ARB_gpu_shader_int64
-15:17:27: GL_ARB_half_float_pixel
-15:17:27: GL_ARB_half_float_vertex
-15:17:27: GL_ARB_indirect_parameters
-15:17:27: GL_ARB_instanced_arrays
-15:17:27: GL_ARB_internalformat_query
-15:17:27: GL_ARB_internalformat_query2
-15:17:27: GL_ARB_invalidate_subdata
-15:17:27: GL_ARB_map_buffer_alignment
-15:17:27: GL_ARB_map_buffer_range
-15:17:27: GL_ARB_multi_bind
-15:17:27: GL_ARB_multi_draw_indirect
-15:17:27: GL_ARB_occlusion_query2
-15:17:27: GL_ARB_parallel_shader_compile
-15:17:27: GL_ARB_pipeline_statistics_query
-15:17:27: GL_ARB_pixel_buffer_object
-15:17:27: GL_ARB_point_sprite
-15:17:27: GL_ARB_polygon_offset_clamp
-15:17:27: GL_ARB_post_depth_coverage
-15:17:27: GL_ARB_program_interface_query
-15:17:27: GL_ARB_provoking_vertex
-15:17:27: GL_ARB_query_buffer_object
-15:17:27: GL_ARB_robust_buffer_access_behavior
-15:17:27: GL_ARB_robustness
-15:17:27: GL_ARB_sample_shading
-15:17:27: GL_ARB_sampler_objects
-15:17:27: GL_ARB_seamless_cube_map
-15:17:27: GL_ARB_seamless_cubemap_per_texture
-15:17:27: GL_ARB_separate_shader_objects
-15:17:27: GL_ARB_shader_atomic_counter_ops
-15:17:27: GL_ARB_shader_atomic_counters
-15:17:27: GL_ARB_shader_ballot
-15:17:27: GL_ARB_shader_bit_encoding
-15:17:27: GL_ARB_shader_clock
-15:17:27: GL_ARB_shader_draw_parameters
-15:17:27: GL_ARB_shader_group_vote
-15:17:27: GL_ARB_shader_image_load_store
-15:17:27: GL_ARB_shader_image_size
-15:17:27: GL_ARB_shader_objects
-15:17:27: GL_ARB_shader_precision
-15:17:27: GL_ARB_shader_stencil_export
-15:17:27: GL_ARB_shader_storage_buffer_object
-15:17:27: GL_ARB_shader_subroutine
-15:17:27: GL_ARB_shader_texture_image_samples
-15:17:27: GL_ARB_shader_texture_lod
-15:17:27: GL_ARB_shader_viewport_layer_array
-15:17:27: GL_ARB_shading_language_420pack
-15:17:27: GL_ARB_shading_language_include
-15:17:27: GL_ARB_shading_language_packing
-15:17:27: GL_ARB_spirv_extensions
-15:17:27: GL_ARB_stencil_texturing
-15:17:27: GL_ARB_sync
-15:17:27: GL_ARB_tessellation_shader
-15:17:27: GL_ARB_texture_barrier
-15:17:27: GL_ARB_texture_border_clamp
-15:17:27: GL_ARB_texture_buffer_object
-15:17:27: GL_ARB_texture_buffer_object_rgb32
-15:17:27: GL_ARB_texture_buffer_range
-15:17:27: GL_ARB_texture_compression_bptc
-15:17:27: GL_ARB_texture_compression_rgtc
-15:17:27: GL_ARB_texture_cube_map_array
-15:17:27: GL_ARB_texture_filter_anisotropic
-15:17:27: GL_ARB_texture_filter_minmax
-15:17:27: GL_ARB_texture_float
-15:17:27: GL_ARB_texture_gather
-15:17:27: GL_ARB_texture_mirror_clamp_to_edge
-15:17:27: GL_ARB_texture_multisample
-15:17:27: GL_ARB_texture_non_power_of_two
-15:17:27: GL_ARB_texture_query_levels
-15:17:27: GL_ARB_texture_query_lod
-15:17:27: GL_ARB_texture_rectangle
-15:17:27: GL_ARB_texture_rg
-15:17:27: GL_ARB_texture_rgb10_a2ui
-15:17:27: GL_ARB_texture_stencil8
-15:17:27: GL_ARB_texture_storage
-15:17:27: GL_ARB_texture_storage_multisample
-15:17:27: GL_ARB_texture_swizzle
-15:17:27: GL_ARB_texture_view
-15:17:27: GL_ARB_timer_query
-15:17:27: GL_ARB_transform_feedback2
-15:17:27: GL_ARB_transform_feedback3
-15:17:27: GL_ARB_transform_feedback_instanced
-15:17:27: GL_ARB_transform_feedback_overflow_query
-15:17:27: GL_ARB_uniform_buffer_object
-15:17:27: GL_ARB_vertex_array_bgra
-15:17:27: GL_ARB_vertex_array_object
-15:17:27: GL_ARB_vertex_attrib_64bit
-15:17:27: GL_ARB_vertex_attrib_binding
-15:17:27: GL_ARB_vertex_buffer_object
-15:17:27: GL_ARB_vertex_shader
-15:17:27: GL_ARB_vertex_type_10f_11f_11f_rev
-15:17:27: GL_ARB_vertex_type_2_10_10_10_rev
-15:17:27: GL_ARB_viewport_array
-15:17:27: GL_ARM_shader_framebuffer_fetch_depth_stencil
-15:17:27: GL_ATI_blend_equation_separate
-15:17:27: GL_ATI_meminfo
-15:17:27: GL_ATI_texture_float
-15:17:27: GL_ATI_texture_mirror_once
-15:17:27: GL_EXT_EGL_image_storage
-15:17:27: GL_EXT_EGL_image_storage_compression
-15:17:27: GL_EXT_EGL_sync
-15:17:27: GL_EXT_abgr
-15:17:27: GL_EXT_blend_equation_separate
-15:17:27: GL_EXT_debug_label
-15:17:27: GL_EXT_draw_buffers2
-15:17:27: GL_EXT_draw_instanced
-15:17:27: GL_EXT_framebuffer_blit
-15:17:27: GL_EXT_framebuffer_multisample
-15:17:27: GL_EXT_framebuffer_multisample_blit_scaled
-15:17:27: GL_EXT_framebuffer_object
-15:17:27: GL_EXT_framebuffer_sRGB
-15:17:27: GL_EXT_memory_object
-15:17:27: GL_EXT_memory_object_fd
-15:17:27: GL_EXT_packed_depth_stencil
-15:17:27: GL_EXT_packed_float
-15:17:27: GL_EXT_pixel_buffer_object
-15:17:27: GL_EXT_polygon_offset_clamp
-15:17:27: GL_EXT_provoking_vertex
-15:17:27: GL_EXT_shader_clock
-15:17:27: GL_EXT_shader_framebuffer_fetch
-15:17:27: GL_EXT_shader_framebuffer_fetch_non_coherent
-15:17:27: GL_EXT_shader_image_load_formatted
-15:17:27: GL_EXT_shader_integer_mix
-15:17:27: GL_EXT_texture_array
-15:17:27: GL_EXT_texture_compression_dxt1
-15:17:27: GL_EXT_texture_compression_rgtc
-15:17:27: GL_EXT_texture_compression_s3tc
-15:17:27: GL_EXT_texture_filter_anisotropic
-15:17:27: GL_EXT_texture_filter_minmax
-15:17:27: GL_EXT_texture_integer
-15:17:27: GL_EXT_texture_mirror_clamp
-15:17:27: GL_EXT_texture_sRGB
-15:17:27: GL_EXT_texture_sRGB_R8
-15:17:27: GL_EXT_texture_sRGB_RG8
-15:17:27: GL_EXT_texture_sRGB_decode
-15:17:27: GL_EXT_texture_shadow_lod
-15:17:27: GL_EXT_texture_shared_exponent
-15:17:27: GL_EXT_texture_snorm
-15:17:27: GL_EXT_texture_storage
-15:17:27: GL_EXT_texture_swizzle
-15:17:27: GL_EXT_timer_query
-15:17:27: GL_EXT_transform_feedback
-15:17:27: GL_EXT_vertex_array_bgra
-15:17:27: GL_EXT_vertex_attrib_64bit
-15:17:27: GL_IBM_multimode_draw_arrays
-15:17:27: GL_INTEL_shader_atomic_float_minmax
-15:17:27: GL_KHR_blend_equation_advanced
-15:17:27: GL_KHR_blend_equation_advanced_coherent
-15:17:27: GL_KHR_context_flush_control
-15:17:27: GL_KHR_debug
-15:17:27: GL_KHR_no_error
-15:17:27: GL_KHR_parallel_shader_compile
-15:17:27: GL_KHR_robust_buffer_access_behavior
-15:17:27: GL_KHR_robustness
-15:17:27: GL_KHR_texture_compression_astc_ldr
-15:17:27: GL_KHR_texture_compression_astc_sliced_3d
-15:17:27: GL_MESA_framebuffer_flip_y
-15:17:27: GL_MESA_pack_invert
-15:17:27: GL_MESA_shader_integer_functions
-15:17:27: GL_MESA_texture_signed_rgba
-15:17:27: GL_NVX_gpu_memory_info
-15:17:27: GL_NV_alpha_to_coverage_dither_control
-15:17:27: GL_NV_conditional_render
-15:17:27: GL_NV_copy_image
-15:17:27: GL_NV_depth_clamp
-15:17:27: GL_NV_packed_depth_stencil
-15:17:27: GL_NV_shader_atomic_float
-15:17:27: GL_NV_texture_barrier
-15:17:27: GL_OES_EGL_image
-15:17:27: GL_OVR_multiview
-15:17:27: GL_OVR_multiview2
-15:17:27: GL_S3_s3tc
-15:17:27: **************************************
-15:17:27: ***   OpenGL 3+ Renderer Started   ***
-15:17:27: **************************************
-15:17:27: Registering ResourceManager for type GpuProgram
-15:17:27: RenderSystem capabilities
-15:17:27: -------------------------
-15:17:27: RenderSystem Name: OpenGL 3+ Rendering Subsystem
-15:17:27: GPU Vendor: unknown
-15:17:27: Device Name: llvmpipe (LLVM 20.1.2, 256 bits)
-15:17:27: Driver Version: 4.5.0.0
-15:17:27:  * Fixed function pipeline: no
-15:17:27:  * Hardware generation of mipmaps: yes
-15:17:27:  * Texture blending: yes
-15:17:27:  * Anisotropic texture filtering: yes
-15:17:27:  * Dot product texture operation: yes
-15:17:27:  * Cube mapping: yes
-15:17:27:  * Hardware stencil buffer: yes
-15:17:27:    - Stencil depth: 8
-15:17:27:    - Two sided stencil support: yes
-15:17:27:    - Wrap stencil values: yes
-15:17:27:  * Hardware vertex / index buffers: yes
-15:17:27:  * 32-bit index buffers: yes
-15:17:27:  * Vertex programs: yes
-15:17:27:  * Number of floating-point constants for vertex programs: 16384
-15:17:27:  * Number of integer constants for vertex programs: 16384
-15:17:27:  * Number of boolean constants for vertex programs: 16384
-15:17:27:  * Fragment programs: yes
-15:17:27:  * Number of floating-point constants for fragment programs: 16384
-15:17:27:  * Number of integer constants for fragment programs: 16384
-15:17:27:  * Number of boolean constants for fragment programs: 16384
-15:17:27:  * Geometry programs: yes
-15:17:27:  * Number of floating-point constants for geometry programs: 16384
-15:17:27:  * Number of integer constants for geometry programs: 16384
-15:17:27:  * Number of boolean constants for geometry programs: 16384
-15:17:27:  * Tessellation Hull programs: yes
-15:17:27:  * Number of floating-point constants for tessellation hull programs: 16384
-15:17:27:  * Number of integer constants for tessellation hull programs: 16384
-15:17:27:  * Number of boolean constants for tessellation hull programs: 16384
-15:17:27:  * Tessellation Domain programs: yes
-15:17:27:  * Number of floating-point constants for tessellation domain programs: 16384
-15:17:27:  * Number of integer constants for tessellation domain programs: 16384
-15:17:27:  * Number of boolean constants for tessellation domain programs: 16384
-15:17:27:  * Compute programs: yes
-15:17:27:  * Number of floating-point constants for compute programs: 16384
-15:17:27:  * Number of integer constants for compute programs: 16384
-15:17:27:  * Number of boolean constants for compute programs: 16384
-15:17:27:  * Supported Shader Profiles: glsl glsl130 glsl140 glsl150 glsl330 glsl400 glsl410 glsl420 glsl430 glsl440
-15:17:27:  * Texture Compression: yes
-15:17:27:    - DXT: yes
-15:17:27:    - VTC: no
-15:17:27:    - PVRTC: no
-15:17:27:    - ATC: no
-15:17:27:    - ETC1: no
-15:17:27:    - ETC2: yes
-15:17:27:    - BC4/BC5: yes
-15:17:27:    - BC6H/BC7: yes
-15:17:27:    - ASTC: yes
-15:17:27:  * Hardware Occlusion Query: yes
-15:17:27:  * User clip planes: yes
-15:17:27:  * VET_UBYTE4 vertex element type: yes
-15:17:27:  * Infinite far plane projection: yes
-15:17:27:  * Hardware render-to-texture: yes
-15:17:27:  * Floating point textures: yes
-15:17:27:  * Non-power-of-two textures: yes
-15:17:27:  * 1d textures: yes
-15:17:27:  * Volume textures: yes
-15:17:27:  * Max Texture resolution (2D) 16384
-15:17:27:  * Max Texture resolution (3D) 2048
-15:17:27:  * Max Texture resolution (Cubemaps) 16384
-15:17:27:  * Multiple Render Targets: 8
-15:17:27:    - With different bit depths: yes
-15:17:27:  * Point Sprites: yes
-15:17:27:  * Extended point parameters: yes
-15:17:27:  * Max Point Size: 256
-15:17:27:  * Vertex texture fetch: yes
-15:17:27:  * Number of world matrices: 0
-15:17:27:  * Number of texture units: 16
-15:17:27:  * Stencil buffer depth: 8
-15:17:27:  * Number of vertex blend matrices: 0
-15:17:27:    - Max vertex textures: 32
-15:17:27:    - Vertex textures shared: yes
-15:17:27:  * Render to Vertex Buffer : yes
-15:17:27:  * Hardware Atomic Counters: yes
-15:17:27:  * Compute max threads per threadgroup per axis: 1024, 1024, 64
-15:17:27:  * Compute max threads per threadgroup total: 1024
-15:17:27:  * GL 1.5 without VBO workaround: no
-15:17:27:  * Frame Buffer objects: yes
-15:17:27:  * Frame Buffer objects (ARB extension): no
-15:17:27:  * Frame Buffer objects (ATI extension): no
-15:17:27:  * PBuffer support: no
-15:17:27:  * GL 1.5 without HW-occlusion workaround: no
-15:17:27:  * Vertex Array Objects: yes
-15:17:27:  * Separate shader objects: no
-15:17:27:  * Using Reverse Z: yes
-15:17:27: DefaultWorkQueue('Root') initialising on thread main.
-15:17:27: Particle Renderer Type 'billboard' registered
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/2.0/scripts/Compositors' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Terra' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Terra/GLSL' of type 'FileSystem' to resource group 'General'
-15:17:27: HLMS Library path '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Hlms/Gz' has no piece files. Are you sure you provided the right path with read access?
-15:17:27: HLMS Library path '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Hlms/Gz' has no piece files. Are you sure you provided the right path with read access?
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/materials/programs' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/materials/scripts' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/materials/textures' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Compute/Tools' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Compute/Tools/Any' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Compute/Tools/GLSL' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Compute/Tools/HLSL' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Compute/Tools/Metal' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/VCT' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/VCT/ImageVoxelizer' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/VCT/Visualizer' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Hlms/Common/Any' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Hlms/Common/GLSL' of type 'FileSystem' to resource group 'General'
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any' of type 'FileSystem' to resource group 'General'
-15:17:27: Parsing scripts for resource group Autodetect
-15:17:27: Finished parsing scripts for resource group Autodetect
-15:17:27: Creating resources for group Autodetect
-15:17:27: All done
-15:17:27: Parsing scripts for resource group General
-15:17:27: Parsing script Quad.program
-15:17:27: Parsing script picker.program
-15:17:27: Parsing script DepthUtils.material
-15:17:27: Parsing script EsmGaussianBlurLogFilter.material
-15:17:27: Parsing script DPSM.material
-15:17:27: Parsing script Copyback.material
-15:17:27: Parsing script GpuNormalMapper.material
-15:17:27: Parsing script wide_angle_camera.material
-15:17:27: Parsing script picker.material
-15:17:27: Parsing script gaussian_noise.material
-15:17:27: Parsing script skybox.material
-15:17:27: Parsing script point_cloud_point.material
-15:17:27: Parsing script gpu_rays.material
-15:17:27: Parsing script thermal.material
-15:17:27: Parsing script selection_buffer.material
-15:17:27: Parsing script lens_flare.material
-15:17:27: Parsing script depth_camera.material
-15:17:27: Parsing script VoxelVisualizer.material
-15:17:27: Parsing script GpuNormalMapper.compositor
-15:17:27: Parsing script TerraShadowGenerator.compositor
-15:17:27: Parsing script GpuRays.compositor
-15:17:27: Parsing script lens_flare.compositor
-15:17:27: Parsing script wide_angle_camera.compositor
-15:17:27: Parsing script VctTexDownsample.compositor
-15:17:27: Parsing script Mipmaps.material.json
-15:17:27: Parsing script EsmGaussianBlurLogFilter.material.json
-15:17:27: Parsing script TerraShadowGenerator.material.json
-15:17:27: Parsing script ClearUav.material.json
-15:17:27: Parsing script Voxelizer.material.json
-15:17:27: Finished parsing scripts for resource group General
-15:17:27: Creating resources for group General
-15:17:27: All done
-15:17:27: Parsing scripts for resource group Internal
-15:17:27: Finished parsing scripts for resource group Internal
-15:17:27: Creating resources for group Internal
-15:17:27: All done
-15:17:27: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/media/materials/textures/' of type 'FileSystem' to resource group 'General'
-15:17:27: Can't assign material scene::Material(65472) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:27: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:27: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:27: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:27: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:27: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:27: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:27: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:27: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:27: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:27: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:27: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:27: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:27: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:27: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:27: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:27: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:27: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:27: Can't assign material scene::Material(65466) because 15:17:28: Can't assign material [Default] because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65462) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65456) because this Material does not exist. Have 15:17:28: Can't assign material scene::Material(65365) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65359) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65353) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65347) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Texture memory budget exceeded. Stalling GPU.
-15:17:28: Stalling was not enough. Freeing memory.
-15:17:28: Vertex Shader: 100000001VertexShader_vs
+13:10:48: GL3PlusRenderSystem::_createRenderWindow "OgreWindow(0)_10485761", 1x1 windowed  miscParams: FSAA=0 border=none contentScalingFactor=1.000000 gamma=Yes parentWindowHandle=10485761 stereoMode=Frame Sequential 
+13:10:48: Created GL 4.5 context
+13:10:48: GLXWindow::create used FBConfigID = 310
+13:10:48: GL Version = 4.5.0.0
+13:10:48: GL_VERSION = 4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.1
+13:10:48: GL_VENDOR = Mesa
+13:10:48: GL_RENDERER = llvmpipe (LLVM 20.1.2, 256 bits)
+13:10:48: GL_EXTENSIONS = 
+13:10:48: GL_3DFX_texture_compression_FXT1
+13:10:48: GL_AMD_conservative_depth
+13:10:48: GL_AMD_draw_buffers_blend
+13:10:48: GL_AMD_gpu_shader_int64
+13:10:48: GL_AMD_multi_draw_indirect
+13:10:48: GL_AMD_pinned_memory
+13:10:48: GL_AMD_query_buffer_object
+13:10:48: GL_AMD_seamless_cubemap_per_texture
+13:10:48: GL_AMD_shader_stencil_export
+13:10:48: GL_AMD_shader_trinary_minmax
+13:10:48: GL_AMD_texture_texture4
+13:10:48: GL_AMD_vertex_shader_layer
+13:10:48: GL_AMD_vertex_shader_viewport_index
+13:10:48: GL_ANGLE_texture_compression_dxt3
+13:10:48: GL_ANGLE_texture_compression_dxt5
+13:10:48: GL_ARB_ES2_compatibility
+13:10:48: GL_ARB_ES3_1_compatibility
+13:10:48: GL_ARB_ES3_2_compatibility
+13:10:48: GL_ARB_ES3_compatibility
+13:10:48: GL_ARB_arrays_of_arrays
+13:10:48: GL_ARB_base_instance
+13:10:48: GL_ARB_blend_func_extended
+13:10:48: GL_ARB_buffer_storage
+13:10:48: GL_ARB_clear_buffer_object
+13:10:48: GL_ARB_clear_texture
+13:10:48: GL_ARB_clip_control
+13:10:48: GL_ARB_compressed_texture_pixel_storage
+13:10:48: GL_ARB_compute_shader
+13:10:48: GL_ARB_conditional_render_inverted
+13:10:48: GL_ARB_conservative_depth
+13:10:48: GL_ARB_copy_buffer
+13:10:48: GL_ARB_copy_image
+13:10:48: GL_ARB_cull_distance
+13:10:48: GL_ARB_debug_output
+13:10:48: GL_ARB_depth_buffer_float
+13:10:48: GL_ARB_depth_clamp
+13:10:48: GL_ARB_derivative_control
+13:10:48: GL_ARB_direct_state_access
+13:10:48: GL_ARB_draw_buffers
+13:10:48: GL_ARB_draw_buffers_blend
+13:10:48: GL_ARB_draw_elements_base_vertex
+13:10:48: GL_ARB_draw_indirect
+13:10:48: GL_ARB_draw_instanced
+13:10:48: GL_ARB_enhanced_layouts
+13:10:48: GL_ARB_explicit_attrib_location
+13:10:48: GL_ARB_explicit_uniform_location
+13:10:48: GL_ARB_fragment_coord_conventions
+13:10:48: GL_ARB_fragment_layer_viewport
+13:10:48: GL_ARB_fragment_shader
+13:10:48: GL_ARB_framebuffer_no_attachments
+13:10:48: GL_ARB_framebuffer_object
+13:10:48: GL_ARB_framebuffer_sRGB
+13:10:48: GL_ARB_get_program_binary
+13:10:48: GL_ARB_get_texture_sub_image
+13:10:48: GL_ARB_gl_spirv
+13:10:48: GL_ARB_gpu_shader5
+13:10:48: GL_ARB_gpu_shader_fp64
+13:10:48: GL_ARB_gpu_shader_int64
+13:10:48: GL_ARB_half_float_pixel
+13:10:48: GL_ARB_half_float_vertex
+13:10:48: GL_ARB_indirect_parameters
+13:10:48: GL_ARB_instanced_arrays
+13:10:48: GL_ARB_internalformat_query
+13:10:48: GL_ARB_internalformat_query2
+13:10:48: GL_ARB_invalidate_subdata
+13:10:48: GL_ARB_map_buffer_alignment
+13:10:48: GL_ARB_map_buffer_range
+13:10:48: GL_ARB_multi_bind
+13:10:48: GL_ARB_multi_draw_indirect
+13:10:48: GL_ARB_occlusion_query2
+13:10:48: GL_ARB_parallel_shader_compile
+13:10:48: GL_ARB_pipeline_statistics_query
+13:10:48: GL_ARB_pixel_buffer_object
+13:10:48: GL_ARB_point_sprite
+13:10:48: GL_ARB_polygon_offset_clamp
+13:10:48: GL_ARB_post_depth_coverage
+13:10:48: GL_ARB_program_interface_query
+13:10:48: GL_ARB_provoking_vertex
+13:10:48: GL_ARB_query_buffer_object
+13:10:48: GL_ARB_robust_buffer_access_behavior
+13:10:48: GL_ARB_robustness
+13:10:48: GL_ARB_sample_shading
+13:10:48: GL_ARB_sampler_objects
+13:10:48: GL_ARB_seamless_cube_map
+13:10:48: GL_ARB_seamless_cubemap_per_texture
+13:10:48: GL_ARB_separate_shader_objects
+13:10:48: GL_ARB_shader_atomic_counter_ops
+13:10:48: GL_ARB_shader_atomic_counters
+13:10:48: GL_ARB_shader_ballot
+13:10:48: GL_ARB_shader_bit_encoding
+13:10:48: GL_ARB_shader_clock
+13:10:48: GL_ARB_shader_draw_parameters
+13:10:48: GL_ARB_shader_group_vote
+13:10:48: GL_ARB_shader_image_load_store
+13:10:48: GL_ARB_shader_image_size
+13:10:48: GL_ARB_shader_objects
+13:10:48: GL_ARB_shader_precision
+13:10:48: GL_ARB_shader_stencil_export
+13:10:48: GL_ARB_shader_storage_buffer_object
+13:10:48: GL_ARB_shader_subroutine
+13:10:48: GL_ARB_shader_texture_image_samples
+13:10:48: GL_ARB_shader_texture_lod
+13:10:48: GL_ARB_shader_viewport_layer_array
+13:10:48: GL_ARB_shading_language_420pack
+13:10:48: GL_ARB_shading_language_include
+13:10:48: GL_ARB_shading_language_packing
+13:10:48: GL_ARB_spirv_extensions
+13:10:48: GL_ARB_stencil_texturing
+13:10:48: GL_ARB_sync
+13:10:48: GL_ARB_tessellation_shader
+13:10:48: GL_ARB_texture_barrier
+13:10:48: GL_ARB_texture_border_clamp
+13:10:48: GL_ARB_texture_buffer_object
+13:10:48: GL_ARB_texture_buffer_object_rgb32
+13:10:48: GL_ARB_texture_buffer_range
+13:10:48: GL_ARB_texture_compression_bptc
+13:10:48: GL_ARB_texture_compression_rgtc
+13:10:48: GL_ARB_texture_cube_map_array
+13:10:48: GL_ARB_texture_filter_anisotropic
+13:10:48: GL_ARB_texture_filter_minmax
+13:10:48: GL_ARB_texture_float
+13:10:48: GL_ARB_texture_gather
+13:10:48: GL_ARB_texture_mirror_clamp_to_edge
+13:10:48: GL_ARB_texture_multisample
+13:10:48: GL_ARB_texture_non_power_of_two
+13:10:48: GL_ARB_texture_query_levels
+13:10:48: GL_ARB_texture_query_lod
+13:10:48: GL_ARB_texture_rectangle
+13:10:48: GL_ARB_texture_rg
+13:10:48: GL_ARB_texture_rgb10_a2ui
+13:10:48: GL_ARB_texture_stencil8
+13:10:48: GL_ARB_texture_storage
+13:10:48: GL_ARB_texture_storage_multisample
+13:10:48: GL_ARB_texture_swizzle
+13:10:48: GL_ARB_texture_view
+13:10:48: GL_ARB_timer_query
+13:10:48: GL_ARB_transform_feedback2
+13:10:48: GL_ARB_transform_feedback3
+13:10:48: GL_ARB_transform_feedback_instanced
+13:10:48: GL_ARB_transform_feedback_overflow_query
+13:10:48: GL_ARB_uniform_buffer_object
+13:10:48: GL_ARB_vertex_array_bgra
+13:10:48: GL_ARB_vertex_array_object
+13:10:48: GL_ARB_vertex_attrib_64bit
+13:10:48: GL_ARB_vertex_attrib_binding
+13:10:48: GL_ARB_vertex_buffer_object
+13:10:48: GL_ARB_vertex_shader
+13:10:48: GL_ARB_vertex_type_10f_11f_11f_rev
+13:10:48: GL_ARB_vertex_type_2_10_10_10_rev
+13:10:48: GL_ARB_viewport_array
+13:10:48: GL_ARM_shader_framebuffer_fetch_depth_stencil
+13:10:48: GL_ATI_blend_equation_separate
+13:10:48: GL_ATI_meminfo
+13:10:48: GL_ATI_texture_float
+13:10:48: GL_ATI_texture_mirror_once
+13:10:48: GL_EXT_EGL_image_storage
+13:10:48: GL_EXT_EGL_image_storage_compression
+13:10:48: GL_EXT_EGL_sync
+13:10:48: GL_EXT_abgr
+13:10:48: GL_EXT_blend_equation_separate
+13:10:48: GL_EXT_debug_label
+13:10:48: GL_EXT_draw_buffers2
+13:10:48: GL_EXT_draw_instanced
+13:10:48: GL_EXT_framebuffer_blit
+13:10:48: GL_EXT_framebuffer_multisample
+13:10:48: GL_EXT_framebuffer_multisample_blit_scaled
+13:10:48: GL_EXT_framebuffer_object
+13:10:48: GL_EXT_framebuffer_sRGB
+13:10:48: GL_EXT_memory_object
+13:10:48: GL_EXT_memory_object_fd
+13:10:48: GL_EXT_packed_depth_stencil
+13:10:48: GL_EXT_packed_float
+13:10:48: GL_EXT_pixel_buffer_object
+13:10:48: GL_EXT_polygon_offset_clamp
+13:10:48: GL_EXT_provoking_vertex
+13:10:48: GL_EXT_shader_clock
+13:10:48: GL_EXT_shader_framebuffer_fetch
+13:10:48: GL_EXT_shader_framebuffer_fetch_non_coherent
+13:10:48: GL_EXT_shader_image_load_formatted
+13:10:48: GL_EXT_shader_integer_mix
+13:10:48: GL_EXT_texture_array
+13:10:48: GL_EXT_texture_compression_dxt1
+13:10:48: GL_EXT_texture_compression_rgtc
+13:10:48: GL_EXT_texture_compression_s3tc
+13:10:48: GL_EXT_texture_filter_anisotropic
+13:10:48: GL_EXT_texture_filter_minmax
+13:10:48: GL_EXT_texture_integer
+13:10:48: GL_EXT_texture_mirror_clamp
+13:10:48: GL_EXT_texture_sRGB
+13:10:48: GL_EXT_texture_sRGB_R8
+13:10:48: GL_EXT_texture_sRGB_RG8
+13:10:48: GL_EXT_texture_sRGB_decode
+13:10:48: GL_EXT_texture_shadow_lod
+13:10:48: GL_EXT_texture_shared_exponent
+13:10:48: GL_EXT_texture_snorm
+13:10:48: GL_EXT_texture_storage
+13:10:48: GL_EXT_texture_swizzle
+13:10:48: GL_EXT_timer_query
+13:10:48: GL_EXT_transform_feedback
+13:10:48: GL_EXT_vertex_array_bgra
+13:10:48: GL_EXT_vertex_attrib_64bit
+13:10:48: GL_IBM_multimode_draw_arrays
+13:10:48: GL_INTEL_shader_atomic_float_minmax
+13:10:48: GL_KHR_blend_equation_advanced
+13:10:48: GL_KHR_blend_equation_advanced_coherent
+13:10:48: GL_KHR_context_flush_control
+13:10:48: GL_KHR_debug
+13:10:48: GL_KHR_no_error
+13:10:48: GL_KHR_parallel_shader_compile
+13:10:48: GL_KHR_robust_buffer_access_behavior
+13:10:48: GL_KHR_robustness
+13:10:48: GL_KHR_texture_compression_astc_ldr
+13:10:48: GL_KHR_texture_compression_astc_sliced_3d
+13:10:48: GL_MESA_framebuffer_flip_y
+13:10:48: GL_MESA_pack_invert
+13:10:48: GL_MESA_shader_integer_functions
+13:10:48: GL_MESA_texture_signed_rgba
+13:10:48: GL_NVX_gpu_memory_info
+13:10:48: GL_NV_alpha_to_coverage_dither_control
+13:10:48: GL_NV_conditional_render
+13:10:48: GL_NV_copy_image
+13:10:48: GL_NV_depth_clamp
+13:10:48: GL_NV_packed_depth_stencil
+13:10:48: GL_NV_shader_atomic_float
+13:10:48: GL_NV_texture_barrier
+13:10:48: GL_OES_EGL_image
+13:10:48: GL_OVR_multiview
+13:10:48: GL_OVR_multiview2
+13:10:48: GL_S3_s3tc
+13:10:48: **************************************
+13:10:48: ***   OpenGL 3+ Renderer Started   ***
+13:10:48: **************************************
+13:10:48: Registering ResourceManager for type GpuProgram
+13:10:48: RenderSystem capabilities
+13:10:48: -------------------------
+13:10:48: RenderSystem Name: OpenGL 3+ Rendering Subsystem
+13:10:48: GPU Vendor: unknown
+13:10:48: Device Name: llvmpipe (LLVM 20.1.2, 256 bits)
+13:10:48: Driver Version: 4.5.0.0
+13:10:48:  * Fixed function pipeline: no
+13:10:48:  * Hardware generation of mipmaps: yes
+13:10:48:  * Texture blending: yes
+13:10:48:  * Anisotropic texture filtering: yes
+13:10:48:  * Dot product texture operation: yes
+13:10:48:  * Cube mapping: yes
+13:10:48:  * Hardware stencil buffer: yes
+13:10:48:    - Stencil depth: 8
+13:10:48:    - Two sided stencil support: yes
+13:10:48:    - Wrap stencil values: yes
+13:10:48:  * Hardware vertex / index buffers: yes
+13:10:48:  * 32-bit index buffers: yes
+13:10:48:  * Vertex programs: yes
+13:10:48:  * Number of floating-point constants for vertex programs: 16384
+13:10:48:  * Number of integer constants for vertex programs: 16384
+13:10:48:  * Number of boolean constants for vertex programs: 16384
+13:10:48:  * Fragment programs: yes
+13:10:48:  * Number of floating-point constants for fragment programs: 16384
+13:10:48:  * Number of integer constants for fragment programs: 16384
+13:10:48:  * Number of boolean constants for fragment programs: 16384
+13:10:48:  * Geometry programs: yes
+13:10:48:  * Number of floating-point constants for geometry programs: 16384
+13:10:48:  * Number of integer constants for geometry programs: 16384
+13:10:48:  * Number of boolean constants for geometry programs: 16384
+13:10:48:  * Tessellation Hull programs: yes
+13:10:48:  * Number of floating-point constants for tessellation hull programs: 16384
+13:10:48:  * Number of integer constants for tessellation hull programs: 16384
+13:10:48:  * Number of boolean constants for tessellation hull programs: 16384
+13:10:48:  * Tessellation Domain programs: yes
+13:10:48:  * Number of floating-point constants for tessellation domain programs: 16384
+13:10:48:  * Number of integer constants for tessellation domain programs: 16384
+13:10:48:  * Number of boolean constants for tessellation domain programs: 16384
+13:10:48:  * Compute programs: yes
+13:10:48:  * Number of floating-point constants for compute programs: 16384
+13:10:48:  * Number of integer constants for compute programs: 16384
+13:10:48:  * Number of boolean constants for compute programs: 16384
+13:10:48:  * Supported Shader Profiles: glsl glsl130 glsl140 glsl150 glsl330 glsl400 glsl410 glsl420 glsl430 glsl440
+13:10:48:  * Texture Compression: yes
+13:10:48:    - DXT: yes
+13:10:48:    - VTC: no
+13:10:48:    - PVRTC: no
+13:10:48:    - ATC: no
+13:10:48:    - ETC1: no
+13:10:48:    - ETC2: yes
+13:10:48:    - BC4/BC5: yes
+13:10:48:    - BC6H/BC7: yes
+13:10:48:    - ASTC: yes
+13:10:48:  * Hardware Occlusion Query: yes
+13:10:48:  * User clip planes: yes
+13:10:48:  * VET_UBYTE4 vertex element type: yes
+13:10:48:  * Infinite far plane projection: yes
+13:10:48:  * Hardware render-to-texture: yes
+13:10:48:  * Floating point textures: yes
+13:10:48:  * Non-power-of-two textures: yes
+13:10:48:  * 1d textures: yes
+13:10:48:  * Volume textures: yes
+13:10:48:  * Max Texture resolution (2D) 16384
+13:10:48:  * Max Texture resolution (3D) 2048
+13:10:48:  * Max Texture resolution (Cubemaps) 16384
+13:10:48:  * Multiple Render Targets: 8
+13:10:48:    - With different bit depths: yes
+13:10:48:  * Point Sprites: yes
+13:10:48:  * Extended point parameters: yes
+13:10:48:  * Max Point Size: 256
+13:10:48:  * Vertex texture fetch: yes
+13:10:48:  * Number of world matrices: 0
+13:10:48:  * Number of texture units: 16
+13:10:48:  * Stencil buffer depth: 8
+13:10:48:  * Number of vertex blend matrices: 0
+13:10:48:    - Max vertex textures: 32
+13:10:48:    - Vertex textures shared: yes
+13:10:48:  * Render to Vertex Buffer : yes
+13:10:48:  * Hardware Atomic Counters: yes
+13:10:48:  * Compute max threads per threadgroup per axis: 1024, 1024, 64
+13:10:48:  * Compute max threads per threadgroup total: 1024
+13:10:48:  * GL 1.5 without VBO workaround: no
+13:10:48:  * Frame Buffer objects: yes
+13:10:48:  * Frame Buffer objects (ARB extension): no
+13:10:48:  * Frame Buffer objects (ATI extension): no
+13:10:48:  * PBuffer support: no
+13:10:48:  * GL 1.5 without HW-occlusion workaround: no
+13:10:48:  * Vertex Array Objects: yes
+13:10:48:  * Separate shader objects: no
+13:10:48:  * Using Reverse Z: yes
+13:10:48: DefaultWorkQueue('Root') initialising on thread main.
+13:10:48: Particle Renderer Type 'billboard' registered
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/2.0/scripts/Compositors' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Common/GLSL' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Terra' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/2.0/scripts/materials/Terra/GLSL' of type 'FileSystem' to resource group 'General'
+13:10:48: HLMS Library path '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Hlms/Gz' has no piece files. Are you sure you provided the right path with read access?
+13:10:48: HLMS Library path '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Hlms/Gz' has no piece files. Are you sure you provided the right path with read access?
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/materials/programs' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/materials/programs/GLSL' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/materials/programs/Metal' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/materials/scripts' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/materials/textures' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Compute/Tools' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Compute/Tools/Any' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Compute/Tools/GLSL' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Compute/Tools/HLSL' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Compute/Tools/Metal' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/VCT' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/VCT/ImageVoxelizer' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/VCT/Visualizer' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Hlms/Common/Any' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Hlms/Common/GLSL' of type 'FileSystem' to resource group 'General'
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/ogre2/media/Hlms/Pbs/Any' of type 'FileSystem' to resource group 'General'
+13:10:48: Parsing scripts for resource group Autodetect
+13:10:48: Finished parsing scripts for resource group Autodetect
+13:10:48: Creating resources for group Autodetect
+13:10:48: All done
+13:10:48: Parsing scripts for resource group General
+13:10:48: Parsing script Quad.program
+13:10:48: Parsing script picker.program
+13:10:48: Parsing script DepthUtils.material
+13:10:48: Parsing script EsmGaussianBlurLogFilter.material
+13:10:48: Parsing script DPSM.material
+13:10:48: Parsing script Copyback.material
+13:10:48: Parsing script GpuNormalMapper.material
+13:10:48: Parsing script wide_angle_camera.material
+13:10:48: Parsing script picker.material
+13:10:48: Parsing script gaussian_noise.material
+13:10:48: Parsing script skybox.material
+13:10:48: Parsing script point_cloud_point.material
+13:10:48: Parsing script gpu_rays.material
+13:10:48: Parsing script thermal.material
+13:10:48: Parsing script selection_buffer.material
+13:10:48: Parsing script lens_flare.material
+13:10:48: Parsing script depth_camera.material
+13:10:48: Parsing script VoxelVisualizer.material
+13:10:48: Parsing script GpuNormalMapper.compositor
+13:10:48: Parsing script TerraShadowGenerator.compositor
+13:10:48: Parsing script GpuRays.compositor
+13:10:48: Parsing script lens_flare.compositor
+13:10:48: Parsing script wide_angle_camera.compositor
+13:10:48: Parsing script VctTexDownsample.compositor
+13:10:48: Parsing script Mipmaps.material.json
+13:10:48: Parsing script EsmGaussianBlurLogFilter.material.json
+13:10:48: Parsing script TerraShadowGenerator.material.json
+13:10:48: Parsing script ClearUav.material.json
+13:10:48: Parsing script Voxelizer.material.json
+13:10:48: Finished parsing scripts for resource group General
+13:10:48: Creating resources for group General
+13:10:48: All done
+13:10:48: Parsing scripts for resource group Internal
+13:10:48: Finished parsing scripts for resource group Internal
+13:10:48: Creating resources for group Internal
+13:10:48: All done
+13:10:48: Added resource location '/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz/gz-rendering8/media/materials/textures/' of type 'FileSystem' to resource group 'General'
+13:10:48: Can't assign material scene::Material(65472) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65466) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65466) because 13:10:48: Can't assign material [Default] because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65462) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65456) because this Material does not exist. Have 13:10:48: Can't assign material scene::Material(65365) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:49: Can't assign material scene::Material(65359) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:49: Can't assign material scene::Material(65353) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:49: Can't assign material scene::Material(65347) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:49: Texture memory budget exceeded. Stalling GPU.
+13:10:49: Stalling was not enough. Freeing memory.
+13:10:49: Vertex Shader: 100000001VertexShader_vs
 Fragment Shader: 100000001PixelShader_ps
  GLSL validation result : 
 active samplers with a different type refer to the same texture image unit
 forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65355) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65349) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65343) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: Can't assign material scene::Material(65337) because this Material does not exist. Have you forgotten to define it in a .material script?
-15:17:28: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material scene::Material(65518) must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
-15:17:28: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material scene::Material(65518) must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
-15:17:28: Couldn't apply datablock '[Hash 0x1dc5a795]' to this renderable. Using default one. Check previous log messages to see if there's more information.
-15:17:28: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material scene::Material(65518) must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
-15:17:28: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material scene::Material(65518) must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
-15:17:28: Couldn't apply datablock '[Hash 0x1dc5a795]' to this renderable. Using default one. Check previous log messages to see if there's more information.
-15:17:28: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material Default/TransGreen must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
-15:17:28: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material Default/TransGreen must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
-15:17:28: Couldn't apply datablock '[Hash 0x1a9fb58f]' to this renderable. Using default one. Check previous log messages to see if there's more information.
-15:17:28: Vertex Shader: 100000001VertexShader_vs
+13:10:48: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:48: Can't assign material scene::Material(65456) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:49: Can't assign material scene::Material(65355) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:49: Can't assign material scene::Material(65349) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:49: Can't assign material scene::Material(65343) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:49: Can't assign material scene::Material(65337) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:10:49: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material scene::Material(65518) must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:10:49: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material scene::Material(65518) must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:10:49: Couldn't apply datablock '[Hash 0x1dc5a795]' to this renderable. Using default one. Check previous log messages to see if there's more information.
+13:10:49: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material scene::Material(65518) must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:10:49: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material scene::Material(65518) must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:10:49: Couldn't apply datablock '[Hash 0x1dc5a795]' to this renderable. Using default one. Check previous log messages to see if there's more information.
+13:10:49: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material Default/TransGreen must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:10:49: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material Default/TransGreen must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:10:49: Couldn't apply datablock '[Hash 0x1a9fb58f]' to this renderable. Using default one. Check previous log messages to see if there's more information.
+13:10:49: Vertex Shader: 100000001VertexShader_vs
 Fragment Shader: 100000001PixelShader_ps
  GLSL validation result : 
 active samplers with a different type refer to the same texture image unit
-15:17:28: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
-15:17:28: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
-15:17:28: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
-15:17:28: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:10:49: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:10:49: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:10:49: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:10:49: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:11:40: Can't assign material scene::Material(65329) because this Material does not exist. Have you forgotten to define it in a .material script?
+13:11:41: Vertex Shader: 100000005VertexShader_vs
+Fragment Shader: 100000005PixelShader_ps
+ GLSL validation result : 
+active samplers with a different type refer to the same texture image unit
+13:11:42: Can't assign material [Default] because this Material does not exist. Have you forgotten to define it in a .material script?
+13:11:42: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:11:42: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:11:42: Couldn't apply datablock '[Hash 0x17720a16]' to this renderable. Using default one. Check previous log messages to see if there's more information.
+13:11:42: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:11:42: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:11:42: Couldn't apply datablock '[Hash 0x17720a16]' to this renderable. Using default one. Check previous log messages to see if there's more information.
+13:11:42: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:11:42: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:11:42: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:11:47: Can't assign material [Default] because this Material does not exist. Have you forgotten to define it in a .material script?
+13:11:47: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:11:47: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:11:47: Couldn't apply datablock '[Hash 0x17720a16]' to this renderable. Using default one. Check previous log messages to see if there's more information.
+13:11:47: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:11:47: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:11:47: Couldn't apply datablock '[Hash 0x17720a16]' to this renderable. Using default one. Check previous log messages to see if there's more information.
+13:11:47: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:11:47: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:11:47: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:12:28: Can't assign material [Default] because this Material does not exist. Have you forgotten to define it in a .material script?
+13:12:28: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:12:28: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:12:28: Couldn't apply datablock '[Hash 0x17720a16]' to this renderable. Using default one. Check previous log messages to see if there's more information.
+13:12:28: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:12:28: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:12:28: Couldn't apply datablock '[Hash 0x17720a16]' to this renderable. Using default one. Check previous log messages to see if there's more information.
+13:12:28: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:12:28: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:12:28: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:13:16: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:13:16: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:13:16: Couldn't apply datablock '[Hash 0x17720a16]' to this renderable. Using default one. Check previous log messages to see if there's more information.
+13:13:16: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:13:16: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:13:16: Couldn't apply datablock '[Hash 0x17720a16]' to this renderable. Using default one. Check previous log messages to see if there's more information.
+13:13:17: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:13:17: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:13:34: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:13:34: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:13:34: Couldn't apply datablock '[Hash 0x17720a16]' to this renderable. Using default one. Check previous log messages to see if there's more information.
+13:13:34: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:13:34: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:13:34: Couldn't apply datablock '[Hash 0x17720a16]' to this renderable. Using default one. Check previous log messages to see if there's more information.
+13:13:34: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:13:34: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:15:22: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:15:22: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:15:22: Couldn't apply datablock '[Hash 0x17720a16]' to this renderable. Using default one. Check previous log messages to see if there's more information.
+13:15:22: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:15:22: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:15:22: Couldn't apply datablock '[Hash 0x17720a16]' to this renderable. Using default one. Check previous log messages to see if there's more information.
+13:15:22: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:15:22: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:15:37: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:15:37: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:15:37: Couldn't apply datablock '[Hash 0x17720a16]' to this renderable. Using default one. Check previous log messages to see if there's more information.
+13:15:37: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:15:37: OGRE EXCEPTION(3:RenderingAPIException): Fixed Function pipeline is no longer allowed nor supported. The material highlight_material must use shaders in HlmsLowLevel::calculateHashFor at ./.obj-x86_64-linux-gnu/gz_ogre_next_vendor-prefix/src/gz_ogre_next_vendor/OgreMain/src/OgreHlmsLowLevel.cpp (line 160)
+13:15:37: Couldn't apply datablock '[Hash 0x17720a16]' to this renderable. Using default one. Check previous log messages to see if there's more information.
+13:15:37: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...
+13:15:37: WARNING: Deleting mapped buffer without having it unmapped. This is often sign of a resource leak or a bad pattern. Umapping the buffer for you...

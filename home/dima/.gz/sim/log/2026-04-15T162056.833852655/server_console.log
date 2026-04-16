@@ -1,0 +1,86 @@
+(2026-04-15T16:20:56.834280537) (2026-04-15T16:20:56.834286281) [Msg] Gazebo Sim Server v8.11.0
+(2026-04-15T16:20:56.838811594) (2026-04-15T16:20:56.838815524) [Msg] Loading SDF world file[/home/dima/ros2_ws/src/lab2_world/worlds/lab2_world.sdf].
+(2026-04-15T16:20:57.63004216) (2026-04-15T16:20:57.63009760) [Msg] Serving entity system service on [/entity/system/add]
+(2026-04-15T16:20:57.217884431) (2026-04-15T16:20:57.217890882) [Dbg] [Physics.cc:906] Loaded [gz::physics::dartsim::Plugin] from library [/opt/ros/jazzy/opt/gz_physics_vendor/lib/gz-physics-7/engine-plugins/libgz-physics-dartsim-plugin.so]
+(2026-04-15T16:20:57.217934628) (2026-04-15T16:20:57.217936946) [Dbg] [SystemManager.cc:80] Loaded system [gz::sim::systems::Physics] for entity [1]
+(2026-04-15T16:20:57.222272443) (2026-04-15T16:20:57.222277684) [Msg] Create service on [/world/lab2_world/create_multiple] (async)
+(2026-04-15T16:20:57.222292804) (2026-04-15T16:20:57.222296130) [Msg] Create service on [/world/lab2_world/create_multiple/blocking] (blocking)
+(2026-04-15T16:20:57.222479783) (2026-04-15T16:20:57.222484924) [Msg] Remove service on [/world/lab2_world/remove] (async)
+(2026-04-15T16:20:57.222496515) (2026-04-15T16:20:57.222498431) [Msg] Remove service on [/world/lab2_world/remove/blocking] (blocking)
+(2026-04-15T16:20:57.222662730) (2026-04-15T16:20:57.222667669) [Msg] Pose service on [/world/lab2_world/set_pose] (async)
+(2026-04-15T16:20:57.222680571) (2026-04-15T16:20:57.222684099) [Msg] Pose service on [/world/lab2_world/set_pose/blocking] (blocking)
+(2026-04-15T16:20:57.222857572) (2026-04-15T16:20:57.222862612) [Msg] Pose service on [/world/lab2_world/set_pose_vector] (async)
+(2026-04-15T16:20:57.222875312) (2026-04-15T16:20:57.222878437) [Msg] Pose service on [/world/lab2_world/set_pose_vector/blocking] (blocking)
+(2026-04-15T16:20:57.223480701) (2026-04-15T16:20:57.223485035) [Msg] Light configuration service on [/world/lab2_world/light_config] (async)
+(2026-04-15T16:20:57.223493301) (2026-04-15T16:20:57.223495216) [Msg] Light configuration service on [/world/lab2_world/light_config/blocking] (blocking)
+(2026-04-15T16:20:57.223809301) (2026-04-15T16:20:57.223812627) [Msg] Physics service on [/world/lab2_world/set_physics] (async)
+(2026-04-15T16:20:57.223820590) (2026-04-15T16:20:57.223822505) [Msg] Physics service on [/world/lab2_world/set_physics/blocking] (blocking)
+(2026-04-15T16:20:57.224000715) (2026-04-15T16:20:57.224004343) [Msg] SphericalCoordinates service on [/world/lab2_world/set_spherical_coordinates] (async)
+(2026-04-15T16:20:57.224012810) (2026-04-15T16:20:57.224014826) [Msg] SphericalCoordinates service on [/world/lab2_world/set_spherical_coordinates/blocking] (blocking)
+(2026-04-15T16:20:57.224154128) (2026-04-15T16:20:57.224157556) [Msg] Enable collision service on [/world/lab2_world/enable_collision] (async)
+(2026-04-15T16:20:57.224165418) (2026-04-15T16:20:57.224167333) [Msg] Enable collision service on [/world/lab2_world/enable_collision/blocking] (blocking)
+(2026-04-15T16:20:57.224298773) (2026-04-15T16:20:57.224302301) [Msg] Disable collision service on [/world/lab2_world/disable_collision] (async)
+(2026-04-15T16:20:57.224310768) (2026-04-15T16:20:57.224312783) [Msg] Disable collision service on [/world/lab2_world/disable_collision/blocking] (blocking)
+(2026-04-15T16:20:57.224486357) (2026-04-15T16:20:57.224489985) [Msg] Material service on [/world/lab2_world/visual_config] (async)
+(2026-04-15T16:20:57.224498351) (2026-04-15T16:20:57.224500367) [Msg] Material service on [/world/lab2_world/visual_config/blocking] (blocking)
+(2026-04-15T16:20:57.224652874) (2026-04-15T16:20:57.224656301) [Msg] Material service on [/world/lab2_world/wheel_slip] (async)
+(2026-04-15T16:20:57.224664466) (2026-04-15T16:20:57.224666381) [Msg] Material service on [/world/lab2_world/wheel_slip/blocking] (blocking)
+(2026-04-15T16:20:57.224682105) (2026-04-15T16:20:57.224684020) [Dbg] [SystemManager.cc:80] Loaded system [gz::sim::systems::UserCommands] for entity [1]
+(2026-04-15T16:20:57.227317150) (2026-04-15T16:20:57.227320577) [Dbg] [SystemManager.cc:80] Loaded system [gz::sim::systems::SceneBroadcaster] for entity [1]
+(2026-04-15T16:20:57.246721049) (2026-04-15T16:20:57.246725988) [Dbg] [Sensors.cc:697] Configuring Sensors system
+(2026-04-15T16:20:57.246762275) (2026-04-15T16:20:57.246764392) [Dbg] [Sensors.cc:557] SensorsPrivate::Run
+(2026-04-15T16:20:57.246839889) (2026-04-15T16:20:57.246843115) [Dbg] [SystemManager.cc:80] Loaded system [gz::sim::systems::Sensors] for entity [1]
+(2026-04-15T16:20:57.246868818) (2026-04-15T16:20:57.246873052) [Dbg] [Sensors.cc:532] SensorsPrivate::RenderThread started
+(2026-04-15T16:20:57.246885550) (2026-04-15T16:20:57.246887566) [Dbg] [Sensors.cc:337] Waiting for init
+(2026-04-15T16:20:57.248211943) (2026-04-15T16:20:57.248215773) [Dbg] [SystemManager.cc:80] Loaded system [gz::sim::systems::Contact] for entity [1]
+(2026-04-15T16:20:57.249475136) (2026-04-15T16:20:57.249479269) [Msg] Loaded level [default]
+(2026-04-15T16:20:57.250599732) (2026-04-15T16:20:57.250603361) [Msg] Serving world controls on [/world/lab2_world/control], [/world/lab2_world/control/state] and [/world/lab2_world/playback/control]
+(2026-04-15T16:20:57.250704662) (2026-04-15T16:20:57.250708291) [Msg] Serving GUI information on [/world/lab2_world/gui/info]
+(2026-04-15T16:20:57.250717161) (2026-04-15T16:20:57.250719076) [Msg] World [lab2_world] initialized with [1ms] physics profile.
+(2026-04-15T16:20:57.251198670) (2026-04-15T16:20:57.251202501) [Msg] Serving world SDF generation service on [/world/lab2_world/generate_world_sdf]
+(2026-04-15T16:20:57.251307431) (2026-04-15T16:20:57.251311160) [Msg] Serving world names on [/gazebo/worlds]
+(2026-04-15T16:20:57.251499752) (2026-04-15T16:20:57.251505296) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2026-04-15T16:20:57.251595409) (2026-04-15T16:20:57.251598937) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2026-04-15T16:20:57.352219216) (2026-04-15T16:20:57.352227985) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2026-04-15T16:20:57.352368799) (2026-04-15T16:20:57.352372730) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2026-04-15T16:20:57.352505783) (2026-04-15T16:20:57.352510924) [Msg] Server control service on [/server_control].
+(2026-04-15T16:20:58.836330905) (2026-04-15T16:20:58.836339576) [Msg] Found no publishers on /stats, adding root stats topic
+(2026-04-15T16:20:58.836575189) (2026-04-15T16:20:58.836582750) [Msg] Found no publishers on /clock, adding root clock topic
+(2026-04-15T16:20:58.836750210) (2026-04-15T16:20:58.836753840) [Dbg] [SimulationRunner.cc:551] Creating PostUpdate worker threads: 4
+(2026-04-15T16:20:58.836767652) (2026-04-15T16:20:58.836769467) [Dbg] [SimulationRunner.cc:562] Creating postupdate worker thread (0)
+(2026-04-15T16:20:58.836856372) (2026-04-15T16:20:58.836861817) [Dbg] [SimulationRunner.cc:562] Creating postupdate worker thread (1)
+(2026-04-15T16:20:58.836964753) (2026-04-15T16:20:58.836970096) [Dbg] [SimulationRunner.cc:562] Creating postupdate worker thread (2)
+(2026-04-15T16:20:58.889556332) (2026-04-15T16:20:58.889565910) [Msg] DiffDrive subscribing to twist messages on [cmd_vel]
+(2026-04-15T16:20:58.889586981) (2026-04-15T16:20:58.889590409) [Dbg] [SystemManager.cc:80] Loaded system [gz::sim::systems::DiffDrive] for entity [90]
+(2026-04-15T16:20:58.891915793) (2026-04-15T16:20:58.891923959) [Dbg] [SystemManager.cc:80] Loaded system [gz::sim::systems::JointStatePublisher] for entity [90]
+(2026-04-15T16:20:58.892041715) (2026-04-15T16:20:58.892043933) [Dbg] [UserCommands.cc:1094] Created entity [90] named [burger]
+(2026-04-15T16:20:58.912457707) (2026-04-15T16:20:58.912483113) [Dbg] [Sensors.cc:953] Initialization needed
+(2026-04-15T16:20:58.912528179) (2026-04-15T16:20:58.912532313) [Dbg] [Sensors.cc:349] Initializing render context
+(2026-04-15T16:20:58.912611859) (2026-04-15T16:20:58.912614379) [Msg] Loading plugin [gz-rendering-ogre2]
+(2026-04-15T16:20:58.913215662) (2026-04-15T16:20:58.913219695) [Msg] Serving scene information on [/world/lab2_world/scene/info]
+(2026-04-15T16:20:58.913301963) (2026-04-15T16:20:58.913313557) [Msg] Serving graph information on [/world/lab2_world/scene/graph]
+(2026-04-15T16:20:58.913432926) (2026-04-15T16:20:58.913436758) [Msg] Serving full state on [/world/lab2_world/state]
+(2026-04-15T16:20:58.913519126) (2026-04-15T16:20:58.913524873) [Msg] Serving full state (async) on [/world/lab2_world/state_async]
+(2026-04-15T16:20:58.913602503) (2026-04-15T16:20:58.913607645) [Msg] Publishing scene information on [/world/lab2_world/scene/info]
+(2026-04-15T16:20:58.913746977) (2026-04-15T16:20:58.913752118) [Msg] Publishing entity deletions on [/world/lab2_world/scene/deletion]
+(2026-04-15T16:20:58.913839125) (2026-04-15T16:20:58.913844872) [Msg] Publishing state changes on [/world/lab2_world/state]
+(2026-04-15T16:20:58.913896289) (2026-04-15T16:20:58.913900221) [Msg] Publishing pose messages on [/world/lab2_world/pose/info]
+(2026-04-15T16:20:58.913991059) (2026-04-15T16:20:58.913997713) [Msg] Publishing dynamic pose messages on [/world/lab2_world/dynamic_pose/info]
+(2026-04-15T16:20:58.914420345) (2026-04-15T16:20:58.914423874) [Dbg] [EntityComponentManager.cc:1656] Updated state thread iterators: 16 threads processing around 8 entities each.
+((2026-04-15T16:20:58.926488345) (2026-04-15T16:20:58.926500444) [Dbg] [SimulationRunner.cc:578] Exiting postupdate worker thread (2026-04-15T16:20:58.9265090132026-04-15T16:20:58.926509013() 2026-04-15T16:20:58.926527564(2026-04-15T16:20:58.926527564(2026-04-15T16:20:58.926534117) ((0) (0) )2026-04-15T16:20:58.926549240) 
+[Dbg] [SimulationRunner.cc:578] Exiting postupdate worker thread (1)
+[Dbg] [SimulationRunner.cc:578] Exiting postupdate worker thread (2)
+(2026-04-15T16:20:58.926725068) (2026-04-15T16:20:58.926731419) [Dbg] [SimulationRunner.cc:551] Creating PostUpdate worker threads: 6
+(2026-04-15T16:20:58.926745635) (2026-04-15T16:20:58.926747550) [Dbg] [SimulationRunner.cc:562] Creating postupdate worker thread (0)
+(2026-04-15T16:20:58.945544192) (2026-04-15T16:20:58.945550846) [Dbg] [SimulationRunner.cc:562] Creating postupdate worker thread (1)
+(2026-04-15T16:20:58.945600650) (2026-04-15T16:20:58.945603876) [Dbg] [SimulationRunner.cc:562] Creating postupdate worker thread (2)
+(2026-04-15T16:20:58.945652471) (2026-04-15T16:20:58.945656000) [Dbg] [SimulationRunner.cc:562] Creating postupdate worker thread (3)
+(2026-04-15T16:20:58.945699251) (2026-04-15T16:20:58.945702679) [Dbg] [SimulationRunner.cc:562] Creating postupdate worker thread (4)
+(2026-04-15T16:20:59.115031839) (2026-04-15T16:20:59.115035934) [Dbg] [RenderUtil.cc:2646] Create scene [scene]
+(2026-04-15T16:20:59.200740783) (((2026-04-15T16:20:59.200753766) ) ([Dbg] [Sensors.cc:391] Rendering Thread initializedRendering Thread initialized2026-04-15T16:20:59.200801004) 
+[Dbg] [Sensors.cc:953] Initialization needed
+(2026-04-15T16:20:59.364572198) (2026-04-15T16:20:59.364576692) [Dbg] [Lidar.cc:139] Laser scans for [burger::base_scan::hls_lfcd_lds] advertised on [scan]
+(2026-04-15T16:20:59.364816678) (2026-04-15T16:20:59.364820173) [Dbg] [GpuLidarSensor.cc:164] Lidar points for [burger::base_scan::hls_lfcd_lds] advertised on [scan/points]
+(2026-04-15T16:22:39.109490463) (2026-04-15T16:22:39.109501165) [Dbg] [SignalHandler.cc:142] Received signal[15].
+(2026-04-15T16:22:39.109521183) (2026-04-15T16:22:39.109525704) [Dbg] [ServerPrivate.cc:122] Server received signal[15]
+(2026-04-15T16:22:39.109576535) (2026-04-15T16:22:39.109583915) [Dbg] [Sensors.cc:565] SensorsPrivate::Stop

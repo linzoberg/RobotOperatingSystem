@@ -1,0 +1,19 @@
+[INFO] [1776256165.936837463] [ellipse_controller]: Эллипс: a=1.0, b=0.5, w0=0.3
+[INFO] [1776256166.056869810] [ellipse_controller]: t=0.00 v=0.150 w=0.600
+[INFO] [1776256167.104291757] [ellipse_controller]: t=0.32 v=0.170 w=0.466
+[INFO] [1776256168.154288575] [ellipse_controller]: t=0.63 v=0.214 w=0.294
+[INFO] [1776256169.204347903] [ellipse_controller]: t=0.95 v=0.259 w=0.202
+[INFO] [1776256170.258450576] [ellipse_controller]: t=1.26 v=0.289 w=0.161
+[INFO] [1776256171.305845349] [ellipse_controller]: t=1.57 v=0.300 w=0.150
+[INFO] [1776256172.358365121] [ellipse_controller]: t=1.89 v=0.289 w=0.162
+[INFO] [1776256173.404408119] [ellipse_controller]: t=2.20 v=0.257 w=0.204
+[INFO] [1776256174.407722752] [ellipse_controller]: t=2.50 v=0.215 w=0.291
+[INFO] [1776256175.454342076] [ellipse_controller]: t=2.82 v=0.171 w=0.462
+[INFO] [1776256176.458394029] [ellipse_controller]: t=3.12 v=0.150 w=0.599
+[INFO] [1776256177.504357365] [ellipse_controller]: t=3.44 v=0.168 w=0.480
+[INFO] [1776256178.554514237] [ellipse_controller]: t=3.75 v=0.211 w=0.303
+[INFO] [1776256179.604525756] [ellipse_controller]: t=4.07 v=0.256 w=0.206
+[INFO] [1776256180.654514296] [ellipse_controller]: t=4.38 v=0.288 w=0.163
+[INFO] [1776256181.704586263] [ellipse_controller]: t=4.69 v=0.300 w=0.150
+[INFO] [1776256182.705155958] [ellipse_controller]: t=4.99 v=0.291 w=0.159
+[INFO] [1776256183.754466071] [ellipse_controller]: t=5.31 v=0.262 w=0.197

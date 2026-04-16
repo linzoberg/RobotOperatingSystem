@@ -1,0 +1,21 @@
+1776257256.3039052 [INFO] [launch]: All log files can be found below /home/dima/.ros/log/2026-04-15-16-47-36-302485-DESKTOP-6NGNJC6-902
+1776257256.3040652 [INFO] [launch]: Default logging verbosity is set to INFO
+1776257257.0125451 [INFO] [gazebo-1]: process started with pid [905]
+1776257257.0127513 [INFO] [gazebo-2]: process started with pid [906]
+1776257257.0128446 [INFO] [robot_state_publisher-3]: process started with pid [908]
+1776257257.0129087 [INFO] [create-4]: process started with pid [910]
+1776257257.0129647 [INFO] [parameter_bridge-5]: process started with pid [911]
+1776257257.0130172 [INFO] [image_bridge-6]: process started with pid [912]
+1776257257.3848386 [INFO] [create-4]: process has finished cleanly [pid 910]
+1776257263.3157187 [INFO] [gazebo-2]: process has finished cleanly [pid 906]
+1776257263.3159809 [INFO] [launch]: process[gazebo-2] was required: shutting down launched system
+1776257263.3189480 [INFO] [image_bridge-6]: sending signal 'SIGINT' to process[image_bridge-6]
+1776257263.3202493 [INFO] [parameter_bridge-5]: sending signal 'SIGINT' to process[parameter_bridge-5]
+1776257263.3213098 [INFO] [robot_state_publisher-3]: sending signal 'SIGINT' to process[robot_state_publisher-3]
+1776257263.3222153 [INFO] [gazebo-1]: sending signal 'SIGINT' to process[gazebo-1]
+1776257263.4330001 [INFO] [parameter_bridge-5]: process has finished cleanly [pid 911]
+1776257263.4401848 [INFO] [robot_state_publisher-3]: process has finished cleanly [pid 908]
+1776257263.4489133 [INFO] [image_bridge-6]: process has finished cleanly [pid 912]
+1776257267.2747273 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1776257267.3373015 [ERROR] [gazebo-1]: process has died [pid 905, exit code -2, cmd 'ruby /opt/ros/jazzy/opt/gz_tools_vendor/bin/gz sim -r -s -v2 /home/dima/ros2_ws/src/lab2_world/worlds/lab2_world.sdf --force-version 8'].
+1776257267.3375988 [INFO] [launch]: process[gazebo-1] was required: shutting down launched system

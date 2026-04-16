@@ -1,0 +1,9 @@
+[INFO] [1776257257.064436090] [robot_state_publisher]: Robot initialized
+[WARN] [1776257258.169113944] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[WARN] [1776257258.617760703] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[WARN] [1776257259.772864052] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[WARN] [1776257260.847923597] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[WARN] [1776257261.795712994] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[WARN] [1776257262.927314540] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[WARN] [1776257263.153497399] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[INFO] [1776257263.321638574] [rclcpp]: signal_handler(SIGINT/SIGTERM)
