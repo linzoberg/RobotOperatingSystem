@@ -1,0 +1,316 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <world name="lab2_world">
+
+    <!-- Физика -->
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <!-- Плагины мира (обязательны для Gazebo Harmonic) -->
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin filename="gz-sim-contact-system" name="gz::sim::systems::Contact"/>
+
+    <!-- Освещение -->
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <!-- Пол -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry><plane><normal>0 0 1</normal><size>100 100</size></plane></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><plane><normal>0 0 1</normal><size>100 100</size></plane></geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- ============================================= -->
+    <!--              ВНЕШНИЕ СТЕНЫ 12x12              -->
+    <!-- ============================================= -->
+
+    <!-- Северная стена (вдоль Y=6) -->
+    <model name="wall_north">
+      <static>true</static>
+      <pose>0 6 1.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>12.4 0.2 2.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>12.4 0.2 2.5</size></box></geometry>
+          <material><ambient>0.9 0.9 0.85 1</ambient><diffuse>0.9 0.9 0.85 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Южная стена (вдоль Y=-6) -->
+    <model name="wall_south">
+      <static>true</static>
+      <pose>0 -6 1.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>12.4 0.2 2.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>12.4 0.2 2.5</size></box></geometry>
+          <material><ambient>0.9 0.9 0.85 1</ambient><diffuse>0.9 0.9 0.85 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Западная стена (вдоль X=-6) -->
+    <model name="wall_west">
+      <static>true</static>
+      <pose>-6 0 1.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.2 12 2.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.2 12 2.5</size></box></geometry>
+          <material><ambient>0.9 0.9 0.85 1</ambient><diffuse>0.9 0.9 0.85 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Восточная стена (вдоль X=6) -->
+    <model name="wall_east">
+      <static>true</static>
+      <pose>6 0 1.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.2 12 2.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.2 12 2.5</size></box></geometry>
+          <material><ambient>0.9 0.9 0.85 1</ambient><diffuse>0.9 0.9 0.85 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- ============================================= -->
+    <!--     ВНУТРЕННИЕ СТЕНЫ (4 комнаты + коридор)    -->
+    <!-- ============================================= -->
+
+    <!--
+         ПЛАН (вид сверху):
+         
+         Y=6  ___________________________
+             |            |              |
+             |  Спальня   |   Кухня      |
+             |  (-3,3)    |   (3,3)      |
+         Y=1 |____  ______|______  ______|
+             |         КОРИДОР           |
+         Y=-1|____  ______|______  ______|
+             |            |              |
+             | Гостиная   |  Кабинет     |
+             |  (-3,-3)   |   (3,-3)     |
+         Y=-6|____________|______________|
+            X=-6         X=0            X=6
+    -->
+
+    <!-- Горизонтальная стена верхняя (Y=1), левая часть с проёмом -->
+    <model name="inner_h_top_left">
+      <static>true</static>
+      <pose>-4 1 1.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>4 0.15 2.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>4 0.15 2.5</size></box></geometry>
+          <material><ambient>0.85 0.85 0.8 1</ambient><diffuse>0.85 0.85 0.8 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Горизонтальная стена верхняя (Y=1), правая часть с проёмом -->
+    <model name="inner_h_top_right">
+      <static>true</static>
+      <pose>4 1 1.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>4 0.15 2.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>4 0.15 2.5</size></box></geometry>
+          <material><ambient>0.85 0.85 0.8 1</ambient><diffuse>0.85 0.85 0.8 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Горизонтальная стена нижняя (Y=-1), левая часть с проёмом -->
+    <model name="inner_h_bot_left">
+      <static>true</static>
+      <pose>-4 -1 1.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>4 0.15 2.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>4 0.15 2.5</size></box></geometry>
+          <material><ambient>0.85 0.85 0.8 1</ambient><diffuse>0.85 0.85 0.8 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Горизонтальная стена нижняя (Y=-1), правая часть с проёмом -->
+    <model name="inner_h_bot_right">
+      <static>true</static>
+      <pose>4 -1 1.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>4 0.15 2.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>4 0.15 2.5</size></box></geometry>
+          <material><ambient>0.85 0.85 0.8 1</ambient><diffuse>0.85 0.85 0.8 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Вертикальная стена центральная (X=0), верхняя часть -->
+    <model name="inner_v_top">
+      <static>true</static>
+      <pose>0 3.5 1.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.15 5 2.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.15 5 2.5</size></box></geometry>
+          <material><ambient>0.85 0.85 0.8 1</ambient><diffuse>0.85 0.85 0.8 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Вертикальная стена центральная (X=0), нижняя часть -->
+    <model name="inner_v_bot">
+      <static>true</static>
+      <pose>0 -3.5 1.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.15 5 2.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.15 5 2.5</size></box></geometry>
+          <material><ambient>0.85 0.85 0.8 1</ambient><diffuse>0.85 0.85 0.8 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- ============================================= -->
+    <!--         ИНТЕРЬЕРНЫЕ ОБЪЕКТЫ (8 штук)          -->
+    <!-- ============================================= -->
+
+    <!-- 1. Обеденный стол (Кухня) — коричневый -->
+    <model name="dining_table">
+      <static>true</static>
+      <pose>3 4 0.4 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>1.5 0.8 0.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>1.5 0.8 0.8</size></box></geometry>
+          <material><ambient>0.55 0.27 0.07 1</ambient><diffuse>0.55 0.27 0.07 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- 2. Стул 1 (Кухня) -->
+    <model name="chair_1">
+      <static>true</static>
+      <pose>2.2 4 0.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.4 0.4 0.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.4 0.4 0.5</size></box></geometry>
+          <material><ambient>0.6 0.3 0.1 1</ambient><diffuse>0.6 0.3 0.1 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- 3. Стул 2 (Кухня) -->
+    <model name="chair_2">
+      <static>true</static>
+      <pose>3.8 4 0.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.4 0.4 0.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.4 0.4 0.5</size></box></geometry>
+          <material><ambient>0.6 0.3 0.1 1</ambient><diffuse>0.6 0.3 0.1 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- 4. Диван (Гостиная) — тёмно-синий -->
+    <model name="sofa">
+      <static>true</static>
+      <pose>-3 -3 0.35 0 0 1.5708</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>2.0 0.8 0.7</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>2.0 0.8 0.7</size></box></geometry>
+          <material><ambient>0.1 0.1 0.4 1</ambient><diffuse>0.1 0.1 0.4 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- 5. Книжный шкаф (Кабинет) — тёмное дерево -->
+    <model name="bookshelf">
+      <static>true</static>
+      <pose>5.5 -4 0.9 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.4 1.5 1.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.4 1.5 1.8</size></box></geometry>
+          <material><ambient>0.35 0.18 0.05 1</ambient><diffuse>0.35 0.18 0.05 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- 6. Рабочий стол (Кабинет) -->
+    <model name="desk">
+      <static>true</static>
+      <pose>3 -4 0.375 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>1.2 0.6 0.75</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>1.2 0.6 0.75</size></box></geometry>
+          <material><ambient>0.7 0.5 0.3 1</ambient><diffuse>0.7 0.5 0.3 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- 7. Кровать (Спальня) — красноватая -->
+    <model name="bed">
+      <static>true</static>
+      <pose>-3 4 0.3 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>2.0 1.4 0.6</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>2.0 1.4 0.6</size></box></geometry>
+          <material><ambient>0.6 0.15 0.15 1</ambient><diffuse>0.6 0.15 0.15 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- 8. Тумбочка (Спальня) -->
+    <model name="nightstand">
+      <static>true</static>
+      <pose>-4.2 4.8 0.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.5 0.4 0.5</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.5 0.4 0.5</size></box></geometry>
+          <material><ambient>0.45 0.25 0.1 1</ambient><diffuse>0.45 0.25 0.1 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- 9. Холодильник (Кухня) — белый высокий -->
+    <model name="fridge">
+      <static>true</static>
+      <pose>5.5 3 0.9 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.6 0.6 1.8</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.6 0.6 1.8</size></box></geometry>
+          <material><ambient>0.95 0.95 0.95 1</ambient><diffuse>0.95 0.95 0.95 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- 10. Журнальный столик (Гостиная) — зелёный -->
+    <model name="coffee_table">
+      <static>true</static>
+      <pose>-4.5 -4.5 0.2 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.8 0.8 0.4</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.8 0.8 0.4</size></box></geometry>
+          <material><ambient>0.1 0.5 0.2 1</ambient><diffuse>0.1 0.5 0.2 1</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>
